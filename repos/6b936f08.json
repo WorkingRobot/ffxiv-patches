@@ -22,8 +22,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.03.16.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -49,8 +49,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.05.26.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -76,8 +76,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.05.26.0001.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -103,8 +103,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.07.03.0000.0002.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -130,8 +130,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.08.20.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -201,8 +201,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2015.10.27.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -228,8 +228,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2016.02.08.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -255,8 +255,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2016.05.21.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -326,8 +326,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/H2017.06.01.0000.0001a.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -353,8 +353,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/H2017.06.01.0000.0001b.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -380,8 +380,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/H2017.06.01.0000.0001c.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -429,8 +429,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2017.09.24.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -456,8 +456,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2018.09.05.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -483,8 +483,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2019.11.06.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -510,8 +510,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2020.03.26.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -537,8 +537,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2021.01.15.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -564,8 +564,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2021.05.14.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -591,8 +591,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2021.11.21.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -822,8 +822,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2022.09.29.0000.0001.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -844,8 +844,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2022.12.16.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -866,8 +866,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-ex1/D2022.12.23.0000.0000.patch",
-          "status": "unchecked",
-          "checked": "2026-09-09T21:30:10Z"
+          "status": "alive",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -2507,8 +2507,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex1/6b936f08/D2026.02.09.0000.0001.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:14:57Z"
+          "status": "dead",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -2529,8 +2529,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex1/6b936f08/D2026.04.10.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:14:57Z"
+          "status": "dead",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
@@ -2617,8 +2617,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex1/6b936f08/D2026.07.03.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:14:57Z"
+          "status": "dead",
+          "checked": "2026-09-09T22:53:49Z"
         }
       },
       "discovered": {
