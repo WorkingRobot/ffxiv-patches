@@ -1,0 +1,17 @@
+name: Check
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: WorkingRobot/ffxiv-downloader
+          latest: true
+          fileName: xiv-dl-linux-x64
+      - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
+      - run: ./xiv-dl index check -p .

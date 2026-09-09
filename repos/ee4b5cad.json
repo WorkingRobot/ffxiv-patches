@@ -1,0 +1,1615 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repository.schema.json",
+  "slug": "ee4b5cad",
+  "name": "shanda/win32/release_chs/ex2",
+  "region": "china",
+  "latest": "2026.07.06.0000.0000",
+  "patches": {
+    "2017.06.20.0000.0000": {
+      "prev": null,
+      "size": 314148372,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 198
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2017.06.20.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2017.09.01.0000.0000": {
+      "prev": "2017.06.20.0000.0000",
+      "size": 1499012396,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1062
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2017.09.01.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2017.09.01.0001.0000": {
+      "prev": "2017.09.01.0000.0000",
+      "size": 995806790,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 687
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2017.09.01.0001.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2017.12.23.0000.0001": {
+      "prev": "2017.09.01.0001.0000",
+      "size": 694771942,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2017.12.23.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2018.04.17.0000.0001": {
+      "prev": "2017.12.23.0000.0001",
+      "size": 659354081,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2018.04.17.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2018.12.08.0000.0001": {
+      "prev": "2018.04.17.0000.0001",
+      "size": 1377480398,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2018.12.08.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.09.18.0000.0001": {
+      "prev": "2018.12.08.0000.0001",
+      "size": 970646614,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2019.09.18.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2020.02.13.0000.0001": {
+      "prev": "2019.09.18.0000.0001",
+      "size": 91760292,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2020.02.13.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.01.13.0000.0001": {
+      "prev": "2020.02.13.0000.0001",
+      "size": 51313073,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2021.01.13.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.05.18.0000.0001": {
+      "prev": "2021.01.13.0000.0001",
+      "size": 77807020,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2021.05.18.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.09.05.0000.0001": {
+      "prev": "2021.05.18.0000.0001",
+      "size": 26384340,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2021.09.05.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.01.26.0000.0000": {
+      "prev": "2021.09.05.0000.0001",
+      "size": 113821561,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1244,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.01.26.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.01.26.0000.0001": {
+      "prev": "2021.05.18.0000.0001",
+      "size": 123356641,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.01.26.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.02.17.0000.0000": {
+      "prev": "2022.01.26.0000.0000",
+      "size": 1334840,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 22,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.02.17.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.06.23.0000.0000": {
+      "prev": "2022.02.17.0000.0000",
+      "size": 47010964,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1579,
+        "file_commands": 8
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.06.23.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.06.23.0000.0001": {
+      "prev": "2022.01.26.0000.0000",
+      "size": 47081220,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.06.23.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.07.08.0000.0000": {
+      "prev": "2022.06.23.0000.0001",
+      "size": 1856000,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 27,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.07.08.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.07.08.0000.0001": {
+      "prev": "2022.01.26.0000.0001",
+      "size": 47080196,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.07.08.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.09.08.0000.0000": {
+      "prev": "2022.07.08.0000.0001",
+      "size": 119496,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 5,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.09.08.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.09.08.0000.0001": {
+      "prev": "2022.01.26.0000.0001",
+      "size": 47121148,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.09.08.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.11.22.0000.0000": {
+      "prev": "2022.09.08.0000.0001",
+      "size": 68404143,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1888,
+        "file_commands": 6
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.11.22.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.11.22.0000.0001": {
+      "prev": "2022.01.26.0000.0001",
+      "size": 83974828,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2022.11.22.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.04.06.0000.0000": {
+      "prev": "2022.11.22.0000.0001",
+      "size": 57670613,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 3621,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.04.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.04.06.0000.0001": {
+      "prev": "2022.01.26.0000.0001",
+      "size": 100400801,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.04.06.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.05.23.0000.0000": {
+      "prev": "2023.04.06.0000.0000",
+      "size": 54682877,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 210,
+        "file_commands": 2
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.05.23.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.15.0000.0001": {
+      "prev": "2023.04.06.0000.0000",
+      "size": 54796013,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.06.15.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.16.0000.0000": {
+      "prev": "2023.06.15.0000.0001",
+      "size": 115736,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 2,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.06.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.16.0000.0001": {
+      "prev": "2023.04.06.0000.0001",
+      "size": 54909117,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.06.16.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.20.0000.0000": {
+      "prev": "2023.06.16.0000.0001",
+      "size": 29040,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.06.20.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.20.0000.0001": {
+      "prev": "2023.04.06.0000.0001",
+      "size": 54909501,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.06.20.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.08.17.0000.0000": {
+      "prev": "2023.06.20.0000.0001",
+      "size": 105134869,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 8983,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.08.17.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.08.17.0000.0001": {
+      "prev": "2023.04.06.0000.0001",
+      "size": 159281681,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.08.17.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.11.14.0000.0000": {
+      "prev": "2023.08.17.0000.0000",
+      "size": 217544,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 5,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2023.11.14.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.02.16.0000.0001": {
+      "prev": "2023.08.17.0000.0001",
+      "size": 45897572,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.02.16.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.02.20.0000.0000": {
+      "prev": "2024.02.16.0000.0001",
+      "size": 367496,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 8,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.02.20.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.02.21.0000.0000": {
+      "prev": "2024.02.20.0000.0000",
+      "size": 755592,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 8,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.02.21.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.26.0000.0001": {
+      "prev": "2023.08.17.0000.0001",
+      "size": 45914124,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.03.26.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.27.0000.0000": {
+      "prev": "2024.03.26.0000.0001",
+      "size": 1449880,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 18,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.03.27.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.28.0000.0000": {
+      "prev": "2024.03.27.0000.0000",
+      "size": 1268592,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 17,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.03.28.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.05.15.0000.0001": {
+      "prev": "2023.08.17.0000.0001",
+      "size": 45913740,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.05.15.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.05.16.0000.0000": {
+      "prev": "2024.05.15.0000.0001",
+      "size": 982480,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 13,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.05.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.05.17.0000.0000": {
+      "prev": "2024.05.16.0000.0000",
+      "size": 1077712,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 13,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.05.17.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.10.0000.0001": {
+      "prev": "2023.08.17.0000.0001",
+      "size": 45914252,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.06.10.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.11.0000.0000": {
+      "prev": "2024.06.10.0000.0001",
+      "size": 523192,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 6,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.06.11.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.12.0000.0000": {
+      "prev": "2024.06.11.0000.0000",
+      "size": 850480,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 9,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.06.12.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.17.0000.0001": {
+      "prev": "2023.08.17.0000.0001",
+      "size": 45914380,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.07.17.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.18.0000.0000": {
+      "prev": "2024.07.17.0000.0001",
+      "size": 606520,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 6,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.07.18.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.19.0000.0000": {
+      "prev": "2024.07.18.0000.0000",
+      "size": 900608,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 11,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2024.07.19.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.08.27.0003.0000a": {
+      "prev": null,
+      "size": 1499877732,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1000
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000a.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.08.27.0003.0000b": {
+      "prev": "H2024.08.27.0003.0000a",
+      "size": 1499592013,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1002
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000b.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.08.27.0003.0000c": {
+      "prev": "H2024.08.27.0003.0000b",
+      "size": 1499088392,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 994
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000c.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.08.27.0003.0000d": {
+      "prev": "H2024.08.27.0003.0000c",
+      "size": 1499588321,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 990
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000d.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.08.27.0003.0000e": {
+      "prev": "H2024.08.27.0003.0000d",
+      "size": 1499996551,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 980
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000e.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.08.27.0003.0000": {
+      "prev": "H2024.08.27.0003.0000e",
+      "size": 274997498,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 174
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/H2024.08.27.0003.0000f.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.21.0000.0000": {
+      "prev": "2024.08.27.0003.0000",
+      "size": 321911105,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 14202,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.01.21.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.18.0000.0000": {
+      "prev": "2025.01.21.0000.0000",
+      "size": 79512,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 2,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.03.18.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.19.0000.0000": {
+      "prev": "2025.03.18.0000.0000",
+      "size": 41456,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.03.19.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.19.0000.0001": {
+      "prev": "2025.01.21.0000.0000",
+      "size": 118336,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.03.19.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.03.0000.0000": {
+      "prev": "2025.03.19.0000.0001",
+      "size": 1289956773,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 46195,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.06.03.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.03.0000.0001": {
+      "prev": "2025.01.21.0000.0000",
+      "size": 1289531953,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.06.03.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.31.0000.0000": {
+      "prev": "2025.06.03.0000.0001",
+      "size": 475549781,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 40906,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.07.31.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.04.0000.0000": {
+      "prev": "2025.07.31.0000.0000",
+      "size": 976365,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 15,
+        "file_commands": 2
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.08.04.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.05.0000.0000": {
+      "prev": "2025.08.04.0000.0000",
+      "size": 43376,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.08.05.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.05.0000.0001": {
+      "prev": "2025.07.31.0000.0000",
+      "size": 975509,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.08.05.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.03.0000.0000": {
+      "prev": "2025.08.05.0000.0001",
+      "size": 213393808,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 10293,
+        "file_commands": 8
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2025.12.03.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.10.0000.0000": {
+      "prev": "2025.12.03.0000.0000",
+      "size": 492257245,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 4267,
+        "file_commands": 10
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.04.10.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.10.0000.0001": {
+      "prev": "2025.07.31.0000.0000",
+      "size": 564285689,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.04.10.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.16.0000.0000": {
+      "prev": "2026.04.10.0000.0000",
+      "size": 49008,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.04.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.12.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 90068602,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.05.12.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.20.0000.0000": {
+      "prev": "2026.05.12.0000.0001",
+      "size": 483901,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 2
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.05.20.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.20.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 90068770,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.05.20.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.25.0000.0000": {
+      "prev": "2026.05.20.0000.0001",
+      "size": 5744,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 1,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.05.25.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.06.0000.0000": {
+      "prev": "2026.05.25.0000.0000",
+      "size": 498785,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 4,
+        "file_commands": 2
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.07.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:16:50Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:16:50Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    }
+  }
+}

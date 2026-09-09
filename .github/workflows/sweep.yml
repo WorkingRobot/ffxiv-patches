@@ -1,0 +1,42 @@
+name: Sweep
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+      region:
+        type: choice
+        required: true
+        options: [global, korea, china, taiwan]
+      from:
+        required: true
+      to:
+        required: true
+      parts:
+        default: "2"
+      budget:
+        default: "40000"
+
+concurrency:
+  group: write
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v6
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: WorkingRobot/ffxiv-downloader
+          latest: true
+          fileName: xiv-dl-linux-x64
+      - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
+      - run: >
+          ./xiv-dl --verbose discover
+          -s ${{ inputs.slug }}=${{ inputs.region }} -i .
+          --from ${{ inputs.from }} --to ${{ inputs.to }}
+          --parts ${{ inputs.parts }} --budget ${{ inputs.budget }} -p 8
+      - run: rm -f xiv-dl && ./.github/push.sh "sweep ${{ inputs.slug }}"
+        shell: bash

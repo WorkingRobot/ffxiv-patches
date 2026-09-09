@@ -1,0 +1,3060 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/metadata.schema.json",
+  "patches": {
+    "2012.11.17.0000.0001": {
+      "version": "2.0a?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2012.11.17.0000.0001"
+      }
+    },
+    "2013.01.16.0000.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.01.16.0000.0000"
+      }
+    },
+    "2013.03.22.0000.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.03.22.0000.0000"
+      }
+    },
+    "2013.04.03.0000.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.04.03.0000.0000"
+      }
+    },
+    "2013.06.14.0000.0000": {
+      "version": "2.0b3",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.06.14.0000.0000"
+      }
+    },
+    "2013.06.15.0000.0000": {
+      "version": "2.0b3x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.06.15.0000.0000"
+      }
+    },
+    "2013.06.29.0004.0000": {
+      "version": "2.0 Install Disc",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.06.29.0004.0000"
+      }
+    },
+    "2013.07.04.0001.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.07.04.0001.0000"
+      }
+    },
+    "2013.07.07.0000.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.07.07.0000.0000"
+      }
+    },
+    "2013.08.15.0000.0000": {
+      "version": "2.0b?",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.08.15.0000.0000"
+      }
+    },
+    "2013.08.22.0001.0000": {
+      "version": "2.0",
+      "tagline": "A Realm Reborn",
+      "released": "2013-08-16T00:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/06d94a7ebbf815734fdcd6bc8e4f02df95edb5b3",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.08.22.0001.0000"
+      }
+    },
+    "2013.08.27.0000.0000": {
+      "version": "2.0x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9851b19db3c98921c173e26f81b0714a32901211",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.08.27.0000.0000"
+      }
+    },
+    "2013.09.04.0000.0000": {
+      "version": "2.0x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/bf8f375afdf35406da3f29ec8a5998dd4f16742c",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.09.04.0000.0000"
+      }
+    },
+    "2013.09.11.0000.0000": {
+      "version": "2.0x3",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0925caac86d708753315db5405ebe450663fde03",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.09.11.0000.0000"
+      }
+    },
+    "2013.10.11.0000.0001": {
+      "version": "2.05",
+      "tagline": null,
+      "released": "2013-10-17T19:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/2b2617729d2288f17320de31b3ed481d91d592be",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.10.11.0000.0001"
+      }
+    },
+    "2013.10.16.0000.0001": {
+      "version": "2.05x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/20abbd23634075d72854e1bc03403884a08e316f",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.10.16.0000.0001"
+      }
+    },
+    "2013.10.23.0000.0001": {
+      "version": "2.05x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e856ac369f402955ae9902a47312f4e69f274cc6",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.10.23.0000.0001"
+      }
+    },
+    "2013.11.16.0000.0001": {
+      "version": "2.05x3",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c700a462461a77d76795759f8c4f7f5749c9e322",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.11.16.0000.0001"
+      }
+    },
+    "2013.12.14.0000.0001": {
+      "version": "2.1",
+      "tagline": "A Realm Awoken",
+      "released": "2013-12-14T16:50:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/49a12eb45162eb62cf0c2000f678ce15886aa278",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/03843d6bf7ba69adc37d7955ff7af43f3c43828a",
+      "repositories": {
+        "game": "2013.12.14.0000.0001"
+      }
+    },
+    "2013.12.21.0000.0001": {
+      "version": "2.1x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5e2a320bf184c1923ebe171e97d2017bff76c8c2",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2013.12.21.0000.0001"
+      }
+    },
+    "2014.01.24.0000.0001": {
+      "version": "2.15x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7a979d022c71a95301d168a47f56fc7e359873c0",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.01.24.0000.0001"
+      }
+    },
+    "2014.02.19.0000.0001": {
+      "version": "2.16",
+      "tagline": null,
+      "released": "2014-02-20T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/77c0f878653d9d732a2a1a367dbc5708b9c7b71f",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/1e50acf08461e355e3e5d4736391ba3f787720f1",
+      "repositories": {
+        "game": "2014.02.19.0000.0001"
+      }
+    },
+    "2014.02.21.0000.0001": {
+      "version": "2.16x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6fc1a89d5cb3d4ce4b748d3ffe2ca41614b8e03d",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.02.21.0000.0001"
+      }
+    },
+    "2014.02.24.0001.0001": {
+      "version": "2.16x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/ae14596e0b338d9a5061112c4e9bf4ee5dcd3479",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.02.24.0001.0001"
+      }
+    },
+    "2014.03.25.0001.0001": {
+      "version": "2.2",
+      "tagline": "Through the Maelstrom",
+      "released": "2014-03-26T08:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f0350035b0451245af339e108350d9733d75710e",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/69e2c959d2e9285fd541e7f5f70fb8139b3464da",
+      "repositories": {
+        "game": "2014.03.25.0001.0001"
+      }
+    },
+    "2014.04.08.0000.0001": {
+      "version": "2.21",
+      "tagline": null,
+      "released": "2014-04-09T08:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/beac26ad16d4dcb37b1cc8355abe5a37816de82e",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/198cac9ac0f1ad52a42c7ff4addc97c280208a1c",
+      "repositories": {
+        "game": "2014.04.08.0000.0001"
+      }
+    },
+    "2014.04.21.0000.0001": {
+      "version": "2.25",
+      "tagline": null,
+      "released": "2014-04-24T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/4e25b2dbf161aea6f28c055f456718bbeaf421b9",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/506a135c96590f304f18e8c110b45897e3a016cf",
+      "repositories": {
+        "game": "2014.04.21.0000.0001"
+      }
+    },
+    "2014.05.27.0000.0000": {
+      "version": "2.28",
+      "tagline": null,
+      "released": "2014-06-05T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/caa26a8702a6731eeb1bec9ba8977b7bf343bbe8",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/450816f57ade2015876e7675c3d06dca30386770",
+      "repositories": {
+        "game": "2014.05.27.0000.0000"
+      }
+    },
+    "2014.06.12.0000.0001": {
+      "version": "2.28x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a39295e53aad97a1fe1351c85ea3a27ceda90fdf",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.06.12.0000.0001"
+      }
+    },
+    "2014.07.04.0000.0001": {
+      "version": "2.3",
+      "tagline": "Defenders of Eorzea",
+      "released": "2014-07-08T03:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/dfff792a28bc7c8511486e8691e6c0d1cf3b37b3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c96b9e090eb60d1ebd1b89e20e582d59335acd84",
+      "repositories": {
+        "game": "2014.07.04.0000.0001"
+      }
+    },
+    "2014.07.25.0001.0000": {
+      "version": "2.3x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0ec9d125c30a83426b48600c50e40cc74ad5ca18",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.07.25.0001.0000"
+      }
+    },
+    "2014.08.19.0000.0000": {
+      "version": "2.35",
+      "tagline": null,
+      "released": "2014-08-19T04:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/54d22d190d10e8a9ebf42467a96a13d0e0fc21cc",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/2952cde08127ad3911220b2b5744330af2f11d85",
+      "repositories": {
+        "game": "2014.08.19.0000.0000"
+      }
+    },
+    "2014.08.26.0000.0000": {
+      "version": "2.35x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c77e7e04c2645778f46ff6c84f335ef284fa2e3b",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.08.26.0000.0000"
+      }
+    },
+    "2014.09.11.0001.0000": {
+      "version": "2.38",
+      "tagline": null,
+      "released": "2014-09-16T04:05:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5ef9000d77ce749bdb69e838de7a3a35c6f880de",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/466a99222687298cf0515b6f476869b10e012e57",
+      "repositories": {
+        "game": "2014.09.11.0001.0000"
+      }
+    },
+    "2014.09.17.0000.0000": {
+      "version": "2.38x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/21f5b973db12bf5af8e3989b9f25b2533949ff6d",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.09.17.0000.0000"
+      }
+    },
+    "2014.09.28.0000.0000": {
+      "version": "2.38x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/06f79b69e119c2ec52480a657236efb55461766f",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.09.28.0000.0000"
+      }
+    },
+    "2014.10.24.0000.0000": {
+      "version": "2.4",
+      "tagline": "Dreams of Ice",
+      "released": "2014-10-28T05:50:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1bc8b5003b038b6025b8c76f65c0bb6be581d3ab",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/4a7a48cd010551b65b1e0f03b318d0d45bf52d59",
+      "repositories": {
+        "game": "2014.10.24.0000.0000"
+      }
+    },
+    "2014.10.30.0000.0000": {
+      "version": "2.4x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c78f57d072953e8904c27be117f936678dd19213",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.10.30.0000.0000"
+      }
+    },
+    "2014.11.14.0000.0000": {
+      "version": "2.41",
+      "tagline": null,
+      "released": "2014-11-18T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5d7c1cc092949787561ff919557da461d4a13519",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/b1efc31304f61d1171ac95d7b954908abc185342",
+      "repositories": {
+        "game": "2014.11.14.0000.0000"
+      }
+    },
+    "2014.12.06.0000.0000": {
+      "version": "2.45",
+      "tagline": null,
+      "released": "2014-12-09T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/ba5af57cee355a439da9d7ccb34b6672dcff3259",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/e131753e64b2980c646e605b11cf56b933b99601",
+      "repositories": {
+        "game": "2014.12.06.0000.0000"
+      }
+    },
+    "2014.12.17.0000.0000": {
+      "version": "2.45x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0c99cb4401aafb1d6eaf7a72d153b56bca11bd02",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.12.17.0000.0000"
+      }
+    },
+    "2014.12.24.0000.0000": {
+      "version": "2.45x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9f88a4e1b96859e277418beb8ffe0f3d1aa5a390",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2014.12.24.0000.0000"
+      }
+    },
+    "2015.01.17.0001.0000": {
+      "version": "2.5",
+      "tagline": "Before the Fall",
+      "released": "2015-01-20T05:45:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/fdaa531ab17949b5caeca037a8dadb09b533d3df",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5d677f92bbe71478ffaccd9972735b3d4280abe6",
+      "repositories": {
+        "game": "2015.01.17.0001.0000"
+      }
+    },
+    "2015.01.28.0000.0000": {
+      "version": "2.5x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/fc8476a35d6d9b3a6619440217c1c256a5d060ab",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.01.28.0000.0000"
+      }
+    },
+    "2015.02.05.0000.0000": {
+      "version": "2.5x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6944a18002fe7d5b4519c5f828056a439c9e013b",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.02.05.0000.0000"
+      }
+    },
+    "2015.02.19.0001.0000": {
+      "version": "2.51",
+      "tagline": null,
+      "released": "2015-02-24T05:10:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1eb0905c7c9114302b641651a3d500198b9cbb99",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/fb9f6956394bb5547bdc91b2062ec4fa99fee568",
+      "repositories": {
+        "game": "2015.02.19.0001.0000"
+      }
+    },
+    "2015.03.03.0000.0000": {
+      "version": "2.51x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c604ed09c6385ddbf7f047cabbb7b0b1dd4ca5d5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.03.03.0000.0000"
+      }
+    },
+    "2015.03.17.0000.0000": {
+      "version": "3.0 Install Disk",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.03.17.0000.0000",
+        "ex1": "2015.03.16.0000.0000"
+      }
+    },
+    "2015.03.26.0000.0000": {
+      "version": "2.55",
+      "tagline": null,
+      "released": "2015-03-31T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/be2c1099bbe29eda4a0d6919e6b143986efff375",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/ca7d7d74c94b623db3991220110aa80df21ff1fc",
+      "repositories": {
+        "game": "2015.03.26.0000.0000"
+      }
+    },
+    "2015.04.01.0000.0000": {
+      "version": "2.55x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1a908073bce5c76e726c44cbd875ca54054cb413",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.04.01.0000.0000"
+      }
+    },
+    "2015.04.17.0001.0000": {
+      "version": "2.56",
+      "tagline": null,
+      "released": "2015-04-20T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/28e27bb91fbc6c851e64c0532d707320cf10905a",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6f36bfdddf00f7d04ed02b15cd5e610089cc0c86",
+      "repositories": {
+        "game": "2015.04.17.0001.0000"
+      }
+    },
+    "2015.05.13.0000.0000": {
+      "version": "2.57x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c71ceab4af86909ca909fc6a9f92bbbfeb87474c",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.05.13.0000.0000"
+      }
+    },
+    "2015.05.15.0000.0000": {
+      "version": "3.0 Media Tour",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.05.15.0000.0000",
+        "ex1": "2015.05.15.0000.0000"
+      }
+    },
+    "2015.05.20.0000.0000": {
+      "version": "2.57x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e92dbb70a2309766366f4092d8223345b0e11e31",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.05.20.0000.0000"
+      }
+    },
+    "2015.06.17.0000.0000": {
+      "version": "3.0",
+      "tagline": "Heavensward",
+      "released": "2015-06-19T08:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/2c4f0763f9418db931268d71bc663e6d44568e2f",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/464263b3ce6026cdf98a49bf8f98c204c6199e5a",
+      "repositories": {
+        "game": "2015.06.17.0000.0000",
+        "ex1": "2015.06.14.0000.0000"
+      }
+    },
+    "2015.07.08.0000.0000": {
+      "version": "3.01x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/fedaf03de406897128eeb9f5fc7f112325f9ed36",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.07.08.0000.0000",
+        "ex1": "2015.07.03.0000.0000"
+      }
+    },
+    "2015.07.11.0000.0000": {
+      "version": "3.01x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e381a3bd5494c2e7a1c3ae2e2d5534dc6bb17809",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.07.11.0000.0000",
+        "ex1": "2015.07.03.0000.0000"
+      }
+    },
+    "2015.07.22.0000.0000": {
+      "version": "3.05x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/30834056d686be70c87a0e7bc972c5f59a2979c7",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.07.22.0000.0000",
+        "ex1": "2015.07.15.0001.0000"
+      }
+    },
+    "2015.08.21.0000.0000": {
+      "version": "3.07",
+      "tagline": null,
+      "released": "2015-08-25T07:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/4588d963589177f52172df6627dc7a44dacd16a3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/698c850782604a0ce8d7a7a4bb7aff5b99d9fb32",
+      "repositories": {
+        "game": "2015.08.21.0000.0000",
+        "ex1": "2015.08.20.0000.0000"
+      }
+    },
+    "2015.09.04.0000.0000": {
+      "version": "3.07x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f073e1640284256ad3106c9176a2cc4c5b7ac1b3",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.09.04.0000.0000",
+        "ex1": "2015.08.20.0000.0000"
+      }
+    },
+    "2015.11.05.0000.0000": {
+      "version": "2.4x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a1fefab51738d7b634091fa40a9e880a5e6d855f",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.11.05.0000.0000"
+      }
+    },
+    "2015.11.07.0000.0000": {
+      "version": "3.1",
+      "tagline": "As Goes Light, So Goes Darkness",
+      "released": "2015-11-09T09:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1fc295c8852c4accb3923e9badf28ee6c257fbf5",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6707e4bc0ca533c1a2cb12155fc91d884c6b6a84",
+      "repositories": {
+        "game": "2015.11.07.0000.0000",
+        "ex1": "2015.10.31.0000.0000"
+      }
+    },
+    "2015.11.12.0000.0000": {
+      "version": "3.1x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f2073d67052b3429dbd17b60150eff2c94941c32",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.11.12.0000.0000",
+        "ex1": "2015.10.31.0000.0000"
+      }
+    },
+    "2015.11.14.0000.0000": {
+      "version": "3.1x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8569d48652b900ffc1fa92ed943449e88b738caa",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.11.14.0000.0000",
+        "ex1": "2015.10.31.0000.0000"
+      }
+    },
+    "2015.11.21.0000.0000": {
+      "version": "3.1x3",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9a3332deeae62bf8b0b44818ef6b966eb0193c7b",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.11.21.0000.0000",
+        "ex1": "2015.11.19.0000.0000"
+      }
+    },
+    "2015.11.28.0000.0000": {
+      "version": "3.1x4",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/821d1843f7386343158cc2fc5987257401972c3b",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2015.11.28.0000.0000",
+        "ex1": "2015.11.28.0000.0000"
+      }
+    },
+    "2015.12.12.0000.0000": {
+      "version": "3.15",
+      "tagline": null,
+      "released": "2015-12-16T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/85996e8f98a1b4f1f42642b68b05f52456bfc040",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/86c483a5b15766c988ee8db15f4eda117b9d66e4",
+      "repositories": {
+        "game": "2015.12.12.0000.0000",
+        "ex1": "2015.12.12.0000.0000"
+      }
+    },
+    "2016.02.19.0000.0000": {
+      "version": "3.2",
+      "tagline": "The Gears of Change",
+      "released": "2016-02-23T04:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/282aa7d86074e9091600982a558036f8797b6df3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c755d756aece79cc9707f5444ad0980ac2b5a39c",
+      "repositories": {
+        "game": "2016.02.19.0000.0000",
+        "ex1": "2016.02.19.0000.0000"
+      }
+    },
+    "2016.02.24.0000.0000": {
+      "version": "3.2x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/df42a8473fd4f15378225821a4b5892948fced29",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.02.24.0000.0000",
+        "ex1": "2016.02.24.0000.0000"
+      }
+    },
+    "2016.03.09.0000.0000": {
+      "version": "3.21",
+      "tagline": null,
+      "released": "2016-03-10T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/094a325014390ce8c8521d96b9e9de2bdcf35c6c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/93afb251b0a22bb2b7bf83f8b85150bc2eef00f6",
+      "repositories": {
+        "game": "2016.03.09.0000.0000",
+        "ex1": "2016.03.09.0000.0000"
+      }
+    },
+    "2016.03.16.0000.0000": {
+      "version": "3.22",
+      "tagline": null,
+      "released": "2016-03-17T06:10:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d922e717c119f61aa0db02ac50841735236603bc",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d75b25c63991da97f2c79311d39cc307c28477e3",
+      "repositories": {
+        "game": "2016.03.16.0000.0000",
+        "ex1": "2016.03.16.0000.0000"
+      }
+    },
+    "2016.03.25.0000.0000": {
+      "version": "3.25",
+      "tagline": null,
+      "released": "2016-03-29T05:45:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0a1d9bbd38b61ee8d0aac49d18855a0c8cbe6137",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/cbb6ca2c6b2f1fdfee3a68f0e18c9d4a609addd1",
+      "repositories": {
+        "game": "2016.03.25.0000.0000",
+        "ex1": "2016.03.25.0000.0000"
+      }
+    },
+    "2016.04.11.0000.0000": {
+      "version": "3.26",
+      "tagline": null,
+      "released": "2016-04-14T06:50:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/613652212fccc8482dc3ad24c0c487aa3d020b54",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f2acf38d25fcc1243dedefa7e45ec7ba1c3aadaa",
+      "repositories": {
+        "game": "2016.04.11.0000.0000",
+        "ex1": "2016.04.11.0000.0000"
+      }
+    },
+    "2016.05.31.0000.0000": {
+      "version": "3.3",
+      "tagline": "Revenge of the Horde",
+      "released": "2016-06-06T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/06fb7be80042a331631cedd10f1e74114b327dc4",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/197e9c8b2f04efdecffe26bebe43b40551d1e3e8",
+      "repositories": {
+        "game": "2016.05.31.0000.0000",
+        "ex1": "2016.05.26.0000.0000"
+      }
+    },
+    "2016.06.14.0000.0000": {
+      "version": "3.3x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f7dca6dfcedb58dfd832d32e26ab885d6271e388",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.06.14.0000.0000",
+        "ex1": "2016.05.26.0000.0000"
+      }
+    },
+    "2016.06.21.0000.0000": {
+      "version": "3.3x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f24828f6b010b53fddb94fefecf886b9747751a5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.06.21.0000.0000",
+        "ex1": "2016.05.26.0000.0000"
+      }
+    },
+    "2016.07.22.0000.0000": {
+      "version": "3.35x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/486271b3f6d44dc635f62f37b19ec4d69b4b06a5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.07.22.0000.0000",
+        "ex1": "2016.07.05.0000.0000"
+      }
+    },
+    "2016.08.08.0000.0000": {
+      "version": "3.38",
+      "tagline": null,
+      "released": "2016-08-23T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3653dbd20401d96022dd27fe7d4a736bfa95bfb3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/e4b6631397ff961d32d63a6a5b275bb2bbd2382d",
+      "repositories": {
+        "game": "2016.08.08.0000.0000",
+        "ex1": "2016.07.05.0000.0000"
+      }
+    },
+    "2016.09.21.0000.0000": {
+      "version": "3.4",
+      "tagline": "Soul Surrender",
+      "released": "2016-09-26T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b36781a2db76e6e5eab64aa0c9d5b17f1d31f37c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/159309cb1ef0706cf37a9a91e3e18865b70097a6",
+      "repositories": {
+        "game": "2016.09.21.0000.0000",
+        "ex1": "2016.09.19.0000.0000"
+      }
+    },
+    "2016.10.03.0000.0000": {
+      "version": "3.4x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c41efd58378278ebdba04a74fdd8458ca51d143c",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.10.03.0000.0000",
+        "ex1": "2016.09.19.0000.0000"
+      }
+    },
+    "2016.10.11.0000.0000": {
+      "version": "3.41",
+      "tagline": null,
+      "released": "2016-10-18T05:10:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7acca7ae43986cfa39a75b11d67d15b91f22d274",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f521043481b76b6e081c2f311ce013ea15fc8117",
+      "repositories": {
+        "game": "2016.10.11.0000.0000",
+        "ex1": "2016.10.08.0000.0000"
+      }
+    },
+    "2016.10.26.0000.0000": {
+      "version": "3.45",
+      "tagline": null,
+      "released": "2016-11-01T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a97546cdebb8ae7ea687e5aa52327a2c8fcd2600",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c55a99e864094c0c7dfcbde0fa35bd9fda60dfcb",
+      "repositories": {
+        "game": "2016.10.26.0000.0000",
+        "ex1": "2016.10.21.0000.0000"
+      }
+    },
+    "2016.11.11.0000.0000": {
+      "version": "3.45x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9f850d18190c1dcaa6bb011e540480ada41ef9fb",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.11.11.0000.0000",
+        "ex1": "2016.10.21.0000.0000"
+      }
+    },
+    "2016.12.08.0000.0000": {
+      "version": "3.45x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e561dbc8557b416b81763201a1159e01c3425f22",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2016.12.08.0000.0000",
+        "ex1": "2016.10.21.0000.0000"
+      }
+    },
+    "2017.01.11.0000.0000": {
+      "version": "3.5",
+      "tagline": "The Far Edge of Fate",
+      "released": "2017-01-16T11:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e27620dd63255b4f9abad8ec1f6158cfb75ab45d",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d90ea3ee6d083eaba4f22e5deefe934b0a0a464e",
+      "repositories": {
+        "game": "2017.01.11.0000.0000",
+        "ex1": "2017.01.06.0000.0000"
+      }
+    },
+    "2017.01.24.0000.0000": {
+      "version": "3.51",
+      "tagline": null,
+      "released": "2017-01-26T07:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/55c57df16d3f833799ccf64bae2ec2d634c31c08",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/12ed915838dbdc22fe36871a2604f9b1d97b848d",
+      "repositories": {
+        "game": "2017.01.24.0000.0000",
+        "ex1": "2017.01.06.0000.0000"
+      }
+    },
+    "2017.01.31.0000.0000": {
+      "version": "3.51x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/537f7ed26f68196c84e8ebf5fab3e00dbf1c06ea",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2017.01.31.0000.0000",
+        "ex1": "2017.01.06.0000.0000"
+      }
+    },
+    "2017.02.22.0001.0000": {
+      "version": "3.55a",
+      "tagline": null,
+      "released": "2017-02-28T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b54e18a7c2e4bf2e9d6bacb2d7df9b1ba0dbcb85",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/18f5ec1117033baa6574e9428acd375129aa498e",
+      "repositories": {
+        "game": "2017.02.22.0001.0000",
+        "ex1": "2017.02.21.0000.0000"
+      }
+    },
+    "2017.03.04.0000.0000": {
+      "version": "3.55b",
+      "tagline": null,
+      "released": "2017-03-09T05:45:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9359370c4d6c22a092b17043322381e3ab969da0",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d702c56b0d28cd257090bb292c23471f85772028",
+      "repositories": {
+        "game": "2017.03.04.0000.0000",
+        "ex1": "2017.03.04.0000.0000"
+      }
+    },
+    "2017.03.23.0000.0000": {
+      "version": "3.56",
+      "tagline": null,
+      "released": "2017-03-28T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c9b3655545c87cc6cc2b79c41728b296fb89cf42",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/26738a49887f2b9f9e6b0aa67ae5f7d1a09dd1f2",
+      "repositories": {
+        "game": "2017.03.23.0000.0000",
+        "ex1": "2017.03.18.0000.0000"
+      }
+    },
+    "2017.04.13.0000.0000": {
+      "version": "3.57",
+      "tagline": null,
+      "released": "2017-04-18T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f53e93d2fe7f5e89edfc1924337fd334d35b66bc",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/7ee22ba181fbc53f3579bb5d97e21a459f2ab5b3",
+      "repositories": {
+        "game": "2017.04.13.0000.0000",
+        "ex1": "2017.04.11.0000.0000"
+      }
+    },
+    "2017.05.12.0000.0000": {
+      "version": "4.0 Media Tour",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2017.05.12.0000.0000",
+        "ex1": "2017.05.12.0000.0000",
+        "ex2": "2017.05.12.0000.0000"
+      }
+    },
+    "2017.06.09.0000.0000": {
+      "version": "4.0",
+      "tagline": "Stormblood",
+      "released": "2017-06-16T02:45:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/cdb66bfbdb20fb63615344aea7419b73da45a837",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/296b070f41c0e0dedae24de50ae7c51abfa95055",
+      "repositories": {
+        "game": "2017.06.09.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.06.07.0000.0000"
+      }
+    },
+    "2017.06.19.0000.0000": {
+      "version": "4.0x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5eded219c3f450f56cc6d2e6b29ca1bd834ffb6b",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2017.06.19.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.06.07.0000.0000"
+      }
+    },
+    "2017.06.28.0000.0000": {
+      "version": "4.01",
+      "tagline": null,
+      "released": "2017-07-04T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8751da9de1d1aa5516327ad38184b0153ae355d7",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/33efbf65a7c6b86b3c62816b7a75523012584b54",
+      "repositories": {
+        "game": "2017.06.28.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.06.27.0000.0000"
+      }
+    },
+    "2017.07.12.0000.0000": {
+      "version": "4.05",
+      "tagline": null,
+      "released": "2017-07-18T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d364bdec5e3098d7c30c9e0a309e9f95638501e9",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/782e44043959ae82ead5c6745dac3297a0083b69",
+      "repositories": {
+        "game": "2017.07.12.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.07.11.0000.0000"
+      }
+    },
+    "2017.07.19.0000.0000": {
+      "version": "4.05x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8140e50b06714d923b3c1fa45a7729d78dec7e70",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2017.07.19.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.07.11.0000.0000"
+      }
+    },
+    "2017.08.03.0000.0000": {
+      "version": "4.06",
+      "tagline": null,
+      "released": "2017-08-08T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0b511d261b3b8b02f855cdf972a28b19d4b894d1",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/28053f7fa83022c6b203fdcfbd32b042fee8619c",
+      "repositories": {
+        "game": "2017.08.03.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.08.02.0000.0000"
+      }
+    },
+    "2017.08.23.0000.0000": {
+      "version": "4.06a",
+      "tagline": null,
+      "released": "2017-08-29T02:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/af0df9da6b470708652c78bc737ce630df4626d6",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/2b058731112d9859b50789e65fcc86e77977f3e5",
+      "repositories": {
+        "game": "2017.08.23.0000.0000",
+        "ex1": "2017.06.01.0000.0001",
+        "ex2": "2017.08.02.0000.0000"
+      }
+    },
+    "2017.10.05.0000.0000": {
+      "version": "4.1",
+      "tagline": "The Legend Returns",
+      "released": "2017-10-10T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c61f7968644487bdb498870c7b69b7a9c4c72598",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/cfd6b53bc9cd08b494512a662c04942848db9539",
+      "repositories": {
+        "game": "2017.10.05.0000.0000",
+        "ex1": "2017.09.24.0000.0000",
+        "ex2": "2017.10.03.0000.0000"
+      }
+    },
+    "2017.10.19.0000.0000": {
+      "version": "4.11",
+      "tagline": null,
+      "released": "2017-10-24T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9fc0c34f0b71fa3847cf16d01492e8aeaf8827e1",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/aee832c2c57456a26f36531c78380e74202d0d75",
+      "repositories": {
+        "game": "2017.10.19.0000.0000",
+        "ex1": "2017.09.24.0000.0000",
+        "ex2": "2017.10.17.0000.0000"
+      }
+    },
+    "2017.10.31.0000.0000": {
+      "version": "4.11x?",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/2f9ddac155bf6351c8dd5212ef4adfe6200e08ef",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2017.10.31.0000.0000",
+        "ex1": "2017.09.24.0000.0000",
+        "ex2": "2017.10.17.0000.0000"
+      }
+    },
+    "2017.11.24.0000.0000": {
+      "version": "4.15",
+      "tagline": null,
+      "released": "2017-11-21T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/94c5628f1e8a640279f19f9d69fedb2691ccae2f",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/fc2b7b7429f139b0bbab2f19620f3c1efcf30368",
+      "repositories": {
+        "game": "2017.11.24.0000.0000",
+        "ex1": "2017.09.24.0000.0000",
+        "ex2": "2017.11.09.0000.0000"
+      }
+    },
+    "2017.12.06.0000.0000": {
+      "version": "4.18",
+      "tagline": null,
+      "released": "2017-12-12T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0f984cb8f9a6c4c538957b37f61836308a7fd794",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/fb2cfeec68d0da7ae33b84f5c2eee0e39c815192",
+      "repositories": {
+        "game": "2017.12.06.0000.0000",
+        "ex1": "2017.09.24.0000.0000",
+        "ex2": "2017.11.09.0000.0000"
+      }
+    },
+    "2018.01.25.0000.0000": {
+      "version": "4.2",
+      "tagline": "Rise of a New Sun",
+      "released": "2018-01-29T10:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a7960d6c876a3c1be5db95f4716813fdc1a1490d",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/75c691f90f4a7da3907f0671ac33e139e9792abf",
+      "repositories": {
+        "game": "2018.01.25.0000.0000",
+        "ex1": "2018.01.12.0000.0000",
+        "ex2": "2018.01.19.0000.0000"
+      }
+    },
+    "2018.02.09.0000.0000": {
+      "version": "4.21",
+      "tagline": null,
+      "released": "2018-02-14T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/669f875f70a6cddec170c1982ffc5124f70625d4",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/98f632cc4aaa15ac51d0d581c72dc03d12d5c51a",
+      "repositories": {
+        "game": "2018.02.09.0000.0000",
+        "ex1": "2018.01.12.0000.0000",
+        "ex2": "2018.01.19.0000.0000"
+      }
+    },
+    "2018.03.07.0000.0000": {
+      "version": "4.25",
+      "tagline": null,
+      "released": "2018-03-13T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/13f64cea401ee30f7e446a45f5b47497affa04c5",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5ad19879fc01a5d878af9a7f90f29e4a2394c5b4",
+      "repositories": {
+        "game": "2018.03.07.0000.0000",
+        "ex1": "2018.01.12.0000.0000",
+        "ex2": "2018.03.06.0000.0000"
+      }
+    },
+    "2018.03.22.0000.0000": {
+      "version": "4.25x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/baa4ca11820b05b69f14d27afd9153de83ab3608",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.03.22.0000.0000",
+        "ex1": "2018.01.12.0000.0000",
+        "ex2": "2018.03.06.0000.0000"
+      }
+    },
+    "2018.03.28.0000.0000": {
+      "version": "4.25x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c62247c6ff0d826880c677a20bc39ae08c34de07",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.03.28.0000.0000",
+        "ex1": "2018.01.12.0000.0000",
+        "ex2": "2018.03.06.0000.0000"
+      }
+    },
+    "2018.05.16.0000.0000": {
+      "version": "4.3",
+      "tagline": "Under the Moonlight",
+      "released": "2018-05-21T11:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7ecd96f200d74af1386681c66dafbe095f251016",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/13e322580acb8e9861160a6e08ccabfaff09eeee",
+      "repositories": {
+        "game": "2018.05.16.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.05.10.0000.0000"
+      }
+    },
+    "2018.05.26.0000.0000": {
+      "version": "4.3x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f31dfa6b468c3dbfbd31f467eeeebf7a8c586266",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.05.26.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.05.10.0000.0000"
+      }
+    },
+    "2018.05.31.0000.0000": {
+      "version": "4.31",
+      "tagline": null,
+      "released": "2018-06-05T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e25828378d6d7872ee8c759e329a41c1dfe94b1b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/661a0c5168742c1b2c1bacb42af5736902d63c36",
+      "repositories": {
+        "game": "2018.05.31.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.05.29.0000.0000"
+      }
+    },
+    "2018.06.07.0000.0000": {
+      "version": "4.31x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c3718d5ef0dd353aafa330e8ada61d992a6ac17e",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.06.07.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.06.19.0000.0000"
+      }
+    },
+    "2018.06.27.0000.0000": {
+      "version": "4.35",
+      "tagline": null,
+      "released": "2018-07-03T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0bf915ad4c3ebb4c647831e79ebed276478708ea",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/9bec77e23715121624f84c7a17c0ad0afa003977",
+      "repositories": {
+        "game": "2018.06.27.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.06.19.0000.0000"
+      }
+    },
+    "2018.07.06.0000.0000": {
+      "version": "4.35x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8b82795e6a30866f9d7a89fe5184cdec4293c145",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.07.06.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.06.19.0000.0000"
+      }
+    },
+    "2018.08.02.0001.0000": {
+      "version": "4.36",
+      "tagline": null,
+      "released": "2018-08-07T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f4c8166f4646ee96681c1f02c07f5f214b8e9e05",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5cd214d57cdf76296a16db00a0a0f6e5e87212b0",
+      "repositories": {
+        "game": "2018.08.02.0001.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.07.31.0000.0000"
+      }
+    },
+    "2018.08.09.0000.0000": {
+      "version": "4.36x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a3136de255b5050588cfe4caea3e68db79463999",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.08.09.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.07.31.0000.0000"
+      }
+    },
+    "2018.08.17.0000.0000": {
+      "version": "4.36x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1d278db58eee9f21f0196459238707b9b372ff96",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.08.17.0000.0000",
+        "ex1": "2018.04.30.0000.0000",
+        "ex2": "2018.07.31.0000.0000"
+      }
+    },
+    "2018.09.11.0000.0000": {
+      "version": "4.4",
+      "tagline": "Prelude in Violet",
+      "released": "2018-09-18T05:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c8a1f5818d7a96d8aa243d677577fc6ea3b71cd2",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/cc70f5b1c61174463b431d06424e6be8f2701ef6",
+      "repositories": {
+        "game": "2018.09.11.0000.0000",
+        "ex1": "2018.09.05.0000.0000",
+        "ex2": "2018.09.11.0000.0000"
+      }
+    },
+    "2018.09.27.0000.0000": {
+      "version": "4.41",
+      "tagline": null,
+      "released": "2018-10-02T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/26d7eccc9fdcb510f556e765c4e1df9aeee43d36",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/09707bd11f14584d48cb97f093d320c3bb3ecded",
+      "repositories": {
+        "game": "2018.09.27.0000.0000",
+        "ex1": "2018.09.05.0000.0000",
+        "ex2": "2018.09.27.0000.0000"
+      }
+    },
+    "2018.10.11.0000.0000": {
+      "version": "4.41x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9f50350e4d44ebab5692b2c2928c3899657bdbf5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.10.11.0000.0000",
+        "ex1": "2018.09.05.0000.0000",
+        "ex2": "2018.10.11.0000.0000"
+      }
+    },
+    "2018.10.30.0000.0000": {
+      "version": "4.45",
+      "tagline": null,
+      "released": "2018-11-06T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/031ad804ec561b1a30c113701a4cb5c6d7a0a38b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/2580dbb66daca8405ce1c051dbb1970d66c5f22a",
+      "repositories": {
+        "game": "2018.10.30.0000.0000",
+        "ex1": "2018.09.05.0000.0000",
+        "ex2": "2018.10.30.0000.0000"
+      }
+    },
+    "2018.11.20.0000.0000": {
+      "version": "4.45x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/dec5d456a1b56f8d89ffeacbe26a29c7aeea2727",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2018.11.20.0000.0000",
+        "ex1": "2018.09.05.0000.0000",
+        "ex2": "2018.11.20.0000.0000"
+      }
+    },
+    "2018.12.25.0000.0000": {
+      "version": "4.5",
+      "tagline": "A Requiem for Heroes",
+      "released": "2019-01-07T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/911957823b05d36d03d57a374244d153da22c982",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/97afed7c0efbbe8260755f948d0cf2b912d71121",
+      "repositories": {
+        "game": "2018.12.25.0000.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2018.12.22.0000.0000"
+      }
+    },
+    "2019.01.18.0001.0000": {
+      "version": "4.5x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9d4b0a562150be00542fa0d953382ada951713af",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.01.18.0001.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2019.01.18.0000.0000"
+      }
+    },
+    "2019.02.06.0000.0000": {
+      "version": "4.55",
+      "tagline": null,
+      "released": "2019-02-12T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b7e05d9e8e951ba8dcd7c88fa41aac86c23646e7",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5e197cab52a09dd4f8de83e1f6d5e0bca4289061",
+      "repositories": {
+        "game": "2019.02.06.0000.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2019.02.06.0000.0000"
+      }
+    },
+    "2019.02.14.0000.0000": {
+      "version": "4.55x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/80b45f7748920c1c7fc40a978f7fddcd28538cd8",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.02.14.0000.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2019.02.06.0000.0000"
+      }
+    },
+    "2019.02.19.0000.0000": {
+      "version": "4.55x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e390007ed93af75ec7c1c14c2e62a12aa14dc787",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.02.19.0000.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2019.02.06.0000.0000"
+      }
+    },
+    "2019.02.28.0000.0000": {
+      "version": "4.55x3",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/da021414526de8b85bd84a97815681ac77dcd475",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.02.28.0000.0000",
+        "ex1": "2018.12.14.0000.0000",
+        "ex2": "2019.02.06.0000.0000"
+      }
+    },
+    "2019.03.15.0000.0000": {
+      "version": "4.56",
+      "tagline": null,
+      "released": "2019-03-26T05:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5c4709d2205ecf5f796c8f400bf1ab9bd7d5721a",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/e597114c5473edae40f259a45abe138f4d2a46e6",
+      "repositories": {
+        "game": "2019.03.15.0000.0000",
+        "ex1": "2019.03.12.0000.0000",
+        "ex2": "2019.03.15.0000.0000"
+      }
+    },
+    "2019.04.16.0000.0000": {
+      "version": "4.57",
+      "tagline": null,
+      "released": "2019-04-23T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b0d198aacf9e241a7978b9c7133abcbd563c8dd0",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3caf18c98fb67021b20b4123ad5b57f985645aeb",
+      "repositories": {
+        "game": "2019.04.16.0000.0000",
+        "ex1": "2019.03.12.0000.0000",
+        "ex2": "2019.03.15.0000.0000"
+      }
+    },
+    "2019.05.09.0000.0000": {
+      "version": "4.58",
+      "tagline": null,
+      "released": "2019-05-14T08:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/aa7eae53676256068d298dac577459e9621b5f46",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/76e462d96058ff6e0171dbe6cfdc1d3c23d57039",
+      "repositories": {
+        "game": "2019.05.09.0000.0000",
+        "ex1": "2019.03.12.0000.0000",
+        "ex2": "2019.03.15.0000.0000"
+      }
+    },
+    "2019.05.10.0000.0000": {
+      "version": "5.0 Media Tour",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.05.10.0000.0000",
+        "ex1": "2019.05.02.0000.0000",
+        "ex2": "2019.05.02.0000.0000",
+        "ex3": "2019.05.09.0000.0000"
+      }
+    },
+    "2019.06.22.0000.0000": {
+      "version": "5.0",
+      "tagline": "Shadowbringers",
+      "released": "2019-06-27T09:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5989379a9607edef0e5c0820a2f66445007d9887",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/330f2b280067d69d85b17831c66712a499e97484",
+      "repositories": {
+        "game": "2019.06.22.0000.0000",
+        "ex1": "2019.06.12.0000.0000",
+        "ex2": "2019.05.31.0000.0000",
+        "ex3": "2019.06.22.0000.0000"
+      }
+    },
+    "2019.07.02.0000.0000": {
+      "version": "5.0x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/68f78166a6929ab637294a58f2029f6ea96e9f41",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.07.02.0000.0000",
+        "ex1": "2019.06.12.0000.0000",
+        "ex2": "2019.05.31.0000.0000",
+        "ex3": "2019.06.22.0000.0000"
+      }
+    },
+    "2019.07.10.0001.0000": {
+      "version": "5.01",
+      "tagline": null,
+      "released": "2019-07-16T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/48f285a7f4f1770ac483d73be36836c140b3260b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/4ddd33c83933ec4ad3dccb0e6538bbb9e85e63e7",
+      "repositories": {
+        "game": "2019.07.10.0001.0000",
+        "ex1": "2019.06.12.0000.0000",
+        "ex2": "2019.05.31.0000.0000",
+        "ex3": "2019.07.09.0000.0000"
+      }
+    },
+    "2019.07.24.0001.0000": {
+      "version": "5.05",
+      "tagline": null,
+      "released": "2019-07-30T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b8d5cc9eae6e022607cbe9717028aeb172cad1e5",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/b6083dbda4e9497698b64163ffc8cee52472b81a",
+      "repositories": {
+        "game": "2019.07.24.0001.0000",
+        "ex1": "2019.06.12.0000.0000",
+        "ex2": "2019.05.31.0000.0000",
+        "ex3": "2019.07.24.0000.0000"
+      }
+    },
+    "2019.08.21.0000.0000": {
+      "version": "5.08",
+      "tagline": null,
+      "released": "2019-08-29T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5ab18232d6533792f7585e7ca6d5266510d8be07",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f9f9bc037d81305bd34c688b701db7c6162503b9",
+      "repositories": {
+        "game": "2019.08.21.0000.0000",
+        "ex1": "2019.06.12.0000.0000",
+        "ex2": "2019.05.31.0000.0000",
+        "ex3": "2019.08.21.0000.0000"
+      }
+    },
+    "2019.10.24.0000.0000": {
+      "version": "5.1",
+      "tagline": "Vows of Virtue, Deeds of Cruelty",
+      "released": "2019-10-29T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c7eb7e78237c0767516a162b32aff514b719f474",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3a23a8ba13b2c4152681ec4fa5716915b851002f",
+      "repositories": {
+        "game": "2019.10.24.0000.0000",
+        "ex1": "2019.10.17.0000.0000",
+        "ex2": "2019.10.12.0000.0000",
+        "ex3": "2019.10.19.0000.0000"
+      }
+    },
+    "2019.11.06.0000.0000": {
+      "version": "5.11",
+      "tagline": null,
+      "released": "2019-11-12T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8c161d0dc43a3b1eaa555affe34a59756df0424a",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d7d53d91c131adfdc71ad0f270f1d38252e5aa39",
+      "repositories": {
+        "game": "2019.11.06.0000.0000",
+        "ex1": "2019.11.06.0000.0000",
+        "ex2": "2019.11.05.0000.0000",
+        "ex3": "2019.11.06.0000.0000"
+      }
+    },
+    "2019.11.19.0000.0000": {
+      "version": "5.11x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/352a918b67fb12efb90aae5ce08c4da6e12f96ba",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2019.11.19.0000.0000",
+        "ex1": "2019.11.06.0000.0000",
+        "ex2": "2019.11.05.0000.0000",
+        "ex3": "2019.11.06.0000.0000"
+      }
+    },
+    "2019.12.05.0000.0000": {
+      "version": "5.15",
+      "tagline": null,
+      "released": "2019-12-10T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/15c7a406afe8f4e108fc36f330e4540307ea12f7",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c8640b7f57d04db1acf5434d9812b102c455cb79",
+      "repositories": {
+        "game": "2019.12.05.0000.0000",
+        "ex1": "2019.12.05.0000.0000",
+        "ex2": "2019.12.04.0000.0000",
+        "ex3": "2019.12.03.0000.0000"
+      }
+    },
+    "2019.12.19.0000.0000": {
+      "version": "5.18",
+      "tagline": null,
+      "released": "2019-12-24T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/24919c35f6cb876e17ac7031282912f4ff209f4c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/36ab41b81c81a289336f63c1b9d40f6ed444ca9c",
+      "repositories": {
+        "game": "2019.12.19.0000.0000",
+        "ex1": "2019.12.05.0000.0000",
+        "ex2": "2019.12.04.0000.0000",
+        "ex3": "2019.12.03.0000.0000"
+      }
+    },
+    "2020.02.11.0000.0000": {
+      "version": "5.2",
+      "tagline": "Echoes of a Fallen Star",
+      "released": "2020-02-18T05:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/92ae519a1bca4b06cec833bbf44f82140ebf9768",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/b0151eaed1faecb46061b947cf9c08bed75d230d",
+      "repositories": {
+        "game": "2020.02.11.0000.0000",
+        "ex1": "2020.01.31.0000.0000",
+        "ex2": "2020.01.31.0000.0000",
+        "ex3": "2020.02.11.0000.0000"
+      }
+    },
+    "2020.03.04.0000.0000": {
+      "version": "5.21",
+      "tagline": null,
+      "released": "2020-03-10T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3f948d889c4b9b4d9de74e4a3f81af605ff7e920",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/9ee566b4cad525c8330bfb3c09591b3f63f433fd",
+      "repositories": {
+        "game": "2020.03.04.0000.0000",
+        "ex1": "2020.03.04.0000.0000",
+        "ex2": "2020.02.29.0000.0000",
+        "ex3": "2020.02.29.0000.0000"
+      }
+    },
+    "2020.03.12.0000.0000": {
+      "version": "5.21x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5713dc336dfe819de92754a0a361d6a97886084d",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2020.03.12.0000.0000",
+        "ex1": "2020.03.04.0000.0000",
+        "ex2": "2020.02.29.0000.0000",
+        "ex3": "2020.02.29.0000.0000"
+      }
+    },
+    "2020.03.27.0000.0000": {
+      "version": "5.25",
+      "tagline": null,
+      "released": "2020-04-07T05:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d4f4576f70f1062f2db39e708f3acbad067b3d92",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/b1a1fb2c812285a29a27bf477b0c895c78666296",
+      "repositories": {
+        "game": "2020.03.27.0000.0000",
+        "ex1": "2020.03.26.0000.0000",
+        "ex2": "2020.03.26.0000.0000",
+        "ex3": "2020.03.26.0000.0000"
+      }
+    },
+    "2020.08.01.0000.0000": {
+      "version": "5.3",
+      "tagline": "Reflections in Crystal",
+      "released": "2020-08-10T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/82076838028a63fdc2661caa2a68eabfd04370a3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c2f8c5ba14d9cfaa09d5aab63c5c2da260eae21a",
+      "repositories": {
+        "game": "2020.08.01.0000.0000",
+        "ex1": "2020.08.01.0000.0000",
+        "ex2": "2020.08.01.0000.0000",
+        "ex3": "2020.08.01.0000.0000"
+      }
+    },
+    "2020.08.19.0000.0000": {
+      "version": "5.3x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b385a8eed5fbf25eb081575a04c779c58b6d6cb5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2020.08.19.0000.0000"
+      }
+    },
+    "2020.08.28.0000.0000": {
+      "version": "5.31",
+      "tagline": null,
+      "released": "2020-09-08T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0fe7e841d2191e8c315552ebabda590338afcbda",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/193fc17936818e36fb58224398aaabda0a6f6adc",
+      "repositories": {
+        "game": "2020.08.28.0000.0000",
+        "ex1": "2020.08.28.0000.0000",
+        "ex2": "2020.08.28.0000.0000",
+        "ex3": "2020.08.28.0000.0000"
+      }
+    },
+    "2020.10.06.0000.0000": {
+      "version": "5.35",
+      "tagline": null,
+      "released": "2020-10-13T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b5adab37ef1cfeaf29f6fea79677e10fab686777",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f1e5bfcb2a0bf477bcc8c81845c440f300e12f75",
+      "repositories": {
+        "game": "2020.10.06.0000.0000",
+        "ex1": "2020.09.15.0000.0000",
+        "ex2": "2020.09.17.0000.0000",
+        "ex3": "2020.09.30.0000.0000"
+      }
+    },
+    "2020.10.21.0001.0000": {
+      "version": "5.35x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/588726c0b5aff873f2e0ccba6b20ac88ffe3f8e8",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2020.10.21.0001.0000",
+        "ex1": "2020.09.15.0000.0000",
+        "ex2": "2020.09.17.0000.0000",
+        "ex3": "2020.09.30.0000.0000"
+      }
+    },
+    "2020.12.02.0000.0000": {
+      "version": "5.4",
+      "tagline": "Futures Rewritten",
+      "released": "2020-12-07T10:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/cd5be9f168250d2b5d6301e2a0aeeca1fe33f2ab",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/230f6e0af3536f9a40654d783c8c2f1094131070",
+      "repositories": {
+        "game": "2020.12.02.0000.0000",
+        "ex1": "2020.11.24.0000.0000",
+        "ex2": "2020.11.24.0000.0000",
+        "ex3": "2020.11.28.0000.0000"
+      }
+    },
+    "2020.12.15.0000.0000": {
+      "version": "5.4x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c1ffd09b5f299668c5d30c85d7b06c8f2a5f49c1",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2020.12.15.0000.0000",
+        "ex1": "2020.12.15.0000.0000",
+        "ex2": "2020.11.24.0000.0000",
+        "ex3": "2020.12.15.0000.0000"
+      }
+    },
+    "2020.12.29.0000.0000": {
+      "version": "5.41",
+      "tagline": null,
+      "released": "2021-01-12T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/33b1edd58452ee89d3f5b64d95ed958ccafe6a9e",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/bb3c277326e77817273a0029760223422d86935a",
+      "repositories": {
+        "game": "2020.12.29.0000.0000",
+        "ex1": "2020.12.24.0000.0000",
+        "ex2": "2020.11.24.0000.0000",
+        "ex3": "2020.12.15.0000.0000"
+      }
+    },
+    "2021.01.28.0000.0000": {
+      "version": "5.45",
+      "tagline": null,
+      "released": "2021-02-02T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7b9756cfe3887bc4a9c1b933ceffc011c0221492",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/a65cab900e97855414cd1acab0a2070ed1b8e41b",
+      "repositories": {
+        "game": "2021.01.28.0000.0000",
+        "ex1": "2021.01.15.0000.0000",
+        "ex2": "2021.01.15.0000.0000",
+        "ex3": "2021.01.23.0000.0000"
+      }
+    },
+    "2021.02.10.0000.0000": {
+      "version": "5.45x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/74917fe0be8d00d11db863115c3b5a10ebbad0b4",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.02.10.0000.0000",
+        "ex1": "2021.01.15.0000.0000",
+        "ex2": "2021.01.15.0000.0000",
+        "ex3": "2021.01.23.0000.0000"
+      }
+    },
+    "2021.04.07.0000.0000": {
+      "version": "5.5",
+      "tagline": "Death Unto Dawn",
+      "released": "2021-04-13T05:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/15ba29957488ff0ecbdd68ebd8b2e89da4c4e6d1",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6526ce95a595e8a557b55736f85f19687dc11883",
+      "repositories": {
+        "game": "2021.04.07.0000.0000",
+        "ex1": "2021.03.26.0000.0000",
+        "ex2": "2021.03.31.0000.0000",
+        "ex3": "2021.04.06.0000.0000"
+      }
+    },
+    "2021.04.21.0000.0000": {
+      "version": "5.5x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7a91b34d2d99b476ab47f794f1ad8437061b8ac1",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.04.21.0000.0000",
+        "ex1": "2021.03.26.0000.0000",
+        "ex2": "2021.03.31.0000.0000",
+        "ex3": "2021.04.20.0000.0000"
+      }
+    },
+    "2021.05.18.0000.0000": {
+      "version": "5.55",
+      "tagline": null,
+      "released": "2021-05-25T04:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/caa886991022b5119536bb9861c36530afb40e8b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/fdea72f70dafb7da0f7145ebc3f8c7d56dacb702",
+      "repositories": {
+        "game": "2021.05.18.0000.0000",
+        "ex1": "2021.05.14.0000.0000",
+        "ex2": "2021.04.29.0000.0000",
+        "ex3": "2021.05.14.0000.0000"
+      }
+    },
+    "2021.05.29.0000.0000": {
+      "version": "5.55x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b9518785c8d09778757cafb2a9ca3eb098295628",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.05.29.0000.0000",
+        "ex1": "2021.05.14.0000.0000",
+        "ex2": "2021.04.29.0000.0000",
+        "ex3": "2021.05.29.0000.0000"
+      }
+    },
+    "2021.06.16.0000.0000": {
+      "version": "5.57",
+      "tagline": null,
+      "released": "2021-06-22T06:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/efddf9e76abdba030c8b5b6dd8de2eed2942020c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/4f379e06b6471c55ea02f138b6ada581b088ab2e",
+      "repositories": {
+        "game": "2021.06.16.0000.0000",
+        "ex1": "2021.05.14.0000.0000",
+        "ex2": "2021.04.29.0000.0000",
+        "ex3": "2021.05.29.0000.0000"
+      }
+    },
+    "2021.07.15.0000.0000": {
+      "version": "5.58",
+      "tagline": null,
+      "released": "2021-07-20T02:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/4454353d0499e1410686db67c125867e7ddd97a2",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/20c842781ec0a2ebd7a2ad2510e8849372cb139e",
+      "repositories": {
+        "game": "2021.07.15.0000.0000",
+        "ex1": "2021.05.14.0000.0000",
+        "ex2": "2021.07.13.0000.0000",
+        "ex3": "2021.07.13.0000.0000"
+      }
+    },
+    "2021.08.17.0000.0000": {
+      "version": "5.58x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/56c127779fb6cafdf4421b811e6e03c3d50c1bab",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.08.17.0000.0000",
+        "ex1": "2021.05.14.0000.0000",
+        "ex2": "2021.07.13.0000.0000",
+        "ex3": "2021.07.13.0000.0000"
+      }
+    },
+    "2021.09.16.0000.0000": {
+      "version": "6.0 Live Letter 66",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.09.16.0000.0000",
+        "ex1": "2021.09.07.0003.0000",
+        "ex2": "2021.09.07.0004.0000",
+        "ex3": "2021.09.07.0005.0000",
+        "ex4": "2021.09.14.0000.0000"
+      }
+    },
+    "2021.09.23.0000.0000": {
+      "version": "6.0 Media Tour",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2021.09.23.0000.0000",
+        "ex1": "2021.09.07.0003.0000",
+        "ex2": "2021.09.07.0004.0000",
+        "ex3": "2021.09.07.0005.0000",
+        "ex4": "2021.09.14.0000.0000"
+      }
+    },
+    "2021.11.28.0000.0000": {
+      "version": "6.0",
+      "tagline": "Endwalker",
+      "released": "2021-12-02T09:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/796daedf85a75bbb4fd67b08ff5d49af700fad9b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/bdd208b52ddababad086dc9679e96a8412962edf",
+      "repositories": {
+        "game": "2021.11.28.0000.0000",
+        "ex1": "2021.11.28.0000.0000",
+        "ex2": "2021.11.28.0000.0000",
+        "ex3": "2021.11.28.0000.0000",
+        "ex4": "2021.11.28.0000.0000"
+      }
+    },
+    "2021.12.16.0000.0000": {
+      "version": "6.01",
+      "tagline": null,
+      "released": "2021-12-21T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/be47687503a13d55b8f8e2be4cb07395079281b1",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/bba3f0b1f5c8d2708d7a126957ad76fb30c4eb71",
+      "repositories": {
+        "game": "2021.12.16.0000.0000",
+        "ex1": "2021.11.21.0000.0000",
+        "ex2": "2021.12.14.0000.0000",
+        "ex3": "2021.12.14.0000.0000",
+        "ex4": "2021.12.16.0000.0000"
+      }
+    },
+    "2021.12.24.0000.0000": {
+      "version": "6.05",
+      "tagline": null,
+      "released": "2022-01-04T05:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9e73b83096b89d5946ffc61043eecedb8c4292be",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/674bcc0a4da4caba1ded710a7af99389094d52a8",
+      "repositories": {
+        "game": "2021.12.24.0000.0000",
+        "ex1": "2021.11.21.0000.0000",
+        "ex2": "2021.12.14.0000.0000",
+        "ex3": "2021.12.14.0000.0000",
+        "ex4": "2021.12.23.0000.0000"
+      }
+    },
+    "2022.01.25.0000.0000": {
+      "version": "6.08",
+      "tagline": null,
+      "released": "2022-01-25T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0aa0ea5a5115335e67dd1beb0348446e746231b2",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/9325d2a5dae2ac34b9f970c803848e8fb1c3aaf7",
+      "repositories": {
+        "game": "2022.01.25.0000.0000",
+        "ex1": "2021.11.21.0000.0000",
+        "ex2": "2021.12.14.0000.0000",
+        "ex3": "2021.12.14.0000.0000",
+        "ex4": "2022.01.18.0000.0000"
+      }
+    },
+    "2022.03.01.0000.0000": {
+      "version": "6.08x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1549e4d2361237e3de45b77b17cc21bbe82e1899",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2022.03.01.0000.0000",
+        "ex1": "2021.11.21.0000.0000",
+        "ex2": "2021.12.14.0000.0000",
+        "ex3": "2021.12.14.0000.0000",
+        "ex4": "2022.01.18.0000.0000"
+      }
+    },
+    "2022.04.07.0000.0000": {
+      "version": "6.1",
+      "tagline": "Newfound Adventure",
+      "released": "2022-04-11T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1df3922e1da3b068a1bb994259dc949631059924",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c73cd284013587066d8f9e697fab1db9f007372c",
+      "repositories": {
+        "game": "2022.04.07.0000.0000",
+        "ex1": "2022.03.30.0000.0000",
+        "ex2": "2022.03.27.0000.0000",
+        "ex3": "2022.03.30.0000.0000",
+        "ex4": "2022.04.02.0000.0000"
+      }
+    },
+    "2022.04.20.0000.0000": {
+      "version": "6.11",
+      "tagline": null,
+      "released": "2022-04-26T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/711d043c0cded083e5235c28f088d1a542faebe8",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6a3e8bf216810babcbe07b2842488577ec22cb54",
+      "repositories": {
+        "game": "2022.04.20.0000.0000",
+        "ex1": "2022.03.30.0000.0000",
+        "ex3": "2022.03.30.0000.0000",
+        "ex4": "2022.04.19.0000.0000"
+      }
+    },
+    "2022.05.19.0000.0000": {
+      "version": "6.11a",
+      "tagline": null,
+      "released": "2022-05-24T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f98ba4e1358a9b8e4b474710ab40c3e409a0c15c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d88afafea8d33e11ff14d39f3d07ff7412b92b79",
+      "repositories": {
+        "game": "2022.05.19.0000.0000",
+        "ex1": "2022.03.30.0000.0000",
+        "ex2": "2022.03.27.0000.0000",
+        "ex3": "2022.03.30.0000.0000",
+        "ex4": "2022.04.19.0000.0000"
+      }
+    },
+    "2022.05.27.0000.0000": {
+      "version": "6.15",
+      "tagline": null,
+      "released": "2022-06-07T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3db6083fcf63a624cff19d208bfc85312433f25c",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/91ca242abdbf0750db28d01f4f38d27c3aea617b",
+      "repositories": {
+        "game": "2022.05.27.0000.0000",
+        "ex1": "2022.05.26.0000.0000",
+        "ex2": "2022.05.26.0000.0000",
+        "ex3": "2022.05.26.0000.0000",
+        "ex4": "2022.05.27.0000.0000"
+      }
+    },
+    "2022.06.21.0000.0000": {
+      "version": "6.18",
+      "tagline": null,
+      "released": "2022-07-04T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/02ee503f568733deceb9d06bdb2daff9f5e6c4f1",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/aa641701b181ebf66aaf3264896b65acdbd23850",
+      "repositories": {
+        "game": "2022.06.21.0000.0000",
+        "ex1": "2022.05.26.0000.0000",
+        "ex2": "2022.05.26.0000.0000",
+        "ex3": "2022.05.26.0000.0000",
+        "ex4": "2022.05.27.0000.0000"
+      }
+    },
+    "2022.07.08.0000.0000": {
+      "version": "6.18x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c6c72ed1cf267eb47eb2dc2c859b58ab70270076",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2022.07.08.0000.0000",
+        "ex1": "2022.05.26.0000.0000",
+        "ex2": "2022.05.26.0000.0000",
+        "ex3": "2022.05.26.0000.0000",
+        "ex4": "2022.05.27.0000.0000"
+      }
+    },
+    "2022.08.17.0000.0000": {
+      "version": "6.2",
+      "tagline": "Buried Memory",
+      "released": "2022-08-23T03:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/dc6af9e9d7e5e00f6658210a400b95d14f81adca",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6eee1ca8a733856669d901d95d2fa9db46a466e6",
+      "repositories": {
+        "game": "2022.08.17.0000.0000",
+        "ex1": "2022.08.16.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.08.16.0000.0000"
+      }
+    },
+    "2022.08.25.0000.0000": {
+      "version": "6.2x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f53a021a8e6fa9c3d6721f7f8e8dd3edb86a5f93",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2022.08.25.0000.0000",
+        "ex1": "2022.08.16.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.08.16.0000.0000"
+      }
+    },
+    "2022.09.07.0000.0000": {
+      "version": "6.21",
+      "tagline": null,
+      "released": "2022-09-13T02:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/729535380a07d5ddd02f2dfc36252f5b5adbddca",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3740d2052d6f21aa5d3b8d4cc94795a082fca0f6",
+      "repositories": {
+        "game": "2022.09.07.0000.0000",
+        "ex1": "2022.09.06.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.09.06.0000.0000"
+      }
+    },
+    "2022.10.05.0000.0000": {
+      "version": "6.25",
+      "tagline": null,
+      "released": "2022-10-18T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3811462253b64f3339daf427a0926a1d4e7cafa0",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/0210a35806ead4c80482b12a3edd9eb5e4db5bb0",
+      "repositories": {
+        "game": "2022.10.05.0000.0000",
+        "ex1": "2022.09.29.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.09.30.0000.0000"
+      }
+    },
+    "2022.10.26.0000.0000": {
+      "version": "6.28",
+      "tagline": null,
+      "released": "2022-11-01T01:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/8266df489adf167a789994656d7a344465cbbd08",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c8900c4aae544f7a013a49553aa104c1961a5c87",
+      "repositories": {
+        "game": "2022.10.26.0000.0000",
+        "ex1": "2022.09.29.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.10.26.0000.0000"
+      }
+    },
+    "2022.11.09.0000.0000": {
+      "version": "6.28x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e0713b3c9e6df0bfd68be0c48b32094ef54d613c",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2022.11.09.0000.0000",
+        "ex1": "2022.09.29.0000.0000",
+        "ex2": "2022.08.16.0000.0000",
+        "ex3": "2022.08.16.0000.0000",
+        "ex4": "2022.11.08.0000.0000"
+      }
+    },
+    "2022.12.23.0000.0000": {
+      "version": "6.3",
+      "tagline": "Gods Revel, Lands Tremble",
+      "released": "2023-01-10T02:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/cd24d0930d291876d6e28f781067539d0543b9b3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/764840557caa22a8f77550b480aa3c79b2e733d2",
+      "repositories": {
+        "game": "2022.12.23.0000.0000",
+        "ex1": "2022.12.23.0000.0000",
+        "ex2": "2022.12.23.0000.0000",
+        "ex3": "2022.12.23.0000.0000",
+        "ex4": "2022.12.23.0000.0000"
+      }
+    },
+    "2023.01.11.0000.0000": {
+      "version": "6.3x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6691e145719f2e0a2dd747f16f9ad5889d8c1a51",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2023.01.11.0000.0000",
+        "ex1": "2022.12.23.0000.0000",
+        "ex2": "2022.12.23.0000.0000",
+        "ex3": "2022.12.23.0000.0000",
+        "ex4": "2022.12.23.0000.0000"
+      }
+    },
+    "2023.01.17.0000.0000": {
+      "version": "6.31",
+      "tagline": null,
+      "released": "2023-01-24T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a0417fc3e14873d571acaa9db24b1fb98821555b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/8eebddf71a43266f45fba4c27b78853be2801343",
+      "repositories": {
+        "game": "2023.01.17.0000.0000",
+        "ex1": "2023.01.17.0000.0000",
+        "ex2": "2023.01.17.0000.0000",
+        "ex3": "2022.12.23.0000.0000",
+        "ex4": "2023.01.17.0000.0000"
+      }
+    },
+    "2023.02.03.0000.0000": {
+      "version": "6.31x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/72a45bc7f1ecfd6bb82bc72203a8eac8f06d2de7",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2023.02.03.0000.0000",
+        "ex1": "2023.01.17.0000.0000",
+        "ex2": "2023.02.03.0000.0000",
+        "ex3": "2023.02.03.0000.0000",
+        "ex4": "2023.02.03.0000.0000"
+      }
+    },
+    "2023.02.28.0000.0000": {
+      "version": "6.35",
+      "tagline": null,
+      "released": "2023-03-07T06:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a8f95fa217b34d97f0011132fcf42a888c58e260",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/549b10141c2add85f11595f5ba39127cc0433327",
+      "repositories": {
+        "game": "2023.02.28.0000.0000",
+        "ex1": "2023.02.14.0000.0000",
+        "ex2": "2023.02.16.0000.0000",
+        "ex3": "2023.02.16.0000.0000",
+        "ex4": "2023.02.21.0000.0000"
+      }
+    },
+    "2023.03.24.0000.0000": {
+      "version": "6.38",
+      "tagline": null,
+      "released": "2023-04-03T10:45:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/405824a3ff0c603badf724c5454d27b418f73c51",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/99372e256a66b3103f633b1951efb38c9a050aab",
+      "repositories": {
+        "game": "2023.03.24.0000.0000",
+        "ex1": "2023.03.24.0000.0000",
+        "ex2": "2023.03.24.0000.0000",
+        "ex3": "2023.03.24.0000.0000",
+        "ex4": "2023.03.24.0000.0000"
+      }
+    },
+    "2023.05.18.0000.0000": {
+      "version": "6.4",
+      "tagline": "The Dark Throne",
+      "released": "2023-05-23T03:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/a5b2e3b246115ceae6ac33fea7db35273d283904",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/7533e7a9b6b72d8e5aad3c1e7c4247967b3ee196",
+      "repositories": {
+        "game": "2023.05.18.0000.0000",
+        "ex1": "2023.05.12.0000.0000",
+        "ex2": "2023.05.18.0000.0000",
+        "ex3": "2023.05.12.0000.0000",
+        "ex4": "2023.05.13.0000.0000"
+      }
+    },
+    "2023.05.31.0000.0000": {
+      "version": "6.4x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5a5b79cd6242ed197a324f5d7dd378cf14ec4020",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2023.05.31.0000.0000",
+        "ex1": "2023.05.12.0000.0000",
+        "ex2": "2023.05.18.0000.0000",
+        "ex3": "2023.05.12.0000.0000",
+        "ex4": "2023.05.13.0000.0000"
+      }
+    },
+    "2023.06.14.0000.0000": {
+      "version": "6.41",
+      "tagline": null,
+      "released": "2023-06-20T04:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/21311a4466ec76c921625e5b9eb86605ebb7e08f",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6f516e5324d82e5781fcdf0c4d5c29497c2f477c",
+      "repositories": {
+        "game": "2023.06.14.0000.0000",
+        "ex1": "2023.05.12.0000.0000",
+        "ex2": "2023.05.18.0000.0000",
+        "ex3": "2023.05.12.0000.0000",
+        "ex4": "2023.06.13.0000.0000"
+      }
+    },
+    "2023.07.06.0000.0000": {
+      "version": "6.45",
+      "tagline": null,
+      "released": "2023-07-18T04:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/0889bfa1f9252efc9553ca64cf38711cf8ca815d",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/2a6c65f39b5b16b58bd4f0d9b1edaa8c0b7ec4f3",
+      "repositories": {
+        "game": "2023.07.06.0000.0000",
+        "ex1": "2023.06.29.0000.0000",
+        "ex2": "2023.06.29.0000.0000",
+        "ex3": "2023.06.29.0000.0000",
+        "ex4": "2023.07.06.0000.0000"
+      }
+    },
+    "2023.07.26.0000.0000": {
+      "version": "6.48",
+      "tagline": null,
+      "released": "2023-08-08T05:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1b5dcf05f376c2a25ca0afb2bc2b9714c1ec9082",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/77ced00c8fc9b818f7a31b9925162a7007bf7882",
+      "repositories": {
+        "game": "2023.07.26.0000.0000",
+        "ex1": "2023.07.26.0000.0000",
+        "ex2": "2023.06.29.0000.0000",
+        "ex3": "2023.07.26.0000.0000",
+        "ex4": "2023.07.26.0000.0000"
+      }
+    },
+    "2023.09.28.0000.0000": {
+      "version": "6.5",
+      "tagline": "Growing Light",
+      "released": "2023-10-02T10:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/08dbcf4f7e6df7a29fd88b0d031834a04d9d63a8",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/e17ce5b98068f6972379cef5adbc6c4b664f9780",
+      "repositories": {
+        "game": "2023.09.28.0000.0000",
+        "ex1": "2023.09.28.0000.0000",
+        "ex2": "2023.09.28.0000.0000",
+        "ex3": "2023.09.28.0000.0000",
+        "ex4": "2023.09.28.0000.0000"
+      }
+    },
+    "2023.10.23.0000.0000": {
+      "version": "6.51",
+      "tagline": null,
+      "released": "2023-10-31T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d6499c7cf3182f2c9f682cf35b297f7f5e6f3d67",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/46ff678d764ec5b14996fcd2fae85a7170f385f0",
+      "repositories": {
+        "game": "2023.10.23.0000.0000",
+        "ex1": "2023.10.23.0000.0000",
+        "ex2": "2023.10.23.0000.0000",
+        "ex3": "2023.10.23.0000.0000",
+        "ex4": "2023.10.23.0000.0000"
+      }
+    },
+    "2023.11.09.0000.0000": {
+      "version": "6.51x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c454451b42f98e343b07d060255361f18cf2cf25",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2023.11.09.0000.0000",
+        "ex1": "2023.11.09.0000.0000",
+        "ex2": "2023.11.09.0000.0000",
+        "ex3": "2023.11.09.0000.0000",
+        "ex4": "2023.11.09.0000.0000"
+      }
+    },
+    "2024.01.06.0000.0000": {
+      "version": "6.55",
+      "tagline": null,
+      "released": "2024-01-16T08:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/91e1b52ce20309ffa0a7f35301a8da9e6ec3b124",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/012d8e96b662a92eb4405c25b9958184db248348",
+      "repositories": {
+        "game": "2024.01.06.0000.0000",
+        "ex1": "2024.01.06.0000.0000",
+        "ex2": "2024.01.06.0000.0000",
+        "ex3": "2024.01.06.0000.0000",
+        "ex4": "2024.01.06.0000.0000"
+      }
+    },
+    "2024.02.05.0000.0000": {
+      "version": "6.57",
+      "tagline": null,
+      "released": "2024-02-13T03:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/bfdca2c218d38cb96bbd1428e99d98672f5b3307",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/b059cefcbd31366a4614b8e93ff1eef1288f6e60",
+      "repositories": {
+        "game": "2024.02.05.0000.0000",
+        "ex1": "2024.02.05.0000.0000",
+        "ex2": "2024.02.05.0000.0000",
+        "ex3": "2024.02.05.0000.0000",
+        "ex4": "2024.02.05.0000.0000"
+      }
+    },
+    "2024.03.08.0000.0000": {
+      "version": "6.58",
+      "tagline": null,
+      "released": "2024-03-19T01:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6298b265c3cc95291c81b62189abf651aa36f23e",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f679ab8855882f6c1d2415fb79067160ef629d31",
+      "repositories": {
+        "game": "2024.03.08.0000.0000",
+        "ex1": "2024.03.08.0000.0000",
+        "ex2": "2024.03.08.0000.0000",
+        "ex3": "2024.03.08.0000.0000",
+        "ex4": "2024.03.08.0000.0000"
+      }
+    },
+    "2024.03.27.0000.0000": {
+      "version": "6.58x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5dff262e5285765e8850381a82a8188be6c99ec2",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.03.27.0000.0000",
+        "ex1": "2024.03.27.0000.0000",
+        "ex2": "2024.03.27.0000.0000",
+        "ex3": "2024.03.27.0000.0000",
+        "ex4": "2024.03.27.0000.0000"
+      }
+    },
+    "2024.04.23.0000.0000": {
+      "version": "6.58x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/ab374f8f8b2a4010112ee6dfd330a2e646323ce8",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.04.23.0000.0000",
+        "ex1": "2024.04.23.0000.0000",
+        "ex2": "2024.04.23.0000.0000",
+        "ex3": "2024.04.23.0000.0000",
+        "ex4": "2024.04.23.0000.0000"
+      }
+    },
+    "2024.05.11.0000.0000": {
+      "version": "7.0 Media Tour",
+      "tagline": null,
+      "released": null,
+      "lodestone": null,
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.05.11.0000.0000",
+        "ex5": "2024.05.11.0000.0000"
+      }
+    },
+    "2024.06.18.0000.0000": {
+      "version": "7.0",
+      "tagline": "Dawntrail",
+      "released": "2024-06-27T09:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/bca3ccbb086283b56638fc832c9ae80c754622c3",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/d7db61f938f9cea65e4c5cd261918edb036b3004",
+      "repositories": {
+        "game": "2024.06.18.0000.0000",
+        "ex1": "2024.06.12.0000.0000",
+        "ex2": "2024.06.14.0000.0000",
+        "ex3": "2024.06.18.0000.0000",
+        "ex4": "2024.06.18.0000.0000",
+        "ex5": "2024.06.18.0000.0000"
+      }
+    },
+    "2024.07.06.0000.0000": {
+      "version": "7.0x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f6cdae7e7a04944478ae628ee52511a0eb3f3a90",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.07.06.0000.0000",
+        "ex1": "2024.06.12.0000.0000",
+        "ex2": "2024.06.14.0000.0000",
+        "ex3": "2024.07.06.0000.0000",
+        "ex4": "2024.07.06.0000.0000",
+        "ex5": "2024.07.06.0000.0000"
+      }
+    },
+    "2024.07.10.0001.0000": {
+      "version": "7.01",
+      "tagline": null,
+      "released": "2024-07-16T06:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/81500fac8db3f56f11d66e2e09ec1cb79510f25d",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/0ad1ca4bbafeb2ee244994bee15b3a74c0278e1d",
+      "repositories": {
+        "game": "2024.07.10.0001.0000",
+        "ex1": "2024.07.09.0000.0000",
+        "ex2": "2024.07.09.0000.0000",
+        "ex3": "2024.07.10.0001.0000",
+        "ex4": "2024.07.10.0001.0000",
+        "ex5": "2024.07.10.0001.0000"
+      }
+    },
+    "2024.07.24.0000.0000": {
+      "version": "7.05",
+      "tagline": null,
+      "released": "2024-07-30T06:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3a4742e7f7528bced09bf70180c93bbbf48dadfd",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3a247a30e096e56b701157cd9fb903299a244c2f",
+      "repositories": {
+        "game": "2024.07.24.0000.0000",
+        "ex1": "2024.07.23.0000.0000",
+        "ex2": "2024.07.23.0000.0000",
+        "ex3": "2024.07.24.0000.0000",
+        "ex4": "2024.07.24.0000.0000",
+        "ex5": "2024.07.24.0000.0000"
+      }
+    },
+    "2024.08.02.0000.0000": {
+      "version": "7.05x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/f60dc2fb5b35be3288386c0a229d8231b9ead611",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.08.02.0000.0000",
+        "ex1": "2024.07.23.0000.0000",
+        "ex2": "2024.07.23.0000.0000",
+        "ex3": "2024.08.02.0000.0000",
+        "ex4": "2024.08.02.0000.0000",
+        "ex5": "2024.08.02.0000.0000"
+      }
+    },
+    "2024.08.21.0000.0000": {
+      "version": "7.05x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6769627ae84a513ea6075419de181d3dfefef9ff",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2024.08.21.0000.0000",
+        "ex1": "2024.08.20.0000.0000",
+        "ex2": "2024.08.21.0000.0000",
+        "ex3": "2024.08.21.0000.0000",
+        "ex4": "2024.08.21.0000.0000",
+        "ex5": "2024.08.21.0000.0000"
+      }
+    },
+    "2024.11.06.0000.0000": {
+      "version": "7.1",
+      "tagline": "Crossroads",
+      "released": "2024-11-12T03:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/23aaae6852018808ffa50865b9f3a77654f6a335",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/9b42b2425f3a680caea3281ccd65c99677cb00e2",
+      "repositories": {
+        "game": "2024.11.06.0000.0000",
+        "ex1": "2024.11.01.0000.0000",
+        "ex2": "2024.11.02.0000.0000",
+        "ex3": "2024.11.06.0000.0000",
+        "ex4": "2024.11.06.0000.0000",
+        "ex5": "2024.11.06.0000.0000"
+      }
+    },
+    "2024.11.20.0000.0000": {
+      "version": "7.11",
+      "tagline": null,
+      "released": "2024-11-26T03:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/562ddcff3f349c42ed1815bfd6e4b0dd20d1fa74",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/f8506f4808c8db5d061b31eb511dc946902712f4",
+      "repositories": {
+        "game": "2024.11.20.0000.0000",
+        "ex1": "2024.11.19.0000.0000",
+        "ex2": "2024.11.19.0000.0000",
+        "ex3": "2024.11.20.0000.0000",
+        "ex4": "2024.11.20.0000.0000",
+        "ex5": "2024.11.20.0000.0000"
+      }
+    },
+    "2024.12.07.0000.0000": {
+      "version": "7.15",
+      "tagline": null,
+      "released": "2024-12-17T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/82308fe0c30a26264f8cadd082fca340d0f3a8b5",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/864c7e51128b7a1dced4e193dcaefe7891620f8d",
+      "repositories": {
+        "game": "2024.12.07.0000.0000",
+        "ex1": "2024.11.19.0000.0000",
+        "ex2": "2024.11.19.0000.0000",
+        "ex3": "2024.12.07.0000.0000",
+        "ex4": "2024.12.07.0000.0000",
+        "ex5": "2024.12.07.0000.0000"
+      }
+    },
+    "2025.01.14.0000.0000": {
+      "version": "7.16",
+      "tagline": null,
+      "released": "2025-01-21T04:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/63b4f3ada3f6ed4c3345b1350b8fc1e177f6fa7b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5cf11b096edd33c679bd29894d7e1972ed22c350",
+      "repositories": {
+        "game": "2025.01.14.0000.0000",
+        "ex1": "2025.01.09.0000.0000",
+        "ex2": "2025.01.14.0000.0000",
+        "ex3": "2025.01.14.0000.0000",
+        "ex4": "2025.01.14.0000.0000",
+        "ex5": "2025.01.14.0000.0000"
+      }
+    },
+    "2025.01.28.0000.0000": {
+      "version": "7.16x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/7e96335a54b44ef92f6e62eb3c2846d9284649aa",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.01.28.0000.0000",
+        "ex1": "2025.01.09.0000.0000",
+        "ex2": "2025.01.14.0000.0000",
+        "ex3": "2025.01.28.0000.0000",
+        "ex4": "2025.01.28.0000.0000",
+        "ex5": "2025.01.28.0000.0000"
+      }
+    },
+    "2025.02.19.0000.0000": {
+      "version": "7.18",
+      "tagline": null,
+      "released": "2025-02-25T02:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d2bf45964ccbe07ac9eaaae30c632b38599ddba4",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/5bf940a5cc288227434e21754f89eceb44805977",
+      "repositories": {
+        "game": "2025.02.19.0000.0000",
+        "ex1": "2025.01.09.0000.0000",
+        "ex2": "2025.01.14.0000.0000",
+        "ex3": "2025.02.19.0000.0000",
+        "ex4": "2025.02.19.0000.0000",
+        "ex5": "2025.02.19.0000.0000"
+      }
+    },
+    "2025.02.27.0000.0000": {
+      "version": "7.18x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/2bdbadaed9a4c2de3e408c9728af3779ddcdadb1",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.02.27.0000.0000",
+        "ex1": "2025.01.09.0000.0000",
+        "ex2": "2025.01.14.0000.0000",
+        "ex3": "2025.02.27.0000.0000",
+        "ex4": "2025.02.27.0000.0000",
+        "ex5": "2025.02.27.0000.0000"
+      }
+    },
+    "2025.03.18.0000.0000": {
+      "version": "7.2",
+      "tagline": "Seekers of Eternity",
+      "released": "2025-03-24T10:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6e3cef680d46e7676f1a76650d6c6ced6f748835",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3c4910f373e497acd3428c37f6358e341e4cc06d",
+      "repositories": {
+        "game": "2025.03.18.0000.0000",
+        "ex1": "2025.03.14.0000.0000",
+        "ex2": "2025.03.18.0000.0000",
+        "ex3": "2025.03.18.0000.0000",
+        "ex4": "2025.03.18.0000.0000",
+        "ex5": "2025.03.18.0000.0000"
+      }
+    },
+    "2025.03.27.0000.0000": {
+      "version": "7.2x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/96f70d16f5c446d0ab16289445cdb133f2ec076f",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.03.27.0000.0000",
+        "ex1": "2025.03.27.0000.0000",
+        "ex2": "2025.03.27.0000.0000",
+        "ex3": "2025.03.27.0000.0000",
+        "ex4": "2025.03.27.0000.0000",
+        "ex5": "2025.03.27.0000.0000"
+      }
+    },
+    "2025.04.16.0000.0000": {
+      "version": "7.21",
+      "tagline": null,
+      "released": "2025-04-22T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/44a9ee95c79cdb95067b93820ffcf2b945825af7",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/6f824223a7e10da7b9b7dfc84f626d10d4df88b3",
+      "repositories": {
+        "game": "2025.04.16.0000.0000",
+        "ex1": "2025.04.10.0000.0000",
+        "ex2": "2025.04.10.0000.0000",
+        "ex3": "2025.04.16.0000.0000",
+        "ex4": "2025.04.16.0000.0000",
+        "ex5": "2025.04.16.0000.0000"
+      }
+    },
+    "2025.05.17.0000.0000": {
+      "version": "7.25",
+      "tagline": null,
+      "released": "2025-05-27T07:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/6db854d9879b52448a14214722605efdcdc7fe15",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/3c12f110983c5f4288d43aa5ac2ed3c022a75b48",
+      "repositories": {
+        "game": "2025.05.17.0000.0000",
+        "ex1": "2025.05.01.0000.0000",
+        "ex2": "2025.05.09.0000.0000",
+        "ex3": "2025.05.17.0000.0000",
+        "ex4": "2025.05.17.0000.0000",
+        "ex5": "2025.05.17.0000.0000"
+      }
+    },
+    "2025.06.10.0000.0000": {
+      "version": "7.25x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/64a5233dc1a14a2eaa5f60e97f4fa017551edf9a",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.06.10.0000.0000",
+        "ex1": "2025.05.01.0000.0000",
+        "ex2": "2025.05.09.0000.0000",
+        "ex3": "2025.06.10.0000.0000",
+        "ex4": "2025.06.10.0000.0000",
+        "ex5": "2025.06.10.0000.0000"
+      }
+    },
+    "2025.06.19.0000.0000": {
+      "version": "7.25x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e0c4b98c10c33de1632cfb2d801f11521d92b260",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.06.19.0000.0000",
+        "ex1": "2025.05.01.0000.0000",
+        "ex2": "2025.05.09.0000.0000",
+        "ex3": "2025.06.19.0000.0000",
+        "ex4": "2025.06.19.0000.0000",
+        "ex5": "2025.06.19.0000.0000"
+      }
+    },
+    "2025.06.28.0000.0000": {
+      "version": "7.25x3",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/71a3505430c38e0a63b397719127060da1aa9e81",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.06.28.0000.0000",
+        "ex1": "2025.05.01.0000.0000",
+        "ex2": "2025.05.09.0000.0000",
+        "ex3": "2025.06.28.0000.0000",
+        "ex4": "2025.06.28.0000.0000",
+        "ex5": "2025.06.28.0000.0000"
+      }
+    },
+    "2025.07.30.0000.0000": {
+      "version": "7.3",
+      "tagline": "The Promise of Tomorrow",
+      "released": "2025-08-05T01:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/53420177d21ae7fdbd76d9fb0fdf801676029e22",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c04405c6cbe8519a0b6c8aa5e4d88a5d447419c9",
+      "repositories": {
+        "game": "2025.07.30.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.07.30.0000.0000",
+        "ex4": "2025.07.30.0000.0000",
+        "ex5": "2025.07.30.0000.0000"
+      }
+    },
+    "2025.08.07.0000.0000": {
+      "version": "7.3x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/94e700dcc95e3de79df767090dc5fd7ebd8c2615",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.08.07.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.08.07.0000.0000",
+        "ex4": "2025.08.07.0000.0000",
+        "ex5": "2025.08.07.0000.0000"
+      }
+    },
+    "2025.08.22.0000.0000": {
+      "version": "7.31",
+      "tagline": null,
+      "released": "2025-09-02T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/c31d6265a272137f0183e27f3a41712fc5424ed6",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c04270777c63cabaa29d718eed4be4c1fca86c27",
+      "repositories": {
+        "game": "2025.08.22.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.08.22.0000.0000",
+        "ex4": "2025.08.22.0000.0000",
+        "ex5": "2025.08.22.0000.0000"
+      }
+    },
+    "2025.09.04.0000.0000": {
+      "version": "7.31x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/69d582b0266503e636cbfd0b857a671349224079",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.09.04.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.09.04.0000.0000",
+        "ex4": "2025.09.04.0000.0000",
+        "ex5": "2025.09.04.0000.0000"
+      }
+    },
+    "2025.09.30.0000.0000": {
+      "version": "7.35",
+      "tagline": null,
+      "released": "2025-10-07T04:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/3302823b6be87bf622591393bc4358a244941098",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/9d2cad7a1028016719060b5ae3caeb5e369c89e9",
+      "repositories": {
+        "game": "2025.09.30.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.09.30.0000.0000",
+        "ex4": "2025.09.30.0000.0000",
+        "ex5": "2025.09.30.0000.0000"
+      }
+    },
+    "2025.10.13.0000.0000": {
+      "version": "7.35x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/9ddc4a9551aa162fc1880e6be75f3f6b152f26ab",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.10.13.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.10.13.0000.0000",
+        "ex4": "2025.10.13.0000.0000",
+        "ex5": "2025.10.13.0000.0000"
+      }
+    },
+    "2025.10.30.0000.0000": {
+      "version": "7.38",
+      "tagline": null,
+      "released": "2025-11-11T06:00:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5d7381401326838573f3edd0d05f4d065ce12f8b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/85a6675e2d561446784faae5a43fac4af65554f1",
+      "repositories": {
+        "game": "2025.10.30.0000.0000",
+        "ex1": "2025.07.25.0000.0000",
+        "ex2": "2025.07.23.0000.0000",
+        "ex3": "2025.10.30.0000.0000",
+        "ex4": "2025.10.30.0000.0000",
+        "ex5": "2025.10.30.0000.0000"
+      }
+    },
+    "2025.12.09.0000.0000": {
+      "version": "7.4",
+      "tagline": "Into the Mist",
+      "released": "2025-12-16T06:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5ea61ffdfe3fc6a27e68b84b2a0fa1259d835815",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/06944d892fd98cc00b2a28ff77edbafa4f7eef54",
+      "repositories": {
+        "game": "2025.12.09.0000.0000",
+        "ex1": "2025.12.01.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2025.12.09.0000.0000",
+        "ex4": "2025.12.09.0000.0000",
+        "ex5": "2025.12.09.0000.0000"
+      }
+    },
+    "2025.12.18.0000.0000": {
+      "version": "7.4x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/4d944abc292e3ca192d306772b229dafba195244",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.12.18.0000.0000",
+        "ex1": "2025.12.01.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2025.12.18.0000.0000",
+        "ex4": "2025.12.18.0000.0000",
+        "ex5": "2025.12.18.0000.0000"
+      }
+    },
+    "2025.12.23.0000.0000": {
+      "version": "7.4x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/be28165e0c1a738d51aa03e59c6d673905a2dce4",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2025.12.23.0000.0000",
+        "ex1": "2025.12.01.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2025.12.23.0000.0000",
+        "ex4": "2025.12.23.0000.0000",
+        "ex5": "2025.12.23.0000.0000"
+      }
+    },
+    "2026.01.21.0000.0000": {
+      "version": "7.41",
+      "tagline": null,
+      "released": "2026-01-27T04:20:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e14d11070a63a522b81d040ad4b5790e0da8debf",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/fa89e48b03a6bf6deac50a23fdfc39f7df64fb2a",
+      "repositories": {
+        "game": "2026.01.21.0000.0000",
+        "ex1": "2026.01.13.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2026.01.21.0000.0000",
+        "ex4": "2026.01.21.0000.0000",
+        "ex5": "2026.01.21.0000.0000"
+      }
+    },
+    "2026.01.30.0000.0000": {
+      "version": "7.41x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/e1cabf2fe5698223626bd53e6b6057a7612cf8fe",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.01.30.0000.0000",
+        "ex1": "2026.01.13.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2026.01.30.0000.0000",
+        "ex4": "2026.01.30.0000.0000",
+        "ex5": "2026.01.30.0000.0000"
+      }
+    },
+    "2026.02.20.0000.0000": {
+      "version": "7.45",
+      "tagline": null,
+      "released": "2026-03-03T03:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/5dde1bc306146eec8b6fa190097d142bc56ad048",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/2e8a10c44121af50ce86e1b605e10608e15f24d6",
+      "repositories": {
+        "game": "2026.02.20.0000.0000",
+        "ex1": "2026.02.09.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2026.02.20.0000.0000",
+        "ex4": "2026.02.20.0000.0000",
+        "ex5": "2026.02.20.0000.0000"
+      }
+    },
+    "2026.03.07.0000.0000": {
+      "version": "7.45x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/cfaa4f6460be60be0e9c390f3213170cc97fef6a",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.03.07.0000.0000",
+        "ex1": "2026.02.09.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2026.03.07.0000.0000",
+        "ex4": "2026.03.07.0000.0000",
+        "ex5": "2026.03.07.0000.0000"
+      }
+    },
+    "2026.03.17.0000.0000": {
+      "version": "7.45x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/27b50312c2f6ee5316cdc43798a2801fcf28dd67",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.03.17.0000.0000",
+        "ex1": "2026.02.09.0000.0000",
+        "ex2": "2025.12.01.0000.0000",
+        "ex3": "2026.03.17.0000.0000",
+        "ex4": "2026.03.17.0000.0000",
+        "ex5": "2026.03.17.0000.0000"
+      }
+    },
+    "2026.04.21.0000.0000": {
+      "version": "7.5",
+      "tagline": "Trail to the Heavens",
+      "released": "2026-04-28T03:30:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/b394cd9447957e9dced22c03909dbaa743257e9b",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/07320affa7e0fcd9685afcbe54fbf55405b6d822",
+      "repositories": {
+        "game": "2026.04.21.0000.0000",
+        "ex1": "2026.04.16.0000.0000",
+        "ex2": "2026.04.16.0000.0000",
+        "ex3": "2026.04.21.0000.0000",
+        "ex4": "2026.04.21.0000.0000",
+        "ex5": "2026.04.21.0000.0000"
+      }
+    },
+    "2026.05.01.0000.0000": {
+      "version": "7.5x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/49f28592f7ffd7f27d5b5371ed4c96207cd5efe6",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.05.01.0000.0000",
+        "ex1": "2026.04.16.0000.0000",
+        "ex2": "2026.04.16.0000.0000",
+        "ex3": "2026.05.01.0000.0000",
+        "ex4": "2026.05.01.0000.0000",
+        "ex5": "2026.05.01.0000.0000"
+      }
+    },
+    "2026.05.25.0000.0000": {
+      "version": "7.51",
+      "tagline": null,
+      "released": "2026-06-02T04:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/4816861815e3d63f5d2af2578f853e1d5b79d09a",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/c46881a31a2c90d0965493c921b434eca09113f8",
+      "repositories": {
+        "game": "2026.05.25.0000.0000",
+        "ex1": "2026.05.15.0000.0000",
+        "ex2": "2026.05.25.0000.0000",
+        "ex3": "2026.05.25.0000.0000",
+        "ex4": "2026.05.25.0000.0000",
+        "ex5": "2026.05.25.0000.0000"
+      }
+    },
+    "2026.06.10.0000.0000": {
+      "version": "7.51x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/ea90dfdc148606a29d7eaa44d829e65b96ff7b1d",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.06.10.0000.0000",
+        "ex1": "2026.05.15.0000.0000",
+        "ex2": "2026.05.25.0000.0000",
+        "ex3": "2026.06.10.0000.0000",
+        "ex4": "2026.06.10.0000.0000",
+        "ex5": "2026.06.10.0000.0000"
+      }
+    },
+    "2026.06.18.0000.0000": {
+      "version": "7.51x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/d2687b10311ae5fd4eebd5b35c030e13374170f5",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.06.18.0000.0000",
+        "ex1": "2026.05.15.0000.0000",
+        "ex2": "2026.05.25.0000.0000",
+        "ex3": "2026.06.18.0000.0000",
+        "ex4": "2026.06.18.0000.0000",
+        "ex5": "2026.06.18.0000.0000"
+      }
+    },
+    "2026.07.16.0001.0000": {
+      "version": "7.55",
+      "tagline": null,
+      "released": "2026-07-28T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/2b730d032e315641f4caa0ef6730db15736f2b02",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/99b6bfb8ecac428c7d3bb37dcb84b52f1064320b",
+      "repositories": {
+        "game": "2026.07.16.0001.0000",
+        "ex1": "2026.07.03.0000.0000",
+        "ex2": "2026.07.06.0000.0000",
+        "ex3": "2026.07.16.0001.0000",
+        "ex4": "2026.07.16.0001.0000",
+        "ex5": "2026.07.16.0001.0000"
+      }
+    },
+    "2026.08.05.0000.0000": {
+      "version": "7.55x1",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/1402cfda9eed62e8526de642a930d6f5004830c1",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.08.05.0000.0000",
+        "ex1": "2026.07.03.0000.0000",
+        "ex2": "2026.07.06.0000.0000",
+        "ex3": "2026.08.05.0000.0000",
+        "ex4": "2026.08.05.0000.0000",
+        "ex5": "2026.08.05.0000.0000"
+      }
+    },
+    "2026.08.11.0000.0000": {
+      "version": "7.55x2",
+      "tagline": null,
+      "released": null,
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/110b136428c23f1287ed2b0c05c69bd8c6a0ad82",
+      "patch_notes": null,
+      "repositories": {
+        "game": "2026.08.11.0000.0000",
+        "ex1": "2026.07.03.0000.0000",
+        "ex2": "2026.07.06.0000.0000",
+        "ex3": "2026.08.11.0000.0000",
+        "ex4": "2026.08.11.0000.0000",
+        "ex5": "2026.08.11.0000.0000"
+      }
+    },
+    "2026.09.01.0000.0000": {
+      "version": "7.56",
+      "tagline": null,
+      "released": "2026-09-08T06:15:00Z",
+      "lodestone": "https://na.finalfantasyxiv.com/lodestone/news/detail/40a6f67d847ec591c81343995d90cb68f9fb9eba",
+      "patch_notes": "https://na.finalfantasyxiv.com/lodestone/topics/detail/a8a526ad64db45c8ca8d1c7fdcce8a5eedaa18bc",
+      "repositories": {
+        "game": "2026.09.01.0000.0000",
+        "ex1": "2026.08.20.0000.0000",
+        "ex2": "2026.07.06.0000.0000",
+        "ex3": "2026.09.01.0000.0000",
+        "ex4": "2026.09.01.0000.0000",
+        "ex5": "2026.09.01.0000.0000"
+      }
+    }
+  }
+}

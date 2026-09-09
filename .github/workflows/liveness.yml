@@ -1,0 +1,25 @@
+name: Liveness
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: write
+  cancel-in-progress: false
+
+jobs:
+  liveness:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v6
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: WorkingRobot/ffxiv-downloader
+          latest: true
+          fileName: xiv-dl-linux-x64
+      - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
+      - run: ./xiv-dl --verbose index liveness -p . --parallelism 8
+      - run: rm -f xiv-dl && ./.github/push.sh liveness
+        shell: bash

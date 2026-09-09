@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/metadata.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "patches"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/metadata.schema.json"
+    },
+    "patches": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/version"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "version",
+          "tagline",
+          "released",
+          "lodestone",
+          "patch_notes",
+          "repositories"
+        ],
+        "properties": {
+          "version": {
+            "type": "string"
+          },
+          "tagline": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "released": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "lodestone": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "patch_notes": {
+            "oneOf": [
+              {
+                "type": "string",
+                "format": "uri"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "repositories": {
+            "type": "object",
+            "propertyNames": {
+              "enum": [
+                "game",
+                "ex1",
+                "ex2",
+                "ex3",
+                "ex4",
+                "ex5"
+              ]
+            },
+            "additionalProperties": {
+              "$ref": "#/$defs/version"
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "version": {
+      "type": "string",
+      "pattern": "^[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}\\.[0-9]{4}$"
+    }
+  }
+}

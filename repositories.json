@@ -1,0 +1,119 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repositories.schema.json",
+  "repositories": [
+    {
+      "slug": "0728f998",
+      "name": "shanda/win32/release_chs/ex4",
+      "region": "china",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "1bf99b87",
+      "name": "ffxivneo/win32/release/ex4",
+      "region": "global",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "27577888",
+      "name": "actoz/win32/release_ko/ex4",
+      "region": "korea",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "2b5cbc63",
+      "name": "ffxivneo/win32/release/boot",
+      "region": "global",
+      "latest": "2026.08.18.0000.0001"
+    },
+    {
+      "slug": "4e9a232b",
+      "name": "ffxivneo/win32/release/game",
+      "region": "global",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "5050481e",
+      "name": "actoz/win32/release_ko/ex5",
+      "region": "korea",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "573d8c07",
+      "name": "actoz/win32/release_ko/ex1",
+      "region": "korea",
+      "latest": "2026.08.20.0000.0000"
+    },
+    {
+      "slug": "6b936f08",
+      "name": "ffxivneo/win32/release/ex1",
+      "region": "global",
+      "latest": "2026.08.20.0000.0000"
+    },
+    {
+      "slug": "6cfeab11",
+      "name": "ffxivneo/win32/release/ex5",
+      "region": "global",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "702fc90e",
+      "name": "shanda/win32/release_chs/ex5",
+      "region": "china",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "77420d17",
+      "name": "shanda/win32/release_chs/ex1",
+      "region": "china",
+      "latest": "2026.08.20.0000.0000"
+    },
+    {
+      "slug": "859d0e24",
+      "name": "ffxivneo/win32/release/ex3",
+      "region": "global",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "994c6c3b",
+      "name": "shanda/win32/release_chs/ex3",
+      "region": "china",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "b933ed2b",
+      "name": "actoz/win32/release_ko/ex3",
+      "region": "korea",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "c38effbc",
+      "name": "shanda/win32/release_chs/game",
+      "region": "china",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "ce34ddbd",
+      "name": "actoz/win32/release_ko/ex2",
+      "region": "korea",
+      "latest": "2026.07.06.0000.0000"
+    },
+    {
+      "slug": "de199059",
+      "name": "actoz/win32/release_ko/game",
+      "region": "korea",
+      "latest": "2026.09.01.0000.0000"
+    },
+    {
+      "slug": "ee4b5cad",
+      "name": "shanda/win32/release_chs/ex2",
+      "region": "china",
+      "latest": "2026.07.06.0000.0000"
+    },
+    {
+      "slug": "f29a3eb2",
+      "name": "ffxivneo/win32/release/ex2",
+      "region": "global",
+      "latest": "2026.07.06.0000.0000"
+    }
+  ]
+}

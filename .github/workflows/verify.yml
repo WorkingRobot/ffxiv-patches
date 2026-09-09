@@ -1,0 +1,51 @@
+name: Verify
+on:
+  workflow_dispatch:
+    inputs:
+      slug:
+        required: true
+      version:
+        default: ""
+  repository_dispatch:
+    types: [verify]
+
+concurrency:
+  group: write
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      SLUG: ${{ inputs.slug || github.event.client_payload.slug }}
+      VERSION: ${{ inputs.version || github.event.client_payload.version }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/checkout@v6
+        with:
+          repository: WorkingRobot/ffxiv-lut
+          path: lut
+          sparse-checkout: |
+            luts/${{ env.SLUG }}
+            cluts/${{ env.SLUG }}
+          sparse-checkout-cone-mode: false
+          filter: blob:none
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: WorkingRobot/ffxiv-downloader
+          latest: true
+          fileName: xiv-dl-linux-x64
+      - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
+      - run: |
+          set -euo pipefail
+          version="$VERSION"
+          if [ -z "$version" ]; then
+            version=$(python3 -c "import json;print(json.load(open('repos/$SLUG.json'))['latest'])")
+          fi
+          ./xiv-dl --verbose --patch-override-path "lut/cluts/$SLUG" download \
+            -s "$SLUG" -c "lut/cluts/$SLUG" -v "$version" -o indexes -f '\.index$' -p 6
+          ./xiv-dl --verbose verify -s "$SLUG" -i . -l "lut/luts/$SLUG" --indexes indexes/sqpack -v "$version"
+        shell: bash
+      - run: rm -rf xiv-dl lut indexes && ./.github/push.sh "verify $SLUG"
+        shell: bash

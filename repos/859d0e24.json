@@ -1,0 +1,3614 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repository.schema.json",
+  "slug": "859d0e24",
+  "name": "ffxivneo/win32/release/ex3",
+  "region": "global",
+  "latest": "2026.09.01.0000.0000",
+  "patches": {
+    "2019.04.02.0000.0000": {
+      "prev": null,
+      "size": 546002836,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 342
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.04.02.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.04.02.0000.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.05.29.0000.0000": {
+      "prev": "2019.04.02.0000.0000",
+      "size": 1498895979,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1049
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.05.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.05.29.0000.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.05.29.0001.0000": {
+      "prev": "2019.05.29.0000.0000",
+      "size": 1499683183,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1041
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.05.29.0001.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.05.29.0001.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.05.29.0002.0000": {
+      "prev": "2019.05.29.0001.0000",
+      "size": 1211122426,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 835
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.05.29.0002.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.05.29.0002.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.07.09.0000.0001": {
+      "prev": "2019.05.29.0002.0000",
+      "size": 718032563,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.07.09.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.07.09.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2019.10.11.0000.0001": {
+      "prev": "2019.07.09.0000.0001",
+      "size": 930780407,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2019.10.11.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.10.11.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2020.01.31.0000.0001": {
+      "prev": "2019.10.11.0000.0001",
+      "size": 882827807,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2020.01.31.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.01.31.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2020.07.21.0000.0001": {
+      "prev": "2020.01.31.0000.0001",
+      "size": 1246685251,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2020.07.21.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.07.21.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2020.09.15.0000.0001": {
+      "prev": "2020.07.21.0000.0001",
+      "size": 161017807,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2020.09.15.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.09.15.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2020.11.24.0000.0001": {
+      "prev": "2020.09.15.0000.0001",
+      "size": 766015289,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2020.11.24.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.11.24.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.01.14.0000.0001": {
+      "prev": "2020.11.24.0000.0001",
+      "size": 134346972,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2021.01.14.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.01.14.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.03.26.0000.0001": {
+      "prev": "2021.01.14.0000.0001",
+      "size": 731732521,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2021.03.26.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.03.26.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.04.29.0000.0001": {
+      "prev": "2021.03.26.0000.0001",
+      "size": 184973817,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2021.04.29.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.04.29.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.07.13.0000.0001": {
+      "prev": "2021.04.29.0000.0001",
+      "size": 32058684,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2021.07.13.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.07.13.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2021.11.21.0000.0001": {
+      "prev": "2021.07.13.0000.0001",
+      "size": 99714430,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2021.11.21.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.11.21.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.03.25.0000.0001": {
+      "prev": "2021.11.21.0000.0001",
+      "size": 52966849,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.03.25.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.03.27.0000.0000": {
+      "prev": "2022.03.25.0000.0001",
+      "size": 1080864,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.03.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.03.27.0000.0001": {
+      "prev": "2021.11.21.0000.0001",
+      "size": 53068985,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.03.27.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.03.30.0000.0000": {
+      "prev": "2022.03.27.0000.0001",
+      "size": 56272,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.03.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.05.26.0000.0000": {
+      "prev": "2022.03.30.0000.0000",
+      "size": 12295511,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.05.26.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.05.26.0000.0001": {
+      "prev": "2021.11.21.0000.0001",
+      "size": 53075081,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.05.26.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.08.05.0000.0000": {
+      "prev": "2022.05.26.0000.0001",
+      "size": 39884868,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.08.05.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.08.16.0000.0000": {
+      "prev": "2022.08.05.0000.0000",
+      "size": 774557,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.08.16.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.08.16.0000.0001": {
+      "prev": "2021.11.21.0000.0001",
+      "size": 69931657,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.08.16.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2022.08.16.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.12.16.0000.0000": {
+      "prev": "2022.08.16.0000.0001",
+      "size": 49179734,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.12.16.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2022.12.23.0000.0000": {
+      "prev": "2022.12.16.0000.0000",
+      "size": 2109352,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2022.12.23.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.02.03.0000.0000": {
+      "prev": "2022.12.23.0000.0000",
+      "size": 1222432,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.02.03.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.02.03.0000.0001": {
+      "prev": "2022.08.16.0000.0001",
+      "size": 49141558,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.02.03.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.02.14.0000.0000": {
+      "prev": "2023.02.03.0000.0001",
+      "size": 148928,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.02.14.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.02.14.0000.0001": {
+      "prev": "2022.08.16.0000.0001",
+      "size": 49142198,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.02.14.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2023.02.14.0000.0001.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.02.16.0000.0000": {
+      "prev": "2023.02.14.0000.0001",
+      "size": 3713840,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.02.16.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2023.02.16.0000.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.03.24.0000.0000": {
+      "prev": "2023.02.16.0000.0000",
+      "size": 396024,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.03.24.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        },
+        "archive_org": {
+          "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2023.03.24.0000.0000.patch",
+          "status": "unchecked",
+          "checked": "2026-09-09T21:30:10Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.03.24.0000.0001": {
+      "prev": "2022.08.16.0000.0001",
+      "size": 49144374,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.03.24.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.05.10.0000.0001": {
+      "prev": "2023.03.24.0000.0001",
+      "size": 86877942,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.05.10.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.05.11.0000.0000": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 18164373,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.05.11.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.05.12.0000.0000": {
+      "prev": "2023.05.11.0000.0000",
+      "size": 212304,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.05.12.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.05.12.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 18222477,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.05.12.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.27.0000.0000": {
+      "prev": "2023.05.12.0000.0001",
+      "size": 16749085,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.06.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.27.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 34573729,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.06.27.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.06.29.0000.0000": {
+      "prev": "2023.06.27.0000.0001",
+      "size": 3463640,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.06.29.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.07.26.0000.0000": {
+      "prev": "2023.06.29.0000.0000",
+      "size": 153896,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.07.26.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.09.23.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60799419,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.09.23.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.09.26.0000.0000": {
+      "prev": "2023.09.23.0000.0001",
+      "size": 555712,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.09.26.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.09.28.0000.0000": {
+      "prev": "2023.09.26.0000.0000",
+      "size": 579560,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.09.28.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.10.13.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60815283,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.10.13.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.10.19.0000.0000": {
+      "prev": "2023.10.13.0000.0001",
+      "size": 1197016,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.10.19.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.10.23.0000.0000": {
+      "prev": "2023.10.19.0000.0000",
+      "size": 1359912,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.10.23.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.10.23.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60814899,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.10.23.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.11.08.0000.0000": {
+      "prev": "2023.10.23.0000.0001",
+      "size": 1523448,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.11.08.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.11.09.0000.0000": {
+      "prev": "2023.11.08.0000.0000",
+      "size": 1277872,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.11.09.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.12.19.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60815539,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.12.19.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2023.12.27.0000.0000": {
+      "prev": "2023.12.19.0000.0001",
+      "size": 1483680,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2023.12.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.01.06.0000.0000": {
+      "prev": "2023.12.27.0000.0000",
+      "size": 1804824,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.01.06.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.01.23.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60816179,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.01.23.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.01.30.0000.0000": {
+      "prev": "2024.01.23.0000.0001",
+      "size": 1415080,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.01.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.02.05.0000.0000": {
+      "prev": "2024.01.30.0000.0000",
+      "size": 1388328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.02.05.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.05.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60815411,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.05.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.07.0000.0000": {
+      "prev": "2024.03.05.0000.0001",
+      "size": 2108605,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.07.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.08.0000.0000": {
+      "prev": "2024.03.07.0000.0000",
+      "size": 1570296,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.08.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.08.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60815451,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.08.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.26.0000.0000": {
+      "prev": "2024.03.08.0000.0001",
+      "size": 2352176,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.26.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.03.27.0000.0000": {
+      "prev": "2024.03.26.0000.0000",
+      "size": 1425824,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.03.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.04.19.0000.0001": {
+      "prev": "2023.05.10.0000.0001",
+      "size": 60816347,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.04.19.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.04.22.0000.0000": {
+      "prev": "2024.04.19.0000.0001",
+      "size": 1560816,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.04.22.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.04.23.0000.0000": {
+      "prev": "2024.04.22.0000.0000",
+      "size": 1463928,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.04.23.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000a": {
+      "prev": null,
+      "size": 1499322783,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 987
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000a.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000b": {
+      "prev": "H2024.05.31.0000.0000a",
+      "size": 1499901552,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 992
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000b.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000c": {
+      "prev": "H2024.05.31.0000.0000b",
+      "size": 1499115361,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 969
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000c.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000d": {
+      "prev": "H2024.05.31.0000.0000c",
+      "size": 1498790239,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 983
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000d.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000e": {
+      "prev": "H2024.05.31.0000.0000d",
+      "size": 1499675364,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1039
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000e.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000f": {
+      "prev": "H2024.05.31.0000.0000e",
+      "size": 1499157472,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 976
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000f.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "H2024.05.31.0000.0000g": {
+      "prev": "H2024.05.31.0000.0000f",
+      "size": 1499026398,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 1011
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000g.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.05.31.0000.0000": {
+      "prev": "H2024.05.31.0000.0000g",
+      "size": 77729054,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 0,
+        "file_commands": 50
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/H2024.05.31.0000.0000h.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.14.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 14535829,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.06.14.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.15.0000.0000": {
+      "prev": "2024.06.14.0000.0001",
+      "size": 1030024,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.06.15.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.06.18.0000.0000": {
+      "prev": "2024.06.15.0000.0000",
+      "size": 974216,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.06.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.03.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 14570685,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.03.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.05.0000.0000": {
+      "prev": "2024.07.03.0000.0001",
+      "size": 1234520,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.05.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.06.0000.0000": {
+      "prev": "2024.07.05.0000.0000",
+      "size": 1159216,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.06.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.09.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 14596453,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.09.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.10.0000.0000": {
+      "prev": "2024.07.09.0000.0001",
+      "size": 1322960,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.10.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.10.0001.0000": {
+      "prev": "2024.07.10.0000.0000",
+      "size": 1231528,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.10.0001.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.19.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 16221341,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.19.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.23.0000.0000": {
+      "prev": "2024.07.19.0000.0001",
+      "size": 3088536,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.23.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.23.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 16912997,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.23.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.07.24.0000.0000": {
+      "prev": "2024.07.23.0000.0001",
+      "size": 1239080,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.07.24.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.08.02.0000.0000": {
+      "prev": "2024.07.24.0000.0000",
+      "size": 859008,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.08.02.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.08.02.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 16912997,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.08.02.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.08.20.0000.0000": {
+      "prev": "2024.08.02.0000.0001",
+      "size": 1179560,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.08.20.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.08.21.0000.0000": {
+      "prev": "2024.08.20.0000.0000",
+      "size": 1504120,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.08.21.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.10.25.0000.0001": {
+      "prev": "2024.05.31.0000.0000",
+      "size": 227023470,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.10.25.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.01.0000.0001": {
+      "prev": "2024.10.25.0000.0001",
+      "size": 19818677,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.01.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.02.0000.0000": {
+      "prev": "2024.11.01.0000.0001",
+      "size": 2780800,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.02.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.06.0000.0000": {
+      "prev": "2024.11.02.0000.0000",
+      "size": 931040,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.06.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.06.0000.0001": {
+      "prev": "2024.10.25.0000.0001",
+      "size": 19860957,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.06.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.19.0000.0000": {
+      "prev": "2024.11.06.0000.0001",
+      "size": 99063771,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.19.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.20.0000.0000": {
+      "prev": "2024.11.19.0000.0000",
+      "size": 675216,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.20.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.11.20.0000.0001": {
+      "prev": "2024.11.06.0000.0001",
+      "size": 99360263,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.11.20.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.12.04.0000.0000": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 984248,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.12.04.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.12.05.0000.0000": {
+      "prev": "2024.12.04.0000.0000",
+      "size": 1145008,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.12.05.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.12.07.0000.0000": {
+      "prev": "2024.12.05.0000.0000",
+      "size": 733752,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.12.07.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2024.12.07.0000.0001": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 1526136,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2024.12.07.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.09.0000.0000": {
+      "prev": "2024.12.07.0000.0001",
+      "size": 1162784,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.01.09.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.09.0000.0001": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 1894624,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.01.09.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.14.0000.0000": {
+      "prev": "2025.01.09.0000.0001",
+      "size": 495424,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.01.14.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.28.0000.0000": {
+      "prev": "2025.01.14.0000.0000",
+      "size": 1211056,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.01.28.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.01.28.0000.0001": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 2044720,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.01.28.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.02.18.0000.0000": {
+      "prev": "2025.01.28.0000.0001",
+      "size": 762800,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.02.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.02.18.0000.0001": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 2044464,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.02.18.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.02.19.0000.0000": {
+      "prev": "2025.02.18.0000.0001",
+      "size": 1034888,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.02.19.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.02.27.0000.0000": {
+      "prev": "2025.02.19.0000.0000",
+      "size": 967432,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.02.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.07.0000.0001": {
+      "prev": "2024.11.20.0000.0001",
+      "size": 1217863550,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.07.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.14.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 11034061,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.14.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.15.0000.0000": {
+      "prev": "2025.03.14.0000.0001",
+      "size": 12218575,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.15.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.15.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 20285716,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.15.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.18.0000.0000": {
+      "prev": "2025.03.15.0000.0001",
+      "size": 3382989,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.03.27.0000.0000": {
+      "prev": "2025.03.18.0000.0000",
+      "size": 10049772,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.03.27.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.04.12.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 28892604,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.04.12.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.04.15.0000.0000": {
+      "prev": "2025.04.12.0000.0001",
+      "size": 659128,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.04.15.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.04.16.0000.0000": {
+      "prev": "2025.04.15.0000.0000",
+      "size": 868536,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.04.16.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.05.09.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 28977676,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.05.09.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.05.13.0000.0000": {
+      "prev": "2025.05.09.0000.0001",
+      "size": 1438032,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.05.13.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.05.13.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 28978316,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.05.13.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.05.17.0000.0000": {
+      "prev": "2025.05.13.0000.0001",
+      "size": 1391704,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.05.17.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.05.17.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 28978060,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.05.17.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.10.0000.0000": {
+      "prev": "2025.05.17.0000.0001",
+      "size": 490856,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.06.10.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.10.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 29012148,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.06.10.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.19.0000.0000": {
+      "prev": "2025.06.10.0000.0001",
+      "size": 701288,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.06.19.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.06.28.0000.0000": {
+      "prev": "2025.06.19.0000.0000",
+      "size": 853088,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.06.28.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.18.0000.0001": {
+      "prev": "2025.03.07.0000.0001",
+      "size": 569574830,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.07.18.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.28.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 8466432,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.07.28.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.29.0000.0000": {
+      "prev": "2025.07.28.0000.0001",
+      "size": 1256960,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.07.29.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.29.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 8520872,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.07.29.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.07.30.0000.0000": {
+      "prev": "2025.07.29.0000.0001",
+      "size": 1024768,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.07.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.07.0000.0000": {
+      "prev": "2025.07.30.0000.0000",
+      "size": 1065600,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.08.07.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.19.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 8709880,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.08.19.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.21.0000.0000": {
+      "prev": "2025.08.19.0000.0001",
+      "size": 466328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.08.21.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.21.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 8710136,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.08.21.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.08.22.0000.0000": {
+      "prev": "2025.08.21.0000.0001",
+      "size": 1018920,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.08.22.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.09.04.0000.0000": {
+      "prev": "2025.08.22.0000.0000",
+      "size": 1152936,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.09.04.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.09.17.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 12579716,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.09.17.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.09.24.0000.0000": {
+      "prev": "2025.09.17.0000.0001",
+      "size": 714344,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.09.24.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.09.24.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 12579588,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.09.24.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.09.30.0000.0000": {
+      "prev": "2025.09.24.0000.0001",
+      "size": 991920,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.09.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.10.13.0000.0000": {
+      "prev": "2025.09.30.0000.0000",
+      "size": 929240,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.10.13.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.10.13.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 12580612,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.10.13.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.10.28.0000.0000": {
+      "prev": "2025.10.13.0000.0001",
+      "size": 1096328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.10.28.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.10.30.0000.0000": {
+      "prev": "2025.10.28.0000.0000",
+      "size": 1200472,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.10.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.11.26.0000.0001": {
+      "prev": "2025.07.18.0000.0001",
+      "size": 223885593,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.11.26.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.05.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13923693,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.05.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.08.0000.0000": {
+      "prev": "2025.12.05.0000.0001",
+      "size": 1103616,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.08.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.08.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13923693,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.08.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.09.0000.0000": {
+      "prev": "2025.12.08.0000.0001",
+      "size": 1301888,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.09.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.09.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13924205,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.09.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.18.0000.0000": {
+      "prev": "2025.12.09.0000.0001",
+      "size": 999432,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2025.12.23.0000.0000": {
+      "prev": "2025.12.18.0000.0000",
+      "size": 1204904,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2025.12.23.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.01.19.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13924205,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.01.19.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.01.20.0000.0000": {
+      "prev": "2026.01.19.0000.0001",
+      "size": 865632,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.01.20.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.01.20.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13924461,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.01.20.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.01.21.0000.0000": {
+      "prev": "2026.01.20.0000.0001",
+      "size": 811144,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.01.21.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.01.30.0000.0000": {
+      "prev": "2026.01.21.0000.0000",
+      "size": 1266432,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.01.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.02.17.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13923949,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.02.17.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.02.18.0000.0000": {
+      "prev": "2026.02.17.0000.0001",
+      "size": 715752,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.02.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.02.20.0000.0000": {
+      "prev": "2026.02.18.0000.0000",
+      "size": 1120680,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.02.20.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.03.05.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13924077,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.03.05.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.03.06.0000.0000": {
+      "prev": "2026.03.05.0000.0001",
+      "size": 642744,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.03.06.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.03.06.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 13924077,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.03.06.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.03.07.0000.0000": {
+      "prev": "2026.03.06.0000.0001",
+      "size": 835296,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.03.07.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.03.17.0000.0000": {
+      "prev": "2026.03.07.0000.0000",
+      "size": 959664,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.03.17.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.10.0000.0001": {
+      "prev": "2025.11.26.0000.0001",
+      "size": 573172729,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.10.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.16.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2123824,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.16.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.17.0000.0000": {
+      "prev": "2026.04.16.0000.0001",
+      "size": 911328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.17.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.21.0000.0000": {
+      "prev": "2026.04.17.0000.0000",
+      "size": 739640,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.21.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.21.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2124848,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.21.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.04.30.0000.0000": {
+      "prev": "2026.04.21.0000.0001",
+      "size": 409328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.04.30.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.01.0000.0000": {
+      "prev": "2026.04.30.0000.0000",
+      "size": 986160,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.05.01.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.18.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2211032,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.05.18.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.20.0000.0000": {
+      "prev": "2026.05.18.0000.0001",
+      "size": 746384,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.05.20.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.25.0000.0000": {
+      "prev": "2026.05.20.0000.0000",
+      "size": 855256,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.05.25.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.05.25.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2211544,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.05.25.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.06.09.0000.0000": {
+      "prev": "2026.05.25.0000.0001",
+      "size": 989696,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.06.09.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.06.10.0000.0000": {
+      "prev": "2026.06.09.0000.0000",
+      "size": 978224,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.06.10.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.06.10.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2259456,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.06.10.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.06.13.0000.0000": {
+      "prev": "2026.06.10.0000.0001",
+      "size": 1064496,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.06.13.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.06.18.0000.0000": {
+      "prev": "2026.06.13.0000.0000",
+      "size": 532840,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.06.18.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.13.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2260352,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.07.13.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.16.0000.0000": {
+      "prev": "2026.07.13.0000.0001",
+      "size": 1229352,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.07.16.0000.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.16.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2259328,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.07.16.0000.0001.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.16.0001.0000": {
+      "prev": "2026.07.16.0000.0001",
+      "size": 1173848,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.07.16.0001.0000.patch",
+          "status": "dead",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.07.16.0001.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2259840,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.07.16.0001.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.08.05.0000.0000": {
+      "prev": "2026.07.16.0001.0001",
+      "size": 1242112,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 16,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.08.05.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.08.11.0000.0000": {
+      "prev": "2026.08.05.0000.0000",
+      "size": 964408,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 11,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.08.11.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.08.28.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2305704,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.08.28.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.08.31.0000.0000": {
+      "prev": "2026.08.28.0000.0001",
+      "size": 1325616,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 14,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.08.31.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.01.0000.0000": {
+      "prev": "2026.08.31.0000.0000",
+      "size": 518256,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 6,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.09.01.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:15:19Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:15:19Z",
+        "method": "thaliak_seed"
+      },
+      "verified": null
+    }
+  }
+}

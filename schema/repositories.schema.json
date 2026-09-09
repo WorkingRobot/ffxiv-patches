@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repositories.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "repositories"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repositories.schema.json"
+    },
+    "repositories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slug",
+          "name",
+          "region",
+          "latest"
+        ],
+        "properties": {
+          "slug": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}$"
+          },
+          "name": {
+            "type": "string"
+          },
+          "region": {
+            "enum": [
+              "global",
+              "korea",
+              "china",
+              "taiwan"
+            ]
+          },
+          "latest": {
+            "type": "string",
+            "pattern": "^H?[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}\\.[0-9]{4}[a-z]*$"
+          }
+        }
+      }
+    }
+  }
+}

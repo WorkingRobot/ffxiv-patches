@@ -1,0 +1,255 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repository.schema.json",
+  "slug": "be3c0f25",
+  "name": "ffxivtc/win32/release_tc/ex1",
+  "region": "taiwan",
+  "latest": "2026.07.03.0000.0000",
+  "patches": {
+    "2025.05.29.0000.0000": {
+      "prev": null,
+      "size": 366840724,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.05.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2025.05.30.0000.0000": {
+      "prev": "2025.05.29.0000.0000",
+      "size": 1499525907,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.05.30.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2025.05.30.0001.0000": {
+      "prev": "2025.05.30.0000.0000",
+      "size": 1499559678,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.05.30.0001.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2025.05.30.0002.0000": {
+      "prev": "2025.05.30.0001.0000",
+      "size": 1499782770,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.05.30.0002.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2025.05.30.0003.0000": {
+      "prev": "2025.05.30.0002.0000",
+      "size": 694351517,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.05.30.0003.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2025.06.06.0000.0000": {
+      "prev": "2025.05.30.0003.0000",
+      "size": 57112,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 2,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.06.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:22:30Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:22:30Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2025.07.29.0000.0001": {
+      "prev": "2025.06.06.0000.0000",
+      "size": 169192,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.07.29.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:22:30Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:22:30Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2025.09.08.0000.0000": {
+      "prev": "2025.07.29.0000.0001",
+      "size": 2325456,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 44,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.09.08.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:22:30Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:22:30Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2025.09.08.0000.0001": {
+      "prev": "2025.09.08.0000.0000",
+      "size": 2375672,
+      "header": {
+        "version": 3,
+        "patch_type": "HIST",
+        "add_commands": 0,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.09.08.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:22:30Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:22:30Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2025.09.24.0000.0000": {
+      "prev": "2025.09.08.0000.0001",
+      "size": 978704,
+      "header": {
+        "version": 3,
+        "patch_type": "DIFF",
+        "add_commands": 26,
+        "file_commands": 0
+      },
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.09.24.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:22:30Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:22:30Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2025.09.24.0000.0001": {
+      "prev": "2025.05.30.0003.0000",
+      "size": 3177960,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2025.09.24.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.01.09.0000.0000": {
+      "prev": "2025.09.24.0000.0001",
+      "size": 114712,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.01.09.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.07.03.0000.0000": {
+      "prev": "2026.01.09.0000.0000",
+      "size": 428283397,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.07.03.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-09T21:20:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    }
+  }
+}

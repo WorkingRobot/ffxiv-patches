@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repository.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "slug",
+    "name",
+    "region",
+    "latest",
+    "patches"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "https://raw.githubusercontent.com/WorkingRobot/ffxiv-patches/main/schema/repository.schema.json"
+    },
+    "slug": {
+      "$ref": "#/$defs/slug"
+    },
+    "name": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+/[^/]+/[^/]+$"
+    },
+    "region": {
+      "$ref": "#/$defs/region"
+    },
+    "latest": {
+      "$ref": "#/$defs/version"
+    },
+    "patches": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "#/$defs/version"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/patch"
+      }
+    }
+  },
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}$"
+    },
+    "region": {
+      "enum": [
+        "global",
+        "korea",
+        "china",
+        "taiwan"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^H?[0-9]{4}\\.[0-9]{2}\\.[0-9]{2}\\.[0-9]{4}\\.[0-9]{4}[a-z]*$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "patch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "prev",
+        "size",
+        "header",
+        "sources",
+        "discovered",
+        "verified"
+      ],
+      "properties": {
+        "prev": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/version"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "size": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "header": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/header"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sources": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "enum": [
+              "cdn",
+              "archive_org"
+            ]
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/source"
+          }
+        },
+        "discovered": {
+          "$ref": "#/$defs/discovered"
+        },
+        "verified": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/verified"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "header": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "patch_type",
+        "add_commands",
+        "file_commands"
+      ],
+      "properties": {
+        "version": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "patch_type": {
+          "enum": [
+            "DIFF",
+            "HIST"
+          ]
+        },
+        "add_commands": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "file_commands": {
+          "oneOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "status",
+        "checked"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "status": {
+          "enum": [
+            "alive",
+            "dead",
+            "unchecked"
+          ]
+        },
+        "checked": {
+          "$ref": "#/$defs/timestamp"
+        }
+      }
+    },
+    "discovered": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "at",
+        "method"
+      ],
+      "properties": {
+        "at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "method": {
+          "enum": [
+            "version_check",
+            "cdn_sweep",
+            "maintenance_scrape",
+            "thaliak_seed",
+            "archive_index",
+            "manual"
+          ]
+        }
+      }
+    },
+    "verified": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "at",
+        "method",
+        "unsupplied"
+      ],
+      "properties": {
+        "at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "method": {
+          "enum": [
+            "chain_coverage"
+          ]
+        },
+        "unsupplied": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}
