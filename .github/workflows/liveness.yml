@@ -11,6 +11,8 @@ concurrency:
 jobs:
   liveness:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v6

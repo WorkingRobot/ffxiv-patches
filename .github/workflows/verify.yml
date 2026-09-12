@@ -16,6 +16,8 @@ concurrency:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 350
     env:
       SLUG: ${{ inputs.slug || github.event.client_payload.slug }}
@@ -45,7 +47,7 @@ jobs:
           fi
           ./xiv-dl --verbose --patch-override-path "lut/cluts/$SLUG" download \
             -s "$SLUG" -c "lut/cluts/$SLUG" -v "$version" -o indexes -f '\.index$' -p 6
-          ./xiv-dl --verbose verify -s "$SLUG" -i . -l "lut/luts/$SLUG" --indexes indexes/sqpack -v "$version"
+          ./xiv-dl --verbose verify -s "$SLUG" --path . -l "lut/luts/$SLUG" --indexes indexes/sqpack -v "$version"
         shell: bash
       - run: rm -rf xiv-dl lut indexes && ./.github/push.sh "verify $SLUG"
         shell: bash

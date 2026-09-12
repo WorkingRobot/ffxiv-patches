@@ -24,6 +24,8 @@ concurrency:
 jobs:
   sweep:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 350
     steps:
       - uses: actions/checkout@v6
@@ -35,8 +37,8 @@ jobs:
       - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
       - run: >
           ./xiv-dl --verbose discover
-          -s ${{ inputs.slug }}=${{ inputs.region }} -i .
+          -s ${{ inputs.slug }}=${{ inputs.region }} --path .
           --from ${{ inputs.from }} --to ${{ inputs.to }}
-          --parts ${{ inputs.parts }} --budget ${{ inputs.budget }} -p 8
+          --parts ${{ inputs.parts }} --budget ${{ inputs.budget }} --parallelism 8
       - run: rm -f xiv-dl && ./.github/push.sh "sweep ${{ inputs.slug }}"
         shell: bash

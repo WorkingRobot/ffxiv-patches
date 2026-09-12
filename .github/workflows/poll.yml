@@ -19,6 +19,8 @@ concurrency:
 jobs:
   poll:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     strategy:
       fail-fast: false
       max-parallel: 1
@@ -33,6 +35,6 @@ jobs:
           fileName: xiv-dl-linux-x64
       - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
       - if: inputs.region == '' || inputs.region == 'all' || inputs.region == matrix.region
-        run: ./xiv-dl --verbose poll -r ${{ matrix.region }} -i . ${{ inputs.full && '--full' || '' }}
+        run: ./xiv-dl --verbose poll -r ${{ matrix.region }} --path . ${{ inputs.full && '--full' || '' }}
       - run: rm -f xiv-dl && ./.github/push.sh "poll ${{ matrix.region }}"
         shell: bash
