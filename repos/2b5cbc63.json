@@ -379,8 +379,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/boot/2b5cbc63/D2026.07.13.0000.0001.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:14:26Z"
+          "status": "dead",
+          "checked": "2026-09-12T16:14:07Z"
         }
       },
       "discovered": {
