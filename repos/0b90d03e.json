@@ -20,7 +20,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0001.0000": {
       "prev": "2025.05.29.0000.0000",
@@ -37,7 +41,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0002.0000": {
       "prev": "2025.05.29.0001.0000",
@@ -54,7 +62,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0003.0000": {
       "prev": "2025.05.29.0002.0000",
@@ -71,7 +83,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0004.0000": {
       "prev": "2025.05.29.0003.0000",
@@ -88,7 +104,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0005.0000": {
       "prev": "2025.05.29.0004.0000",
@@ -105,7 +125,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0006.0000": {
       "prev": "2025.05.29.0005.0000",
@@ -122,7 +146,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0007.0000": {
       "prev": "2025.05.29.0006.0000",
@@ -139,7 +167,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0008.0000": {
       "prev": "2025.05.29.0007.0000",
@@ -156,7 +188,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0009.0000": {
       "prev": "2025.05.29.0008.0000",
@@ -173,7 +209,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0010.0000": {
       "prev": "2025.05.29.0009.0000",
@@ -190,7 +230,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0011.0000": {
       "prev": "2025.05.29.0010.0000",
@@ -207,7 +251,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0012.0000": {
       "prev": "2025.05.29.0011.0000",
@@ -224,7 +272,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0013.0000": {
       "prev": "2025.05.29.0012.0000",
@@ -241,7 +293,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0014.0000": {
       "prev": "2025.05.29.0013.0000",
@@ -258,7 +314,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0015.0000": {
       "prev": "2025.05.29.0014.0000",
@@ -275,7 +335,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0016.0000": {
       "prev": "2025.05.29.0015.0000",
@@ -292,7 +356,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0017.0000": {
       "prev": "2025.05.29.0016.0000",
@@ -309,7 +377,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0018.0000": {
       "prev": "2025.05.29.0017.0000",
@@ -326,7 +398,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0019.0000": {
       "prev": "2025.05.29.0018.0000",
@@ -343,7 +419,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0020.0000": {
       "prev": "2025.05.29.0019.0000",
@@ -360,7 +440,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0021.0000": {
       "prev": "2025.05.29.0020.0000",
@@ -377,7 +461,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0022.0000": {
       "prev": "2025.05.29.0021.0000",
@@ -394,7 +482,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0023.0000": {
       "prev": "2025.05.29.0022.0000",
@@ -411,7 +503,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0024.0000": {
       "prev": "2025.05.29.0023.0000",
@@ -428,7 +524,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0025.0000": {
       "prev": "2025.05.29.0024.0000",
@@ -445,7 +545,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0026.0000": {
       "prev": "2025.05.29.0025.0000",
@@ -462,7 +566,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0027.0000": {
       "prev": "2025.05.29.0026.0000",
@@ -479,7 +587,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0028.0000": {
       "prev": "2025.05.29.0027.0000",
@@ -496,7 +608,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0029.0000": {
       "prev": "2025.05.29.0028.0000",
@@ -513,7 +629,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0030.0000": {
       "prev": "2025.05.29.0029.0000",
@@ -530,7 +650,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0031.0000": {
       "prev": "2025.05.29.0030.0000",
@@ -547,7 +671,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.05.29.0032.0000": {
       "prev": "2025.05.29.0031.0000",
@@ -564,7 +692,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.07.04.0000.0001": {
       "prev": "2025.05.29.0032.0000",
@@ -581,7 +713,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.08.05.0000.0001": {
       "prev": "2025.07.04.0000.0001",
@@ -598,7 +734,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.08.22.0000.0000": {
       "prev": "2025.08.05.0000.0001",
@@ -615,7 +755,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.09.24.0000.0001": {
       "prev": "2025.08.22.0000.0000",
@@ -632,7 +776,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.09.29.0000.0000": {
       "prev": "2025.09.24.0000.0001",
@@ -649,7 +797,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.10.07.0000.0000": {
       "prev": "2025.09.29.0000.0000",
@@ -666,7 +818,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.10.24.0000.0000": {
       "prev": "2025.10.07.0000.0000",
@@ -683,7 +839,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.10.27.0000.0000": {
       "prev": "2025.10.24.0000.0000",
@@ -700,7 +860,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.12.05.0000.0000": {
       "prev": "2025.10.27.0000.0000",
@@ -717,7 +881,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.01.13.0000.0001": {
       "prev": "2025.12.05.0000.0000",
@@ -734,7 +902,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.01.15.0000.0000": {
       "prev": "2026.01.13.0000.0001",
@@ -751,7 +923,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.01.19.0000.0000": {
       "prev": "2026.01.15.0000.0000",
@@ -768,7 +944,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.01.22.0000.0000": {
       "prev": "2026.01.19.0000.0000",
@@ -785,7 +965,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.02.19.0000.0001": {
       "prev": "2026.01.22.0000.0000",
@@ -802,7 +986,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.02.24.0000.0000": {
       "prev": "2026.02.19.0000.0001",
@@ -819,7 +1007,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.02.26.0000.0000": {
       "prev": "2026.02.24.0000.0000",
@@ -836,7 +1028,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.03.02.0000.0000": {
       "prev": "2026.02.26.0000.0000",
@@ -853,7 +1049,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.03.12.0000.0000": {
       "prev": "2026.03.02.0000.0000",
@@ -870,7 +1070,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.03.31.0000.0000": {
       "prev": "2026.03.12.0000.0000",
@@ -887,7 +1091,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.04.01.0000.0000": {
       "prev": "2026.03.31.0000.0000",
@@ -904,7 +1112,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.04.07.0000.0001": {
       "prev": "2026.04.01.0000.0000",
@@ -921,7 +1133,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.04.09.0000.0000": {
       "prev": "2026.04.07.0000.0001",
@@ -938,7 +1154,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.05.07.0000.0001": {
       "prev": "2026.04.09.0000.0000",
@@ -955,7 +1175,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.05.11.0000.0000": {
       "prev": "2026.05.07.0000.0001",
@@ -972,7 +1196,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.05.15.0000.0000": {
       "prev": "2026.05.11.0000.0000",
@@ -989,7 +1217,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.06.04.0000.0001": {
       "prev": "2026.05.15.0000.0000",
@@ -1006,7 +1238,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.06.08.0000.0000": {
       "prev": "2026.06.04.0000.0001",
@@ -1023,7 +1259,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.06.11.0000.0000": {
       "prev": "2026.06.08.0000.0000",
@@ -1040,7 +1280,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.06.15.0000.0000": {
       "prev": "2026.06.11.0000.0000",
@@ -1057,7 +1301,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.03.0000.0000": {
       "prev": "2026.06.15.0000.0000",
@@ -1074,7 +1322,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.03.0001.0000": {
       "prev": "2026.07.03.0000.0000",
@@ -1091,7 +1343,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.03.0002.0000": {
       "prev": "2026.07.03.0001.0000",
@@ -1108,7 +1364,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.03.0003.0000": {
       "prev": "2026.07.03.0002.0000",
@@ -1125,7 +1385,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.09.0000.0000": {
       "prev": "2026.07.03.0003.0000",
@@ -1142,7 +1406,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.13.0000.0000": {
       "prev": "2026.07.09.0000.0000",
@@ -1159,7 +1427,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.16.0000.0000": {
       "prev": "2026.07.13.0000.0000",
@@ -1176,7 +1448,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.07.22.0000.0000": {
       "prev": "2026.07.16.0000.0000",
@@ -1193,7 +1469,11 @@
         "at": "2026-09-09T21:20:20Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-12T16:24:27Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     }
   }
 }
