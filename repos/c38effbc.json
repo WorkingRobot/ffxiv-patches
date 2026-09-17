@@ -3,7 +3,7 @@
   "slug": "c38effbc",
   "name": "shanda/win32/release_chs/game",
   "region": "china",
-  "latest": "2026.09.01.0000.0000",
+  "latest": "2026.09.15.0000.0000",
   "patches": {
     "2014.03.24.0000.0000": {
       "prev": null,
@@ -8921,6 +8921,23 @@
       "discovered": {
         "at": "2026-09-09T21:16:42Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.15.0000.0000": {
+      "prev": "2026.09.01.0000.0000",
+      "size": 32359885,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/c38effbc/D2026.09.15.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-17T11:56:07Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-17T11:56:07Z",
+        "method": "version_check"
       },
       "verified": null
     }

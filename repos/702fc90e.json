@@ -3,7 +3,7 @@
   "slug": "702fc90e",
   "name": "shanda/win32/release_chs/ex5",
   "region": "china",
-  "latest": "2026.09.01.0000.0000",
+  "latest": "2026.09.15.0000.0000",
   "patches": {
     "2024.08.19.0000.0000": {
       "prev": null,
@@ -2048,6 +2048,23 @@
       "discovered": {
         "at": "2026-09-09T21:16:55Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.15.0000.0000": {
+      "prev": "2026.09.01.0000.0000",
+      "size": 7826333,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex5/702fc90e/D2026.09.15.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-17T11:56:07Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-17T11:56:07Z",
+        "method": "version_check"
       },
       "verified": null
     }
