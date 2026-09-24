@@ -75,7 +75,10 @@ def version_report(boot_dir, boot_version, ex_versions):
     return line + "\n" + "".join(f"ex{i}\t{v}\n" for i, v in enumerate(ex_versions, 1))
 
 class Expired(Exception):
-    """The session was not accepted; a game update usually does this."""
+    """The session was not accepted."""
+
+class StaleBoot(Exception):
+    """The boot report is behind what SE serves; poll.yml records the new version."""
 
 def version_check(sid, from_version, report):
     """Returns the body, or None when SE answers 204 (nothing newer than from_version)."""
@@ -85,6 +88,8 @@ def version_check(sid, from_version, report):
             url, data=report.encode(),
             headers={"User-Agent": "FFXIV PATCH CLIENT", "X-Hash-Check": "enabled"}), timeout=180)
     except urllib.error.HTTPError as e:
+        if e.code in (409, 410):
+            raise StaleBoot(f"version check answered {e.code}") from e
         raise Expired(f"version check answered {e.code}") from e
     if response.status == 204:
         return None
@@ -220,6 +225,10 @@ def main():
             body = version_check(sid, game, report) if sid else None
             if sid:
                 break
+        except StaleBoot as e:
+            raise SystemExit(
+                f"::error::boot report {args.boot_version} is stale ({e}); "
+                "poll.yml records the new boot version, then this run succeeds")
         except Expired as e:
             print(f"cached session rejected ({e})")
             sid = None
