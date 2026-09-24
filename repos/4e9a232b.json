@@ -11750,8 +11750,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.08.31.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-24T14:45:56Z"
+          "status": "dead",
+          "checked": "2026-09-24T14:48:10Z"
         }
       },
       "discovered": {
