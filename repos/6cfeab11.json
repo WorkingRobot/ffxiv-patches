@@ -3,7 +3,7 @@
   "slug": "6cfeab11",
   "name": "ffxivneo/win32/release/ex5",
   "region": "global",
-  "latest": "2026.09.01.0000.0000",
+  "latest": "2026.09.15.0000.0000",
   "patches": {
     "2024.05.20.0000.0000": {
       "prev": null,
@@ -2589,6 +2589,23 @@
       },
       "verified": null
     },
+    "2026.08.31.0000.0001": {
+      "prev": "2026.08.19.0000.0001",
+      "size": 14812581,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.08.31.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-24T13:25:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T13:25:20Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
     "2026.08.28.0000.0001": {
       "prev": "2026.08.19.0000.0001",
       "size": 14811045,
@@ -2623,8 +2640,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.08.31.0000.0000.patch",
-          "status": "dead",
-          "checked": "2026-09-19T08:58:24Z"
+          "status": "alive",
+          "checked": "2026-09-24T13:25:20Z"
         }
       },
       "discovered": {
@@ -2634,7 +2651,7 @@
       "verified": null
     },
     "2026.09.01.0000.0000": {
-      "prev": "2026.08.31.0000.0000",
+      "prev": "2026.08.31.0000.0001",
       "size": 5956944,
       "header": {
         "version": 3,
@@ -2652,6 +2669,23 @@
       "discovered": {
         "at": "2026-09-09T21:15:54Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.15.0000.0000": {
+      "prev": "2026.09.01.0000.0000",
+      "size": 8022101,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.09.15.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-24T13:25:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T13:25:20Z",
+        "method": "cdn_sweep"
       },
       "verified": null
     }
