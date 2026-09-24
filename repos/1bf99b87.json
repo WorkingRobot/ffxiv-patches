@@ -1667,7 +1667,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000b": {
       "prev": "H2024.05.31.0000.0000a",
@@ -1689,7 +1693,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000c": {
       "prev": "H2024.05.31.0000.0000b",
@@ -1711,7 +1719,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000d": {
       "prev": "H2024.05.31.0000.0000c",
@@ -1733,7 +1745,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000e": {
       "prev": "H2024.05.31.0000.0000d",
@@ -1755,7 +1771,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000f": {
       "prev": "H2024.05.31.0000.0000e",
@@ -1777,7 +1797,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000g": {
       "prev": "H2024.05.31.0000.0000f",
@@ -1799,7 +1823,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000h": {
       "prev": "H2024.05.31.0000.0000g",
@@ -1821,7 +1849,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000i": {
       "prev": "H2024.05.31.0000.0000h",
@@ -1843,7 +1875,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.05.31.0000.0000": {
       "prev": "H2024.05.31.0000.0000i",
@@ -1865,7 +1901,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.06.14.0000.0001": {
       "prev": "2024.05.31.0000.0000",
@@ -2210,7 +2250,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.11.01.0000.0001": {
       "prev": "2024.10.25.0000.0000",
@@ -2555,7 +2599,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.03.14.0000.0001": {
       "prev": "2025.03.07.0000.0001",
@@ -2866,7 +2914,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.07.28.0000.0001": {
       "prev": "2025.07.18.0000.0001",
@@ -3194,7 +3246,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.12.05.0000.0001": {
       "prev": "2025.11.26.0000.0001",
@@ -3556,24 +3612,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
-    },
-    "2026.08.31.0000.0001": {
-      "prev": "2026.04.10.0000.0001",
-      "size": 38893058,
-      "header": null,
-      "sources": {
-        "cdn": {
-          "url": "http://patch-dl.ffxiv.com/game/ex4/1bf99b87/D2026.08.31.0000.0001.patch",
-          "status": "alive",
-          "checked": "2026-09-24T13:25:20Z"
-        }
-      },
-      "discovered": {
-        "at": "2026-09-24T13:25:20Z",
-        "method": "cdn_sweep"
-      },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.04.16.0000.0001": {
       "prev": "2026.04.10.0000.0001",
@@ -4008,6 +4051,27 @@
       },
       "verified": null
     },
+    "2026.08.31.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 38893058,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex4/1bf99b87/D2026.08.31.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-24T13:25:20Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T13:25:20Z",
+        "method": "cdn_sweep"
+      },
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
+    },
     "2026.09.01.0000.0000": {
       "prev": "2026.08.31.0000.0001",
       "size": 7155944,
@@ -4028,7 +4092,11 @@
         "at": "2026-09-09T21:15:36Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.09.15.0000.0000": {
       "prev": "2026.09.01.0000.0000",
@@ -4045,7 +4113,11 @@
         "at": "2026-09-24T13:25:20Z",
         "method": "cdn_sweep"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:33:13Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     }
   }
 }
