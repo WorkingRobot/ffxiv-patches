@@ -1,0 +1,42 @@
+name: Sync
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: write
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: robinraju/release-downloader@v1
+        with:
+          repository: WorkingRobot/ffxiv-downloader
+          latest: true
+          fileName: xiv-dl-linux-x64
+      - run: chmod +x xiv-dl-linux-x64 && mv xiv-dl-linux-x64 xiv-dl
+
+      # The version report is the boot repository's own files, so it comes from the boot repository.
+      - id: boot
+        run: echo "version=$(python3 -c "import json;print(json.load(open('repos/2b5cbc63.json'))['latest'])")" >> "$GITHUB_OUTPUT"
+      - id: cache
+        uses: actions/cache@v4
+        with:
+          path: boot
+          key: boot-${{ steps.boot.outputs.version }}
+      - if: steps.cache.outputs.cache-hit != 'true'
+        run: ./xiv-dl download -s 2b5cbc63 -o boot -f 'ffxiv(boot|launcher|updater)(64)?\.exe$'
+
+      - env:
+          SQEX_USER: ${{ secrets.SQEX_USER }}
+          SQEX_PASS: ${{ secrets.SQEX_PASS }}
+        run: python3 .github/sync.py --path . --boot-dir boot --boot-version '${{ steps.boot.outputs.version }}'
+      - run: ./xiv-dl index check -p .
+      - run: rm -rf xiv-dl boot && ./.github/push.sh "sync global"
+        shell: bash
