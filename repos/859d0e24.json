@@ -49,8 +49,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2019.05.29.0000.0000.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -184,8 +184,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.01.31.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -211,8 +211,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.07.21.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -238,8 +238,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.09.15.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -265,8 +265,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2020.11.24.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -319,8 +319,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.03.26.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -346,8 +346,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.04.29.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -400,8 +400,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2021.11.21.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
@@ -692,8 +692,8 @@
         },
         "archive_org": {
           "url": "https://archive.org/download/ffxiv-patches-game/ex3/859d0e24/D2023.02.16.0000.0000.patch",
-          "status": "dead",
-          "checked": "2026-09-24T09:31:18Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:46:26Z"
         }
       },
       "discovered": {
