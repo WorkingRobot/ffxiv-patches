@@ -1,7 +1,8 @@
 name: Sync
 on:
+  # Offset from poll.yml's */15 so the two do not contend for the write group.
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -25,18 +26,31 @@ jobs:
       # The version report is the boot repository's own files, so it comes from the boot repository.
       - id: boot
         run: echo "version=$(python3 -c "import json;print(json.load(open('repos/2b5cbc63.json'))['latest'])")" >> "$GITHUB_OUTPUT"
-      - id: cache
+      - id: bootcache
         uses: actions/cache@v4
         with:
           path: boot
           key: boot-${{ steps.boot.outputs.version }}
-      - if: steps.cache.outputs.cache-hit != 'true'
+      - if: steps.bootcache.outputs.cache-hit != 'true'
         run: ./xiv-dl download -s 2b5cbc63 -o boot -f 'ffxiv(boot|launcher|updater)(64)?\.exe$'
 
-      - env:
+      # A session survives for hours, so most runs are one 204 and no login at all.
+      - uses: actions/cache/restore@v4
+        with:
+          path: sid
+          key: sid-
+          restore-keys: sid-
+      - id: sync
+        env:
           SQEX_USER: ${{ secrets.SQEX_USER }}
           SQEX_PASS: ${{ secrets.SQEX_PASS }}
-        run: python3 .github/sync.py --path . --boot-dir boot --boot-version '${{ steps.boot.outputs.version }}'
+        run: python3 .github/sync.py --path . --boot-dir boot --boot-version '${{ steps.boot.outputs.version }}' --sid-file sid
+      - if: steps.sync.outputs.relogin == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: sid
+          key: sid-${{ github.run_id }}
+
       - run: ./xiv-dl index check -p .
-      - run: rm -rf xiv-dl boot && ./.github/push.sh "sync global"
+      - run: rm -rf xiv-dl boot sid && ./.github/push.sh "sync global"
         shell: bash

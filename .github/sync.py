@@ -15,6 +15,8 @@ BOOT_FILES = ["ffxivboot.exe", "ffxivboot64.exe", "ffxivlauncher.exe",
 # A trial account's maxex hides these, so each version is confirmed on the CDN instead.
 EXPANSION_PATH = {"1bf99b87": "ex4", "6cfeab11": "ex5"}
 
+LISTED = {"4e9a232b": None, "6b936f08": 1, "f29a3eb2": 2, "859d0e24": 3}
+
 def body_of(resp):
     raw = resp.read()
     enc = (resp.headers.get("content-encoding") or "").lower()
@@ -59,7 +61,7 @@ def session(user, password):
         raise SystemExit("login rejected; a game update usually invalidates the boot report")
     return parts[2], int(parts[14])
 
-def version_report(boot_dir, boot_version, maxex):
+def version_report(boot_dir, boot_version, ex_versions):
     """`<bootver>=<name>/<size>/<sha1>,...` then one ex line each, as the client sends it."""
     reports = []
     for name in BOOT_FILES:
@@ -70,13 +72,25 @@ def version_report(boot_dir, boot_version, maxex):
     if not reports:
         raise SystemExit(f"no boot files found under {boot_dir}")
     line = boot_version + "=" + ",".join(reports)
-    return line + "\n" + "".join(f"ex{i}\t{SENTINEL}\n" for i in range(1, maxex + 1))
+    return line + "\n" + "".join(f"ex{i}\t{v}\n" for i, v in enumerate(ex_versions, 1))
 
-def se_chain(sid, report):
-    url = f"https://patch-gamever.ffxiv.com/http/win32/ffxivneo_release_game/{SENTINEL}/{sid}"
-    body = body_of(urllib.request.urlopen(urllib.request.Request(
-        url, data=report.encode(),
-        headers={"User-Agent": "FFXIV PATCH CLIENT", "X-Hash-Check": "enabled"}), timeout=180))
+class Expired(Exception):
+    """The session was not accepted; a game update usually does this."""
+
+def version_check(sid, from_version, report):
+    """Returns the body, or None when SE answers 204 (nothing newer than from_version)."""
+    url = f"https://patch-gamever.ffxiv.com/http/win32/ffxivneo_release_game/{from_version}/{sid}"
+    try:
+        response = urllib.request.urlopen(urllib.request.Request(
+            url, data=report.encode(),
+            headers={"User-Agent": "FFXIV PATCH CLIENT", "X-Hash-Check": "enabled"}), timeout=180)
+    except urllib.error.HTTPError as e:
+        raise Expired(f"version check answered {e.code}") from e
+    if response.status == 204:
+        return None
+    return body_of(response)
+
+def parse_chain(body):
     rows = []
     for line in body.splitlines():
         f = line.split("\t")
@@ -161,49 +175,104 @@ def dead_on_chain(path):
         cur = patches[cur].get("prev")
     return dead
 
+def latest_of(path, slug):
+    repo = os.path.join(path, "repos", f"{slug}.json")
+    return json.load(open(repo))["latest"] if os.path.exists(repo) else None
+
+def catch_up_expansions(path, target, stamp):
+    """SE never lists ex4/ex5 to a trial account, so a 204 says nothing about them."""
+    added = {}
+    for slug in EXPANSION_PATH:
+        repo = os.path.join(path, "repos", f"{slug}.json")
+        if not os.path.exists(repo) or latest_of(path, slug) >= target:
+            continue
+        got = extend_expansion(repo, slug, [target], stamp)
+        if got:
+            added[slug] = got
+    return added
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--path", default=".")
     ap.add_argument("--boot-dir", required=True)
     ap.add_argument("--boot-version", required=True)
+    ap.add_argument("--sid-file")
     args = ap.parse_args()
 
     user, password = os.environ.get("SQEX_USER"), os.environ.get("SQEX_PASS")
     if not user or not password:
         raise SystemExit("SQEX_USER and SQEX_PASS must be set")
 
-    sid, maxex = session(user, password)
-    report = version_report(args.boot_dir, args.boot_version, maxex)
-    rows = se_chain(sid, report)
+    sid = None
+    if args.sid_file and os.path.exists(args.sid_file):
+        sid = open(args.sid_file).read().strip() or None
+
+    listed = [slug for slug in LISTED if LISTED[slug]]
+    listed.sort(key=lambda slug: LISTED[slug])
+    current = [latest_of(args.path, slug) for slug in listed]
+    game = latest_of(args.path, "4e9a232b")
+
+    # One cheap probe from where the index already stands; 204 means nothing newer.
+    fresh_login = False
+    for attempt in range(2):
+        try:
+            report = version_report(args.boot_dir, args.boot_version, current)
+            body = version_check(sid, game, report) if sid else None
+            if sid:
+                break
+        except Expired as e:
+            print(f"cached session rejected ({e})")
+            sid = None
+        if sid is None:
+            if attempt == 1:
+                raise SystemExit("login failed twice; leaving the schedule to back off")
+            sid, _ = session(user, password)
+            fresh_login = True
+            if args.sid_file:
+                open(args.sid_file, "w").write(sid)
+            if os.environ.get("GITHUB_OUTPUT"):
+                with open(os.environ["GITHUB_OUTPUT"], "a") as fh:
+                    fh.write("relogin=true\n")
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
+    if body is None:
+        print(f"up to date at {game} (204)")
+        caught = catch_up_expansions(args.path, game, stamp)
+        for slug, versions in caught.items():
+            print(f"  {slug}: +{len(versions)} confirmed on the CDN {versions}")
+        return 0
+
+    # Something moved, so rebuild the whole route from SE's own ordering.
+    print("SE offers new patches, rebuilding from the sentinel")
+    full = version_report(args.boot_dir, args.boot_version, [SENTINEL] * len(current))
+    rows = parse_chain(version_check(sid, SENTINEL, full))
     by_slug = {}
     for row in rows:
         by_slug.setdefault(row["slug"], []).append(row)
-    print(f"SE offers {len(rows)} patches across {len(by_slug)} repositories (maxex={maxex})")
+    print(f"SE offers {len(rows)} patches across {len(by_slug)} repositories")
 
-    fresh = []
+    new = []
     for slug, route in by_slug.items():
-        path = os.path.join(args.path, "repos", f"{slug}.json")
-        if not os.path.exists(path):
+        repo = os.path.join(args.path, "repos", f"{slug}.json")
+        if not os.path.exists(repo):
             print(f"  {slug}: not in the index, skipped")
             continue
-        added, reparented, latest = apply_route(path, route, stamp)
-        fresh += added
+        added, reparented, newest = apply_route(repo, route, stamp)
+        new += added
         if added or reparented:
-            print(f"  {slug}: +{len(added)} added, {reparented} re-parented, latest {latest}")
+            print(f"  {slug}: +{len(added)} added, {reparented} re-parented, latest {newest}")
 
     for slug in EXPANSION_PATH:
-        path = os.path.join(args.path, "repos", f"{slug}.json")
-        if os.path.exists(path):
-            added = extend_expansion(path, slug, fresh, stamp)
+        repo = os.path.join(args.path, "repos", f"{slug}.json")
+        if os.path.exists(repo):
+            added = extend_expansion(repo, slug, new, stamp)
             if added:
                 print(f"  {slug}: +{len(added)} confirmed on the CDN {added}")
 
     for slug in list(by_slug) + list(EXPANSION_PATH):
-        path = os.path.join(args.path, "repos", f"{slug}.json")
-        if os.path.exists(path):
-            dead = dead_on_chain(path)
+        repo = os.path.join(args.path, "repos", f"{slug}.json")
+        if os.path.exists(repo):
+            dead = dead_on_chain(repo)
             if dead:
                 print(f"::warning::{slug} chain passes through dead patches {dead}, needs a splice")
     return 0
