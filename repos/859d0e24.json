@@ -3,7 +3,7 @@
   "slug": "859d0e24",
   "name": "ffxivneo/win32/release/ex3",
   "region": "global",
-  "latest": "2026.09.01.0000.0000",
+  "latest": "2026.09.15.0000.0000",
   "patches": {
     "2019.04.02.0000.0000": {
       "prev": null,
@@ -3155,6 +3155,23 @@
       },
       "verified": null
     },
+    "2026.08.31.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 2305704,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.08.31.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-24T05:54:38Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T05:54:38Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
     "2026.04.16.0000.0001": {
       "prev": "2026.04.10.0000.0001",
       "size": 2123824,
@@ -3589,7 +3606,7 @@
       "verified": null
     },
     "2026.09.01.0000.0000": {
-      "prev": "2026.08.31.0000.0000",
+      "prev": "2026.08.31.0000.0001",
       "size": 518256,
       "header": {
         "version": 3,
@@ -3607,6 +3624,23 @@
       "discovered": {
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.15.0000.0000": {
+      "prev": "2026.09.01.0000.0000",
+      "size": 1098368,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.09.15.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-24T05:54:38Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T05:54:38Z",
+        "method": "version_check"
       },
       "verified": null
     }

@@ -3,7 +3,7 @@
   "slug": "4e9a232b",
   "name": "ffxivneo/win32/release/game",
   "region": "global",
-  "latest": "2026.09.01.0000.0000",
+  "latest": "2026.09.15.0000.0000",
   "patches": {
     "2013.06.29.0000.0000": {
       "prev": null,
@@ -9642,6 +9642,23 @@
       },
       "verified": null
     },
+    "2025.09.09.0000.0001": {
+      "prev": "2025.08.14.0000.0001",
+      "size": 837747017,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2025.09.09.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-24T05:54:38Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T05:54:38Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
     "2025.08.19.0000.0001": {
       "prev": "2025.08.14.0000.0001",
       "size": 47319574,
@@ -9787,7 +9804,7 @@
       "verified": null
     },
     "2025.09.11.0000.0001": {
-      "prev": "2025.09.09.0000.0000",
+      "prev": "2025.09.09.0000.0001",
       "size": 57183896,
       "header": {
         "version": 3,
@@ -11279,6 +11296,23 @@
       },
       "verified": null
     },
+    "2026.08.31.0000.0001": {
+      "prev": "2026.08.19.0000.0000",
+      "size": 66313585,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.08.31.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-24T05:54:38Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T05:54:38Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
     "2026.08.28.0000.0001": {
       "prev": "2026.08.19.0000.0000",
       "size": 66223953,
@@ -11324,7 +11358,7 @@
       "verified": null
     },
     "2026.09.01.0000.0000": {
-      "prev": "2026.08.31.0000.0000",
+      "prev": "2026.08.31.0000.0001",
       "size": 21312857,
       "header": {
         "version": 3,
@@ -11342,6 +11376,23 @@
       "discovered": {
         "at": "2026-09-09T21:14:33Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.09.15.0000.0000": {
+      "prev": "2026.09.01.0000.0000",
+      "size": 36199365,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.09.15.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-24T05:54:38Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-24T05:54:38Z",
+        "method": "version_check"
       },
       "verified": null
     }
