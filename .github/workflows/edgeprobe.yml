@@ -1,0 +1,17 @@
+name: Edge probe
+on: { workflow_dispatch: }
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in http://patch-dl.ffxiv.com/game/4e9a232b/D2026.08.31.0000.0000.patch \
+                   http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.08.31.0000.0000.patch; do
+            echo "=== $u"
+            for i in $(seq 1 20); do
+              printf '%s ' "$(curl -sI -m 15 -o /dev/null -w '%{http_code}' "$u")"
+            done; echo
+            echo "--- headers ---"
+            curl -sI -m 15 "$u" | head -12
+          done
+          echo "=== edges seen ==="; getent ahostsv4 patch-dl.ffxiv.com | awk '{print $1}' | sort -u
