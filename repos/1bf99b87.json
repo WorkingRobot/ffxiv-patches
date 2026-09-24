@@ -3981,8 +3981,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex4/1bf99b87/D2026.08.31.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-23T09:24:49Z"
+          "status": "dead",
+          "checked": "2026-09-24T09:24:51Z"
         }
       },
       "discovered": {
