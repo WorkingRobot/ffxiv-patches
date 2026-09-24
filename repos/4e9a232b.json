@@ -11728,8 +11728,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.08.28.0000.0001.patch",
-          "status": "dead",
-          "checked": "2026-09-19T08:58:06Z"
+          "status": "alive",
+          "checked": "2026-09-24T14:52:40Z"
         }
       },
       "discovered": {
