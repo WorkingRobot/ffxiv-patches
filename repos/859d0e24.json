@@ -1315,7 +1315,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000b": {
       "prev": "H2024.05.31.0000.0000a",
@@ -1337,7 +1341,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000c": {
       "prev": "H2024.05.31.0000.0000b",
@@ -1359,7 +1367,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000d": {
       "prev": "H2024.05.31.0000.0000c",
@@ -1381,7 +1393,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000e": {
       "prev": "H2024.05.31.0000.0000d",
@@ -1403,7 +1419,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000f": {
       "prev": "H2024.05.31.0000.0000e",
@@ -1425,7 +1445,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "H2024.05.31.0000.0000g": {
       "prev": "H2024.05.31.0000.0000f",
@@ -1447,7 +1471,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.05.31.0000.0000": {
       "prev": "H2024.05.31.0000.0000g",
@@ -1469,7 +1497,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.06.14.0000.0001": {
       "prev": "2024.05.31.0000.0000",
@@ -1780,7 +1812,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.11.01.0000.0001": {
       "prev": "2024.10.25.0000.0001",
@@ -1853,7 +1889,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.11.19.0000.0000": {
       "prev": "2024.11.06.0000.0001",
@@ -1909,7 +1949,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2024.12.04.0000.0000": {
       "prev": "2024.11.20.0000.0001",
@@ -2152,7 +2196,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.03.14.0000.0001": {
       "prev": "2025.03.07.0000.0001",
@@ -2463,7 +2511,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.07.28.0000.0001": {
       "prev": "2025.07.18.0000.0001",
@@ -2791,7 +2843,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2025.12.05.0000.0001": {
       "prev": "2025.11.26.0000.0001",
@@ -3153,7 +3209,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.04.16.0000.0001": {
       "prev": "2026.04.10.0000.0001",
@@ -3603,7 +3663,11 @@
         "at": "2026-09-24T05:54:38Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.09.01.0000.0000": {
       "prev": "2026.08.31.0000.0001",
@@ -3625,7 +3689,11 @@
         "at": "2026-09-09T21:15:19Z",
         "method": "thaliak_seed"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     },
     "2026.09.15.0000.0000": {
       "prev": "2026.09.01.0000.0000",
@@ -3642,7 +3710,11 @@
         "at": "2026-09-24T05:54:38Z",
         "method": "version_check"
       },
-      "verified": null
+      "verified": {
+        "at": "2026-09-24T13:34:00Z",
+        "method": "chain_coverage",
+        "unsupplied": 0
+      }
     }
   }
 }
