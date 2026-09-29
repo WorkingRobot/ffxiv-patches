@@ -11,7 +11,7 @@
       "slug": "0b90d03e",
       "name": "ffxivtc/win32/release_tc/game",
       "region": "taiwan",
-      "latest": "2026.07.22.0000.0000"
+      "latest": "2026.09.14.0000.0000"
     },
     {
       "slug": "1bf99b87",
@@ -47,7 +47,7 @@
       "slug": "50326e09",
       "name": "ffxivtc/win32/release_tc/ex3",
       "region": "taiwan",
-      "latest": "2026.07.22.0000.0000"
+      "latest": "2026.09.14.0000.0000"
     },
     {
       "slug": "5050481e",
@@ -107,13 +107,13 @@
       "slug": "b951cb3c",
       "name": "ffxivtc/win32/release_tc/ex5",
       "region": "taiwan",
-      "latest": "2026.07.22.0000.0000"
+      "latest": "2026.09.14.0000.0000"
     },
     {
       "slug": "be3c0f25",
       "name": "ffxivtc/win32/release_tc/ex1",
       "region": "taiwan",
-      "latest": "2026.07.03.0000.0000"
+      "latest": "2026.08.31.0000.0000"
     },
     {
       "slug": "c38effbc",
@@ -131,7 +131,7 @@
       "slug": "ce56fbaa",
       "name": "ffxivtc/win32/release_tc/ex4",
       "region": "taiwan",
-      "latest": "2026.07.22.0000.0000"
+      "latest": "2026.09.14.0000.0000"
     },
     {
       "slug": "de199059",

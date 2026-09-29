@@ -3,7 +3,7 @@
   "slug": "0b90d03e",
   "name": "ffxivtc/win32/release_tc/game",
   "region": "taiwan",
-  "latest": "2026.07.22.0000.0000",
+  "latest": "2026.09.14.0000.0000",
   "patches": {
     "2025.05.29.0000.0000": {
       "prev": null,
@@ -1474,6 +1474,108 @@
         "method": "chain_coverage",
         "unsupplied": 0
       }
+    },
+    "2026.08.17.0000.0001": {
+      "prev": "2026.07.22.0000.0000",
+      "size": 74892191,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.08.17.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.08.24.0000.0000": {
+      "prev": "2026.08.17.0000.0001",
+      "size": 29219259,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.08.24.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.08.31.0000.0000": {
+      "prev": "2026.08.24.0000.0000",
+      "size": 44417591,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.08.31.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.07.0000.0000": {
+      "prev": "2026.08.31.0000.0000",
+      "size": 32282596,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.09.07.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.09.0000.0000": {
+      "prev": "2026.09.07.0000.0000",
+      "size": 25607894,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.09.09.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.14.0000.0000": {
+      "prev": "2026.09.09.0000.0000",
+      "size": 22966878,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/0b90d03e/D2026.09.14.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
     }
   }
 }

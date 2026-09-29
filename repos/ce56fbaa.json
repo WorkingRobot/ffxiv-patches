@@ -3,7 +3,7 @@
   "slug": "ce56fbaa",
   "name": "ffxivtc/win32/release_tc/ex4",
   "region": "taiwan",
-  "latest": "2026.07.22.0000.0000",
+  "latest": "2026.09.14.0000.0000",
   "patches": {
     "2025.05.29.0000.0000": {
       "prev": null,
@@ -838,6 +838,57 @@
       },
       "discovered": {
         "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.07.0000.0001": {
+      "prev": "2026.07.22.0000.0000",
+      "size": 13661821,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex4/ce56fbaa/D2026.09.07.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.09.0000.0000": {
+      "prev": "2026.09.07.0000.0001",
+      "size": 7019736,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex4/ce56fbaa/D2026.09.09.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.14.0000.0000": {
+      "prev": "2026.09.09.0000.0000",
+      "size": 6843792,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex4/ce56fbaa/D2026.09.14.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
         "method": "version_check"
       },
       "verified": null

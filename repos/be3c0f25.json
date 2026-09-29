@@ -3,7 +3,7 @@
   "slug": "be3c0f25",
   "name": "ffxivtc/win32/release_tc/ex1",
   "region": "taiwan",
-  "latest": "2026.07.03.0000.0000",
+  "latest": "2026.08.31.0000.0000",
   "patches": {
     "2025.05.29.0000.0000": {
       "prev": null,
@@ -247,6 +247,57 @@
       },
       "discovered": {
         "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.08.07.0000.0000": {
+      "prev": "2026.07.03.0000.0000",
+      "size": 52848,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.08.07.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.08.10.0000.0000": {
+      "prev": "2026.08.07.0000.0000",
+      "size": 64496,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.08.10.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.08.31.0000.0000": {
+      "prev": "2026.08.10.0000.0000",
+      "size": 114712,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.08.31.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-09-29T09:02:54Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-09-29T09:02:54Z",
         "method": "version_check"
       },
       "verified": null
