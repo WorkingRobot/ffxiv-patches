@@ -3,7 +3,7 @@
   "slug": "c38effbc",
   "name": "shanda/win32/release_chs/game",
   "region": "china",
-  "latest": "2026.09.15.0000.0000",
+  "latest": "2026.10.06.0000.0000",
   "patches": {
     "2014.03.24.0000.0000": {
       "prev": null,
@@ -8937,6 +8937,57 @@
       },
       "discovered": {
         "at": "2026-09-17T11:56:07Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.29.0000.0000": {
+      "prev": "2026.09.15.0000.0000",
+      "size": 20551449,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/c38effbc/D2026.09.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.02.0000.0000": {
+      "prev": "2026.09.29.0000.0000",
+      "size": 22294177,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/c38effbc/D2026.10.02.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.06.0000.0000": {
+      "prev": "2026.10.02.0000.0000",
+      "size": 20478465,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/c38effbc/D2026.10.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
         "method": "version_check"
       },
       "verified": null

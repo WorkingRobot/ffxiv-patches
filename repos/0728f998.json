@@ -3,7 +3,7 @@
   "slug": "0728f998",
   "name": "shanda/win32/release_chs/ex4",
   "region": "china",
-  "latest": "2026.09.15.0000.0000",
+  "latest": "2026.10.06.0000.0000",
   "patches": {
     "2022.01.19.0000.0000": {
       "prev": null,
@@ -3340,6 +3340,57 @@
       },
       "discovered": {
         "at": "2026-09-17T11:56:07Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.29.0000.0001": {
+      "prev": "2026.09.15.0000.0000",
+      "size": 38643530,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex4/0728f998/D2026.09.29.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.02.0000.0000": {
+      "prev": "2026.09.29.0000.0001",
+      "size": 7117304,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex4/0728f998/D2026.10.02.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.06.0000.0000": {
+      "prev": "2026.10.02.0000.0000",
+      "size": 7752888,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex4/0728f998/D2026.10.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:46Z",
         "method": "version_check"
       },
       "verified": null
