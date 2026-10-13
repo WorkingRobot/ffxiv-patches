@@ -3,7 +3,7 @@
   "slug": "27577888",
   "name": "actoz/win32/release_ko/ex4",
   "region": "korea",
-  "latest": "2026.09.15.0000.0000",
+  "latest": "2026.10.06.0000.0000",
   "patches": {
     "2022.01.19.0000.0000": {
       "prev": null,
@@ -3347,6 +3347,57 @@
       },
       "discovered": {
         "at": "2026-09-17T11:55:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.09.29.0000.0001": {
+      "prev": "2026.09.15.0000.0000",
+      "size": 38642890,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/ex4/27577888/D2026.09.29.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.02.0000.0000": {
+      "prev": "2026.09.29.0000.0001",
+      "size": 7117304,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/ex4/27577888/D2026.10.02.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.06.0000.0000": {
+      "prev": "2026.10.02.0000.0000",
+      "size": 7752888,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/ex4/27577888/D2026.10.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-13T15:00:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-13T15:00:34Z",
         "method": "version_check"
       },
       "verified": null
