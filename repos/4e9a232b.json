@@ -10145,8 +10145,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2025.09.30.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:14:33Z"
+          "status": "dead",
+          "checked": "2026-10-14T09:38:00Z"
         }
       },
       "discovered": {
