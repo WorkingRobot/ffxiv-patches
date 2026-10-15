@@ -3681,8 +3681,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.09.01.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:15:19Z"
+          "status": "dead",
+          "checked": "2026-10-15T09:16:42Z"
         }
       },
       "discovered": {
@@ -3702,8 +3702,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex3/859d0e24/D2026.09.15.0000.0000.patch",
-          "status": "dead",
-          "checked": "2026-10-14T09:38:24Z"
+          "status": "alive",
+          "checked": "2026-10-15T09:16:42Z"
         }
       },
       "discovered": {
