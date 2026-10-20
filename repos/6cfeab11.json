@@ -3,7 +3,7 @@
   "slug": "6cfeab11",
   "name": "ffxivneo/win32/release/ex5",
   "region": "global",
-  "latest": "2026.09.15.0000.0000",
+  "latest": "2026.10.16.0000.0000",
   "patches": {
     "2024.05.20.0000.0000": {
       "prev": null,
@@ -2824,6 +2824,57 @@
         "method": "chain_coverage",
         "unsupplied": 0
       }
+    },
+    "2026.10.02.0000.0001": {
+      "prev": "2026.09.15.0000.0000",
+      "size": 16182141,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.10.02.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2026.10.06.0000.0000": {
+      "prev": "2026.10.02.0000.0001",
+      "size": 8744424,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.10.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
+    },
+    "2026.10.16.0000.0000": {
+      "prev": "2026.10.06.0000.0000",
+      "size": 8239096,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex5/6cfeab11/D2026.10.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "cdn_sweep"
+      },
+      "verified": null
     }
   }
 }

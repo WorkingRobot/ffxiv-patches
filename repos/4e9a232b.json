@@ -3,7 +3,7 @@
   "slug": "4e9a232b",
   "name": "ffxivneo/win32/release/game",
   "region": "global",
-  "latest": "2026.09.15.0000.0000",
+  "latest": "2026.10.16.0000.0000",
   "patches": {
     "2013.06.29.0000.0000": {
       "prev": null,
@@ -10073,6 +10073,23 @@
         "unsupplied": 0
       }
     },
+    "2025.10.28.0000.0001": {
+      "prev": "2025.09.11.0000.0001",
+      "size": 59769943,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2025.10.28.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
     "2025.09.17.0000.0000": {
       "prev": "2025.09.11.0000.0001",
       "size": 47754587,
@@ -10212,7 +10229,7 @@
       }
     },
     "2025.10.30.0000.0000": {
-      "prev": "2025.10.28.0000.0000",
+      "prev": "2025.10.28.0000.0001",
       "size": 19737190,
       "header": {
         "version": 3,
@@ -11827,6 +11844,57 @@
         "method": "chain_coverage",
         "unsupplied": 0
       }
+    },
+    "2026.10.02.0000.0001": {
+      "prev": "2026.09.15.0000.0000",
+      "size": 27717313,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.10.02.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.06.0000.0000": {
+      "prev": "2026.10.02.0000.0001",
+      "size": 20456321,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.10.06.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.16.0000.0000": {
+      "prev": "2026.10.06.0000.0000",
+      "size": 20502177,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2026.10.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-10-20T10:22:53Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-10-20T10:22:53Z",
+        "method": "version_check"
+      },
+      "verified": null
     }
   }
 }
