@@ -3,7 +3,7 @@
   "slug": "de199059",
   "name": "actoz/win32/release_ko/game",
   "region": "korea",
-  "latest": "2026.10.06.0000.0000",
+  "latest": "2026.11.03.0000.0000",
   "patches": {
     "2015.06.08.0000.0000": {
       "prev": null,
@@ -8363,6 +8363,91 @@
       },
       "discovered": {
         "at": "2026-10-13T15:00:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.16.0000.0000": {
+      "prev": "2026.10.06.0000.0000",
+      "size": 20495777,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/de199059/D2026.10.16.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.27.0000.0000": {
+      "prev": "2026.10.16.0000.0000",
+      "size": 52694992,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/de199059/D2026.10.27.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.29.0000.0000": {
+      "prev": "2026.10.27.0000.0000",
+      "size": 35774190,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/de199059/D2026.10.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.11.02.0000.0000": {
+      "prev": "2026.10.29.0000.0000",
+      "size": 20597801,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/de199059/D2026.11.02.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:34Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.11.03.0000.0000": {
+      "prev": "2026.11.02.0000.0000",
+      "size": 20477953,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://client-patch-live.ff14.co.kr/game/de199059/D2026.11.03.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:34Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:34Z",
         "method": "version_check"
       },
       "verified": null
