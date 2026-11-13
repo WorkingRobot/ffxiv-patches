@@ -72,6 +72,7 @@ jobs:
           path: ${{ runner.temp }}/game
           key: game-${{ steps.game.outputs.version }}
       - if: steps.gamecache.outputs.cache-hit == 'true' || steps.exe.outcome == 'success'
+        continue-on-error: true
         run: python3 .github/stasis.py --path . --boot-dir '${{ runner.temp }}/boot' --exe '${{ runner.temp }}/game/ffxiv_dx11.exe'
 
       - run: rm -f xiv-dl && ./.github/push.sh "sync global"
