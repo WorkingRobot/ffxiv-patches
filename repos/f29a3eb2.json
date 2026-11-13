@@ -2608,8 +2608,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex2/f29a3eb2/D2026.05.25.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-09-09T21:15:07Z"
+          "status": "dead",
+          "checked": "2026-11-13T19:09:52Z"
         }
       },
       "discovered": {
