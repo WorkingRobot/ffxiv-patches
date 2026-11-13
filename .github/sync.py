@@ -14,6 +14,9 @@ BOOT_FILES = ["ffxivboot.exe", "ffxivboot64.exe", "ffxivlauncher.exe",
               "ffxivlauncher64.exe", "ffxivupdater.exe", "ffxivupdater64.exe"]
 # A trial account's maxex hides these, so each version is confirmed on the CDN instead.
 EXPANSION_PATH = {"1bf99b87": "ex4", "6cfeab11": "ex5"}
+# SE reissues ex4 and ex5 alongside ex3, which the trial account does see.
+REFERENCE = "859d0e24"
+THALIAK = "https://thaliak.xiv.dev/graphql/2022-08-14"
 
 LISTED = {"4e9a232b": None, "6b936f08": 1, "f29a3eb2": 2, "859d0e24": 3}
 
@@ -149,19 +152,56 @@ def apply_route(path, route, stamp):
     open(path, "a").write("\n")
     return added, reparented, doc["latest"]
 
+def thaliak_prevs(slug):
+    """Thaliak's predecessors by version, empty when it is down."""
+    query = '{ repository(slug:"%s") { versions { versionString prerequisiteVersions { versionString } } } }' % slug
+    try:
+        r = urllib.request.urlopen(urllib.request.Request(
+            THALIAK, data=json.dumps({"query": query}).encode(),
+            headers={"Content-Type": "application/json", "User-Agent": "ffxiv-patches"}), timeout=30)
+        versions = json.load(r)["data"]["repository"]["versions"]
+    except Exception:
+        return {}
+    return {v["versionString"]: [p["versionString"] for p in v["prerequisiteVersions"]]
+            for v in versions}
+
+def infer_prev(patches, ref, version):
+    """The parent of the ex3 sibling sharing ex3's parent, else ex3's parent itself. Misses
+    ex4/ex5 moving onto a base of their own, which thaliak usually knows."""
+    if version not in ref:
+        return None
+    ref_prev = ref[version]["prev"]
+    siblings = [v for v in patches if v < version and v in ref and ref[v]["prev"] == ref_prev]
+    if siblings:
+        return patches[max(siblings)]["prev"]
+    return ref_prev if ref_prev in patches else None
+
 def extend_expansion(path, slug, versions, stamp):
     doc = json.load(open(path), object_pairs_hook=OrderedDict)
-    patches, added = doc["patches"], []
-    for version in versions:
+    ref = json.load(open(os.path.join(os.path.dirname(path), f"{REFERENCE}.json")))["patches"]
+    patches, added, hints = doc["patches"], [], None
+    for version in sorted(set(versions)):
         if version in patches:
             continue
         url = f"http://patch-dl.ffxiv.com/game/{EXPANSION_PATH[slug]}/{slug}/D{version}.patch"
         status, size = head(url)
         if status != 200:
             continue
-        prev = doc["latest"]
+        if hints is None:
+            hints = thaliak_prevs(slug)
+        prev = infer_prev(patches, ref, version)
+        valid = [p for p in hints.get(version, []) if p in patches and p < version]
+        hint = prev if prev in valid else next(iter(valid), None)
+        if prev is None and hint is None:
+            print(f"::warning::{slug} {version} is on the CDN but has no known parent, skipped")
+            continue
+        if hint is None:
+            print(f"::warning::{slug} {version} chained onto {prev} by ex3 alone, check it")
+        elif prev and prev != hint:
+            print(f"::warning::{slug} {version}: ex3 suggests {prev}, took thaliak's {hint}")
+        prev = hint or prev
         patches = insert_after(patches, version, prev, entry(prev, size, url, stamp, "cdn_sweep"))
-        doc["latest"] = version
+        doc["latest"] = max(doc["latest"], version)
         added.append(version)
     if added:
         doc["patches"] = patches
