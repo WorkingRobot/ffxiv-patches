@@ -52,5 +52,27 @@ jobs:
           key: sid-${{ github.run_id }}
 
       - run: ./xiv-dl index check -p .
+
+      # The exe comes through ffxiv-lut's CLUT, which lands a while after a patch; until then
+      # the download fails and stasis.json stays as it was.
+      - id: game
+        run: echo "version=$(python3 -c "import json;print(json.load(open('repos/4e9a232b.json'))['latest'])")" >> "$GITHUB_OUTPUT"
+      - id: gamecache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ runner.temp }}/game
+          key: game-${{ steps.game.outputs.version }}
+      - id: exe
+        if: steps.gamecache.outputs.cache-hit != 'true'
+        continue-on-error: true
+        run: ./xiv-dl download -s 4e9a232b -v '${{ steps.game.outputs.version }}' -o '${{ runner.temp }}/game' -f 'ffxiv_dx11\.exe$'
+      - if: steps.exe.outcome == 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ runner.temp }}/game
+          key: game-${{ steps.game.outputs.version }}
+      - if: steps.gamecache.outputs.cache-hit == 'true' || steps.exe.outcome == 'success'
+        run: python3 .github/stasis.py --path . --boot-dir '${{ runner.temp }}/boot' --exe '${{ runner.temp }}/game/ffxiv_dx11.exe'
+
       - run: rm -f xiv-dl && ./.github/push.sh "sync global"
         shell: bash
