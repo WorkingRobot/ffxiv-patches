@@ -3,7 +3,7 @@
   "slug": "f29a3eb2",
   "name": "ffxivneo/win32/release/ex2",
   "region": "global",
-  "latest": "2026.07.06.0000.0000",
+  "latest": "2026.10.29.0000.0000",
   "patches": {
     "2017.03.18.0000.0000": {
       "prev": null,
@@ -2523,6 +2523,23 @@
       },
       "verified": null
     },
+    "2026.05.25.0000.0001": {
+      "prev": "2026.04.10.0000.0001",
+      "size": 90070618,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex2/f29a3eb2/D2026.05.25.0000.0001.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:26:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:26:46Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
     "2026.04.16.0000.0000": {
       "prev": "2026.04.10.0000.0000",
       "size": 51112,
@@ -2619,7 +2636,7 @@
       "verified": null
     },
     "2026.07.06.0000.0000": {
-      "prev": "2026.05.25.0000.0000",
+      "prev": "2026.05.25.0000.0001",
       "size": 498785,
       "header": {
         "version": 3,
@@ -2637,6 +2654,23 @@
       "discovered": {
         "at": "2026-09-09T21:15:07Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.10.29.0000.0000": {
+      "prev": "2026.07.06.0000.0000",
+      "size": 103120,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com/game/ex2/f29a3eb2/D2026.10.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:26:46Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:26:46Z",
+        "method": "version_check"
       },
       "verified": null
     }
