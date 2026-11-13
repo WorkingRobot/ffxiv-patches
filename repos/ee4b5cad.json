@@ -3,7 +3,7 @@
   "slug": "ee4b5cad",
   "name": "shanda/win32/release_chs/ex2",
   "region": "china",
-  "latest": "2026.07.06.0000.0000",
+  "latest": "2026.10.29.0000.0000",
   "patches": {
     "2017.06.20.0000.0000": {
       "prev": null,
@@ -1608,6 +1608,23 @@
       "discovered": {
         "at": "2026-09-09T21:16:50Z",
         "method": "thaliak_seed"
+      },
+      "verified": null
+    },
+    "2026.10.29.0000.0000": {
+      "prev": "2026.07.06.0000.0000",
+      "size": 101016,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://ff.autopatch.sdo.com/ff/game/ex2/ee4b5cad/D2026.10.29.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-13T19:07:45Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-13T19:07:45Z",
+        "method": "version_check"
       },
       "verified": null
     }
