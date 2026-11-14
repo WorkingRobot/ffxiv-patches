@@ -15,8 +15,8 @@ BOOT_FILES = ["ffxivboot.exe", "ffxivboot64.exe", "ffxivlauncher64.exe", "ffxivu
 PHRASE = re.compile(rb"\x0f\x10[\x05\x0d\x15\x1d\x25\x2d\x35\x3d](.{4})\x0f\x11..\x0f\x10[\x05\x0d\x15\x1d\x25\x2d\x35\x3d](.{4})", re.S)
 # The key struct: 0x12345678 magic at +8, version at +10h.
 BLOWFISH = re.compile(rb"\xc7[\x40-\x47]\x08\x78\x56\x34\x12.{0,48}?\xc7[\x40-\x47]\x10(.{4})", re.S)
-# LoginEx: client language at +8, then the version at +0Ah.
-LOGIN = re.compile(rb"\x66\x89[\x40-\x47]\x08\xb8(..)\x00\x00\x66\x89[\x40-\x47]\x0a", re.S)
+# LoginEx: client language at +8, then the version at +0Ah through the same base register.
+LOGIN = re.compile(rb"\x66\x89([\x40-\x47])\x08.{0,8}?\xb8(..)\x00\x00\x66\x89\1\x0a", re.S)
 
 def report(path):
     blob = open(path, "rb").read()
@@ -25,7 +25,7 @@ def report(path):
 
 def only(found, what):
     if len(set(found)) != 1:
-        raise SystemExit(f"{what}: expected one value, found {sorted(set(found))}")
+        raise SystemExit(f"::error::{what}: expected one value, found {sorted(set(found))}")
     return found[0]
 
 def constants(exe):
@@ -54,7 +54,7 @@ def constants(exe):
         "BlowfishPhrase": only(phrases, "blowfish phrase"),
         "BlowfishVersion": only([struct.unpack("<I", m.group(1))[0] for m in BLOWFISH.finditer(data)],
                                 "blowfish version"),
-        "LoginVersion": only([struct.unpack("<H", m.group(1))[0] for m in LOGIN.finditer(data)],
+        "LoginVersion": only([struct.unpack("<H", m.group(2))[0] for m in LOGIN.finditer(data)],
                              "login version"),
     }
 
