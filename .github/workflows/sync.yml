@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: robinraju/release-downloader@v1
         with:
           repository: WorkingRobot/ffxiv-downloader
@@ -27,7 +27,7 @@ jobs:
       - id: boot
         run: echo "version=$(python3 -c "import json;print(json.load(open('repos/2b5cbc63.json'))['latest'])")" >> "$GITHUB_OUTPUT"
       - id: bootcache
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ runner.temp }}/boot
           key: boot-${{ steps.boot.outputs.version }}
@@ -35,7 +35,7 @@ jobs:
         run: ./xiv-dl download -s 2b5cbc63 -o '${{ runner.temp }}/boot' -f 'ffxiv(boot|launcher|updater)(64)?\.exe$'
 
       # A session survives for hours, so most runs are one 204 and no login at all.
-      - uses: actions/cache/restore@v4
+      - uses: actions/cache/restore@v6
         with:
           path: ${{ runner.temp }}/sid
           key: sid-
@@ -46,7 +46,7 @@ jobs:
           SQEX_PASS: ${{ secrets.SQEX_PASS }}
         run: python3 .github/sync.py --path . --boot-dir '${{ runner.temp }}/boot' --boot-version '${{ steps.boot.outputs.version }}' --sid-file '${{ runner.temp }}/sid'
       - if: steps.sync.outputs.relogin == 'true'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: ${{ runner.temp }}/sid
           key: sid-${{ github.run_id }}
@@ -58,7 +58,7 @@ jobs:
       - id: game
         run: echo "version=$(python3 -c "import json;print(json.load(open('repos/4e9a232b.json'))['latest'])")" >> "$GITHUB_OUTPUT"
       - id: gamecache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: ${{ runner.temp }}/game
           key: game-${{ steps.game.outputs.version }}
@@ -67,7 +67,7 @@ jobs:
         continue-on-error: true
         run: ./xiv-dl download -s 4e9a232b -v '${{ steps.game.outputs.version }}' -o '${{ runner.temp }}/game' -f 'ffxiv_dx11\.exe$'
       - if: steps.exe.outcome == 'success'
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: ${{ runner.temp }}/game
           key: game-${{ steps.game.outputs.version }}

@@ -23,8 +23,8 @@ jobs:
       SLUG: ${{ inputs.slug || github.event.client_payload.slug }}
       VERSION: ${{ inputs.version || github.event.client_payload.version }}
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
         with:
           repository: WorkingRobot/ffxiv-lut
           path: lut
