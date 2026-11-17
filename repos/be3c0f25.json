@@ -3,7 +3,7 @@
   "slug": "be3c0f25",
   "name": "ffxivtc/win32/release_tc/ex1",
   "region": "taiwan",
-  "latest": "2026.08.31.0000.0000",
+  "latest": "2026.10.26.0000.0000",
   "patches": {
     "2025.05.29.0000.0000": {
       "prev": null,
@@ -298,6 +298,23 @@
       },
       "discovered": {
         "at": "2026-09-29T09:02:54Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.26.0000.0000": {
+      "prev": "2026.08.31.0000.0000",
+      "size": 167912,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex1/be3c0f25/D2026.10.26.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-17T10:45:58Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-17T10:45:58Z",
         "method": "version_check"
       },
       "verified": null

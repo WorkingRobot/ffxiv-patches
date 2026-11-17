@@ -3,7 +3,7 @@
   "slug": "27355e9f",
   "name": "ffxivtc/win32/release_tc/ex2",
   "region": "taiwan",
-  "latest": "2026.07.03.0000.0000",
+  "latest": "2026.10.26.0000.0000",
   "patches": {
     "2025.05.29.0000.0000": {
       "prev": null,
@@ -286,6 +286,23 @@
       },
       "discovered": {
         "at": "2026-09-09T21:20:20Z",
+        "method": "version_check"
+      },
+      "verified": null
+    },
+    "2026.10.26.0000.0000": {
+      "prev": "2026.07.03.0000.0000",
+      "size": 273296,
+      "header": null,
+      "sources": {
+        "cdn": {
+          "url": "http://patch-dl.ffxiv.com.tw/game/ex2/27355e9f/D2026.10.26.0000.0000.patch",
+          "status": "alive",
+          "checked": "2026-11-17T10:45:58Z"
+        }
+      },
+      "discovered": {
+        "at": "2026-11-17T10:45:58Z",
         "method": "version_check"
       },
       "verified": null
