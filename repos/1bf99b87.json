@@ -4143,8 +4143,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/ex4/1bf99b87/D2026.10.06.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-11-18T13:15:55Z"
+          "status": "dead",
+          "checked": "2026-11-21T12:51:54Z"
         }
       },
       "discovered": {

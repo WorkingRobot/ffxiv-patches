@@ -10240,8 +10240,8 @@
       "sources": {
         "cdn": {
           "url": "http://patch-dl.ffxiv.com/game/4e9a232b/D2025.10.30.0000.0000.patch",
-          "status": "alive",
-          "checked": "2026-11-16T12:59:50Z"
+          "status": "dead",
+          "checked": "2026-11-21T12:52:10Z"
         }
       },
       "discovered": {
